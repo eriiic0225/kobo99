@@ -1,12 +1,14 @@
 import { chromium } from 'playwright-extra';
 import stealthPlugin from 'puppeteer-extra-plugin-stealth';
 import type { Page } from 'playwright';
+import { errors } from 'playwright';
 import { scrapeReadmoSearchPage, scrapeReadmoBookPage } from './readmo.js';
+import { scrapeBooksSearchPage, scrapeBooksBookPage } from './booklife.js';
 
 // 告訴 Playwright 啟用 Stealth 插件
 chromium.use(stealthPlugin());
 
-const BLOG_URL = 'https://www.kobo.com/zh/blog/weekly-dd99-2026-w25';
+const BLOG_URL = 'https://www.kobo.com/zh/blog/weekly-dd99-2026-w26';
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -57,7 +59,12 @@ async function main() {
   const page = await context.newPage();
 
   try {
-    await page.goto(BLOG_URL, { waitUntil: 'networkidle', timeout: 30_000 });
+    try {
+      await page.goto(BLOG_URL, { waitUntil: 'networkidle', timeout: 60_000 });
+    } catch (e){
+      // 頁面可能已 render，背景請求未完成導致 timeout，繼續往下判斷
+      if (!(e instanceof errors.TimeoutError)) throw e;
+    }
     await sleep(2000 + Math.random() * 2000); // 隨機等待，增加抗性
 
     const html = await page.content();
@@ -93,13 +100,22 @@ async function main() {
 
       for (const [i, e] of entries.entries()) {
         console.log(`[${i + 1}/${entries.length}] ${e.date}  ${e.url}`);
+
+        // Kobo 個別書籍頁面
         const book = await scrapeKoboBookPage(page, e.url);
 
+        // 抓讀墨
         const readmooLink = book.isbn !== '-'
           ? await scrapeReadmoSearchPage(page, book.isbn)
           : null;
         const readmoo = readmooLink
           ? await scrapeReadmoBookPage(readmooLink, book.originalPrice)
+          : null;
+
+        // 抓博客來
+        const booksProdId = await scrapeBooksSearchPage(book.title);
+        const books = booksProdId
+          ? await scrapeBooksBookPage(page, booksProdId)
           : null;
 
         const finalPrice = book.originalPrice ?? readmoo?.ogPrice ?? null;
@@ -110,6 +126,7 @@ async function main() {
         console.log(`  原價：${finalPrice ? `NT$${finalPrice}` : '—'}`);
         console.log(`  Kobo 評分：${book.koboRating ?? '—'}（${book.koboRatingCount ?? 0} 則）`);
         console.log(`  讀墨評分：${readmoo?.readmoRating ?? '—'}（${readmoo?.readmoRatingCount ?? 0} 則）`);
+        console.log(`  博客來評分：${books?.booksRating ?? '—'}（${books?.booksRatingCount ?? 0} 則）`);
         console.log(`  簡介：${e.description.slice(0, 60)}...`);
         console.log(`  ISBN：${book.isbn}\n`);
       }

@@ -62,6 +62,9 @@ export async function scrapeReadmoSearchPage(page: Page, isbn: string) {
     , { waitUntil: 'domcontentloaded', timeout: 30_000 }
   );
 
+  const count = await page.locator('a[data-readmoo-id]').count(); // 找不到任何資訊就跳開
+  if (count === 0) return null;
+
   const readmoBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');
   return readmoBookLink
 }
@@ -77,16 +80,16 @@ export async function scrapeReadmoBookPage(url: string, originalPrice: number | 
 
     const $ = cheerio.load(response.data)
 
-    const readmoRating = $('div[itemprop="ratingValue"]').attr('data-score')
+    const readmoRating = $('div[itemprop="ratingValue"]').attr('data-score') ?? null
     const readmoRatingCountString =  $('span[itemprop="ratingCount"]').text()
     const readmoRatingCount = readmoRatingCountString
       ? parseInt(readmoRatingCountString, 10)
       : null;
     const ogPrice = (!originalPrice)
-      ? $('strong[itemprop="price"]').text()
+      ? parseInt($('strong[itemprop="price"]').text(), 10) || null
       : null
   
-    return { readmoRating, readmoRatingCount, ogPrice }
+    return { readmoRating, readmoRatingCount, ogPrice, readmoURL: url }
   } catch {
     console.error('讀墨書頁抓取失敗');
     return null;
