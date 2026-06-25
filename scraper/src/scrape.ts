@@ -2,7 +2,7 @@ import { chromium } from 'playwright-extra';
 import stealthPlugin from 'puppeteer-extra-plugin-stealth';
 import type { Page } from 'playwright';
 import { errors } from 'playwright';
-import { scrapeReadmoSearchPage, scrapeReadmoBookPage } from './readmo.js';
+import { scrapeReadmooSearchPage, scrapeReadmooBookPage } from './readmoo.js';
 import { scrapeBooksSearchPage, scrapeBooksBookPage } from './booklife.js';
 
 // 告訴 Playwright 啟用 Stealth 插件
@@ -12,8 +12,15 @@ const BLOG_URL = 'https://www.kobo.com/zh/blog/weekly-dd99-2026-w26';
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function scrapeKoboBookPage(page: Page, url: string) {
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+export async function scrapeKoboBookPage(page: Page, url: string) {
+  try {
+    await page.goto(url, { waitUntil: 'load', timeout: 30_000 });
+  } catch (e) {
+    if (!(e instanceof errors.TimeoutError)) throw e;
+  }
+  await page.waitForTimeout(2000);
+  await page.mouse.move(200 + Math.random() * 300, 200 + Math.random() * 300);
+  await page.evaluate(() => window.scrollBy(0, 300));
   await sleep(1500 + Math.random() * 1000);
 
   return page.evaluate(() => {
@@ -22,9 +29,14 @@ async function scrapeKoboBookPage(page: Page, url: string) {
     const author = document.querySelector('.contributor-name')?.textContent?.trim() ?? '';
     const coverUrl = document.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content ?? '';
 
-    const rawPrice = document.querySelector<HTMLMetaElement>('meta[property="og:price"]')?.content ?? '';
-    const parsedPrice = rawPrice ? Math.round(parseFloat(rawPrice)) : null;
-    const originalPrice = parsedPrice !== null && parsedPrice > 99 ? parsedPrice : null;
+    const metaPriceStr = document.querySelector<HTMLMetaElement>('meta[property="og:price"]')?.content ?? '';
+    const currentPrice = metaPriceStr ? Math.round(parseFloat(metaPriceStr)) : 0;
+
+    const strikethroughText = document.querySelector('span.price.strikethrough')
+      ?.textContent?.replace('NT$', '').replace(/,/g, '').trim();
+    const strikethroughPrice = strikethroughText ? parseInt(strikethroughText, 10) || null : null;
+
+    const originalPrice = strikethroughPrice ?? (currentPrice > 99 ? currentPrice : null);
 
     const ratingLabel = document.querySelector('ul.stars.read-only')?.getAttribute('aria-label') ?? '';
     const ratingMatch = ratingLabel.match(/Rated ([\d.]+) out of 5 stars with (\d+)/);
@@ -103,21 +115,38 @@ async function main() {
 
         // Kobo 個別書籍頁面
         const book = await scrapeKoboBookPage(page, e.url);
+        const koboStatus = book.title ? 'ok' : 'error';
 
         // 抓讀墨
-        const readmooLink = book.isbn !== '-'
-          ? await scrapeReadmoSearchPage(page, book.isbn)
+        const readmooSkipped = book.isbn === '-';
+        const readmooLink = !readmooSkipped
+          ? await scrapeReadmooSearchPage(page, book.isbn)
           : null;
         const readmoo = readmooLink
-          ? await scrapeReadmoBookPage(readmooLink, book.originalPrice)
+          ? await scrapeReadmooBookPage(readmooLink, book.originalPrice)
           : null;
+        let readmooStatus: 'skipped' | 'not_found' | 'error' | 'ok';
+        if (readmooSkipped)       readmooStatus = 'skipped';
+        else if (!readmooLink)    readmooStatus = 'not_found';
+        else if (!readmoo)        readmooStatus = 'error';
+        else                      readmooStatus = 'ok';
 
-        // 抓博客來
-        const booksProdId = await scrapeBooksSearchPage(book.title);
+        // 抓博客來（非 978 開頭 = 中國大陸出版，博客來無電子版，跳過）
+        const booksSkipped = !book.isbn.startsWith('978');
+        const booksProdId = !booksSkipped
+          ? await scrapeBooksSearchPage(book.title)
+          : null;
         const books = booksProdId
           ? await scrapeBooksBookPage(page, booksProdId)
           : null;
 
+        let booksStatus: 'skipped' | 'not_found' | 'error' | 'ok';
+        if (booksSkipped)         booksStatus = 'skipped';
+        else if (!booksProdId)    booksStatus = 'not_found';
+        else if (!books)          booksStatus = 'error';
+        else                      booksStatus = 'ok';
+
+        const scrapeStatus = { kobo: koboStatus, readmoo: readmooStatus, books: booksStatus };
         const finalPrice = book.originalPrice ?? readmoo?.ogPrice ?? null;
 
         console.log(`  書名：${book.title}`);
@@ -125,10 +154,11 @@ async function main() {
         console.log(`  作者：${book.author}`);
         console.log(`  原價：${finalPrice ? `NT$${finalPrice}` : '—'}`);
         console.log(`  Kobo 評分：${book.koboRating ?? '—'}（${book.koboRatingCount ?? 0} 則）`);
-        console.log(`  讀墨評分：${readmoo?.readmoRating ?? '—'}（${readmoo?.readmoRatingCount ?? 0} 則）`);
+        console.log(`  讀墨評分：${readmoo?.readmooRating ?? '—'}（${readmoo?.readmooRatingCount ?? 0} 則）`);
         console.log(`  博客來評分：${books?.booksRating ?? '—'}（${books?.booksRatingCount ?? 0} 則）`);
         console.log(`  簡介：${e.description.slice(0, 60)}...`);
-        console.log(`  ISBN：${book.isbn}\n`);
+        console.log(`  ISBN：${book.isbn}`);
+        console.log(`  狀態：Kobo=${scrapeStatus.kobo} 讀墨=${scrapeStatus.readmoo} 博客來=${scrapeStatus.books}\n`);
       }
     }
 
@@ -139,7 +169,10 @@ async function main() {
   }
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+import { fileURLToPath } from 'node:url';
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}

@@ -8,7 +8,7 @@ import * as cheerio from 'cheerio';
 
 // chromium.use(stealthPlugin());
 
-// const TEST_TITLE = '瘋狂與深情：艾倫．瑞克曼日記絮語（「石內卜教授」唯一私人日記出版！一窺其螢光幕後最真實的日常）';
+// const TEST_TITLE = '萬事皆美好:讓無數希臘人感受幸福的禮物書';
 
 // async function run() {
 //   const productId = await scrapeBooksSearchPage(TEST_TITLE);
@@ -66,7 +66,7 @@ export async function scrapeBooksBookPage(page: Page, productId: string) {
   const BOOK_BASE = 'https://www.books.com.tw/products';
   const booksUrl = `${BOOK_BASE}/${productId}`;
   try {
-    await page.goto(booksUrl, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+    await page.goto(booksUrl, { waitUntil: 'load', timeout: 30_000 });
 
     const { booksRating, booksRatingCount } = await page.evaluate(() => {
       const ratingText = document.querySelector('em.ratingValue')?.textContent?.trim();

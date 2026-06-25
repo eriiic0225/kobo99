@@ -27,17 +27,17 @@ import * as cheerio from 'cheerio';
 //   const page = await context.newPage();
 
 //   try {
-//     const readmoBookLink = await scrapeReadmoSearchPage(page, testISBN)
-//     if (!readmoBookLink) return
-//     const result = await scrapeReadmoBookPage(readmoBookLink, null);
+//     const readmooBookLink = await scrapeReadmooSearchPage(page, testISBN)
+//     if (!readmooBookLink) return
+//     const result = await scrapeReadmooBookPage(readmooBookLink, null);
 //     if (!result) return
-//     const { readmoRating, readmoRatingCount, ogPrice } = result
+//     const { readmooRating, readmooRatingCount, ogPrice } = result
     
-//     console.log("讀墨評分：  ", readmoRating)
-//     console.log("讀墨評分數：", readmoRatingCount)
+//     console.log("讀墨評分：  ", readmooRating)
+//     console.log("讀墨評分數：", readmooRatingCount)
 //     console.log("原價：     ", ogPrice)
 
-//     return { readmoRating, readmoRatingCount, ogPrice }
+//     return { readmooRating, readmooRatingCount, ogPrice }
 //   } finally {
 //     await context.close();
 //     await browser.close();
@@ -54,22 +54,22 @@ import * as cheerio from 'cheerio';
 
 
 // https://readmoo.com/search/keyword?q=9789862626801&kw=9789862626801
-const readmoURL = `https://readmoo.com/search/keyword?q=`
+const readmooURL = `https://readmoo.com/search/keyword?q=`
 
-export async function scrapeReadmoSearchPage(page: Page, isbn: string) {
+export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
   await page.goto(
-    `${readmoURL}${isbn}&kw=${isbn}`
+    `${readmooURL}${isbn}&kw=${isbn}`
     , { waitUntil: 'domcontentloaded', timeout: 30_000 }
   );
 
   const count = await page.locator('a[data-readmoo-id]').count(); // 找不到任何資訊就跳開
   if (count === 0) return null;
 
-  const readmoBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');
-  return readmoBookLink
+  const readmooBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');
+  return readmooBookLink
 }
 
-export async function scrapeReadmoBookPage(url: string, originalPrice: number | null) {
+export async function scrapeReadmooBookPage(url: string, originalPrice: number | null) {
   try{
     const response = await axios.get(url, {
       headers: {
@@ -80,16 +80,16 @@ export async function scrapeReadmoBookPage(url: string, originalPrice: number | 
 
     const $ = cheerio.load(response.data)
 
-    const readmoRating = $('div[itemprop="ratingValue"]').attr('data-score') ?? null
-    const readmoRatingCountString =  $('span[itemprop="ratingCount"]').text()
-    const readmoRatingCount = readmoRatingCountString
-      ? parseInt(readmoRatingCountString, 10)
+    const readmooRating = $('div[itemprop="ratingValue"]').attr('data-score') ?? null
+    const readmooRatingCountString =  $('span[itemprop="ratingCount"]').text()
+    const readmooRatingCount = readmooRatingCountString
+      ? parseInt(readmooRatingCountString, 10)
       : null;
     const ogPrice = (!originalPrice)
       ? parseInt($('strong[itemprop="price"]').text(), 10) || null
       : null
   
-    return { readmoRating, readmoRatingCount, ogPrice, readmoURL: url }
+    return { readmooRating, readmooRatingCount, ogPrice, readmooURL: url }
   } catch {
     console.error('讀墨書頁抓取失敗');
     return null;
