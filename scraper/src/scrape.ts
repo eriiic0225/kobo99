@@ -2,13 +2,23 @@ import { chromium } from 'playwright-extra';
 import stealthPlugin from 'puppeteer-extra-plugin-stealth';
 import type { Page } from 'playwright';
 import { errors } from 'playwright';
+import { getISOWeek, getISOWeekYear } from 'date-fns';
+import { fileURLToPath } from 'node:url';
+import fs from 'node:fs';
+import path from 'node:path';
 import { scrapeReadmooSearchPage, scrapeReadmooBookPage } from './readmoo.js';
 import { scrapeBooksSearchPage, scrapeBooksBookPage } from './booklife.js';
+import { mergeWeek } from './merge.js';
+import type { Book, WeekEntry, ScrapeStatusValue } from './types.js';
 
 // 告訴 Playwright 啟用 Stealth 插件
 chromium.use(stealthPlugin());
 
-const BLOG_URL = 'https://www.kobo.com/zh/blog/weekly-dd99-2026-w26';
+// --- 週次計算 ---
+const now = new Date();
+const week = getISOWeek(now);
+const year = getISOWeekYear(now);
+const BLOG_URL = `https://www.kobo.com/zh/blog/weekly-dd99-${year}-w${week}`;
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -110,12 +120,14 @@ async function main() {
 
       console.log(`找到 ${entries.length} 筆，開始逐一抓書頁...\n`);
 
+      const weekBooks: Book[] = [];
+
       for (const [i, e] of entries.entries()) {
         console.log(`[${i + 1}/${entries.length}] ${e.date}  ${e.url}`);
 
         // Kobo 個別書籍頁面
         const book = await scrapeKoboBookPage(page, e.url);
-        const koboStatus = book.title ? 'ok' : 'error';
+        const koboStatus: ScrapeStatusValue = book.title ? 'ok' : 'error';
 
         // 抓讀墨
         const readmooSkipped = book.isbn === '-';
@@ -146,20 +158,69 @@ async function main() {
         else if (!books)          booksStatus = 'error';
         else                      booksStatus = 'ok';
 
-        const scrapeStatus = { kobo: koboStatus, readmoo: readmooStatus, books: booksStatus };
-        const finalPrice = book.originalPrice ?? readmoo?.ogPrice ?? null;
+        const scrapeStatus = {
+          kobo: koboStatus,
+          readmoo: readmooStatus,
+          books: booksStatus,
+          goodreads: 'skipped' as ScrapeStatusValue,
+          amazon: 'skipped' as ScrapeStatusValue,
+        };
+        const originalPrice = book.originalPrice ?? readmoo?.ogPrice ?? null;
 
         console.log(`  書名：${book.title}`);
         console.log(`  原文：${book.originalTitle ?? '—'}`);
         console.log(`  作者：${book.author}`);
-        console.log(`  原價：${finalPrice ? `NT$${finalPrice}` : '—'}`);
+        console.log(`  原價：${originalPrice ? `NT$${originalPrice}` : '—'}`);
         console.log(`  Kobo 評分：${book.koboRating ?? '—'}（${book.koboRatingCount ?? 0} 則）`);
         console.log(`  讀墨評分：${readmoo?.readmooRating ?? '—'}（${readmoo?.readmooRatingCount ?? 0} 則）`);
         console.log(`  博客來評分：${books?.booksRating ?? '—'}（${books?.booksRatingCount ?? 0} 則）`);
         console.log(`  簡介：${e.description.slice(0, 60)}...`);
         console.log(`  ISBN：${book.isbn}`);
         console.log(`  狀態：Kobo=${scrapeStatus.kobo} 讀墨=${scrapeStatus.readmoo} 博客來=${scrapeStatus.books}\n`);
+
+        const readmooData = readmoo
+          ? {
+              rating: readmoo.readmooRating != null ? parseFloat(readmoo.readmooRating) : null,
+              ratingCount: readmoo.readmooRatingCount,
+              url: readmoo.readmooUrl,
+            }
+          : null;
+        const booksData = books
+          ? { rating: books.booksRating, ratingCount: books.booksRatingCount, url: books.booksUrl }
+          : null;
+
+        weekBooks.push({
+          date: e.date,
+          title: book.title,
+          originalTitle: book.originalTitle,
+          author: book.author,
+          description: e.description,
+          url: e.url,
+          coverUrl: book.coverUrl,
+          originalPrice,
+          koboRating: book.koboRating,
+          koboRatingCount: book.koboRatingCount,
+          isbn: book.isbn,
+          readmoo: readmooData,
+          books: booksData,
+          goodreads: null,
+          amazon: null,
+          scrapeStatus,
+        });
       }
+
+      // --- JSON 寫入 ---
+      const __filename = fileURLToPath(import.meta.url);
+      const dataPath = path.resolve(path.dirname(__filename), '../../data', `${year}-kobo99-deals.json`);
+      let existing: WeekEntry[] = [];
+      if (fs.existsSync(dataPath)) {
+        existing = JSON.parse(fs.readFileSync(dataPath, 'utf-8')) as WeekEntry[];
+      }
+      const updated = mergeWeek(existing, week, weekBooks);
+      updated.sort((a, b) => b.week - a.week);
+      fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+      fs.writeFileSync(dataPath, JSON.stringify(updated, null, 2), 'utf-8');
+      console.log(`\n✅ 寫入 ${dataPath}（第 ${week} 週，共 ${weekBooks.length} 本）`);
     }
 
   } finally {
@@ -169,7 +230,6 @@ async function main() {
   }
 }
 
-import { fileURLToPath } from 'node:url';
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main().catch(err => {
     console.error(err);

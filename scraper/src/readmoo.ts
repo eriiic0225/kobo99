@@ -89,7 +89,7 @@ export async function scrapeReadmooBookPage(url: string, originalPrice: number |
       ? parseInt($('strong[itemprop="price"]').text(), 10) || null
       : null
   
-    return { readmooRating, readmooRatingCount, ogPrice, readmooURL: url }
+    return { readmooRating, readmooRatingCount, ogPrice, readmooUrl: url }
   } catch {
     console.error('讀墨書頁抓取失敗');
     return null;
