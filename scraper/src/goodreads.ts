@@ -1,43 +1,5 @@
 import type { Page } from 'playwright';
-import { stringSimilarity } from 'string-similarity-js';
-
-interface Candidate {
-  href: string;
-  title: string;
-}
-
-/**
- * 拿目標書名去跟搜尋結果列表做相似度比對，挑出最完美的連結
- * @param targetTitle Kobo 本站的原始書名 (或原文書名)
- * @param candidates 搜尋結果頁面抓到的 { title, href } 陣列
- * @param threshold 相似度門檻 (低於此分數代表完全不沾邊，不採用)
- */
-function findBestCandidate(targetTitle: string, candidates: Candidate[], threshold = 0.4): string | null {
-  if (candidates.length === 0) return null;
-
-  let bestHref: string | null = null;
-  let bestScore = 0;
-
-  for (const item of candidates) {
-    // stringSimilarity 會回傳 0 ~ 1 的分數 (例如 0.85)
-    // 預設是大小寫不敏感 (Case-Insensitive)
-    const score = stringSimilarity(targetTitle, item.title);
-
-    if (score > bestScore) {
-      bestScore = score;
-      bestHref = item.href;
-    }
-  }
-
-  // 如果最高分連門檻都過不了，代表搜出來的都是不相干的雜訊，寧可回傳 null
-  if (bestScore < threshold) {
-    console.log(`⚠️ 相似度過低 (${bestScore.toFixed(2)})，判定無相符書籍`);
-    return null;
-  }
-
-  return bestHref;
-}
-
+import { findBestCandidate } from './utils.js';
 
 async function scrapeGoodreadsBookPage(page: Page) {
   const url = page.url();
