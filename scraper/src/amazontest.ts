@@ -1,6 +1,7 @@
 import { chromium } from 'playwright-extra';
 import stealthPlugin from 'puppeteer-extra-plugin-stealth';
-import { scrapeAmazon, isEnglishBook } from './amazon.js';
+import { scrapeAmazon } from './amazon.js';
+import { isEnglishBook } from './utils.js';
 
 chromium.use(stealthPlugin());
 

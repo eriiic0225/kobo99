@@ -1,3 +1,45 @@
+import { stringSimilarity } from 'string-similarity-js';
+
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+export function isEnglishBook(originalTitle: string | null): boolean {
+  return originalTitle != null && /[A-Za-z]/.test(originalTitle);
+}
+
+/**
+ * 從姓名字串中提取英文部分
+ * - "史戴凡諾斯（Stefanos Xenakis）" → "Stefanos Xenakis"
+ * - "夏洛特 (Charlotte Fox Weber)" → "Charlotte Fox Weber"
+ * - "John Steinbeck" → "John Steinbeck"（已是英文，直接回傳）
+ * - "丹尼．沃謝" → null（無英文）
+ */
+export function extractEnglishName(name: string | null): string | null {
+  if (!name) return null;
+
+  // 優先從括號（半形或全形）中提取
+  const parenMatch = name.match(/[（(]([^）)]+)/);
+  if (parenMatch?.[1]) {
+    const content = parenMatch[1].trim();
+    // 只保留沒有 CJK 字元且含英文字母的內容
+    if (/[A-Za-z]/.test(content) && !/[一-鿿぀-ゟ゠-ヿ]/.test(content)) {
+      return content;
+    }
+  }
+
+  // 無括號，整串都是英文
+  if (/[A-Za-z]/.test(name) && !/[一-鿿぀-ゟ゠-ヿ]/.test(name)) {
+    return name.trim();
+  }
+
+  return null;
+}
+
+export function authorsMatch(a: string, b: string): boolean {
+  const words = a.toLowerCase().split(/\s+/).filter(w => w.length > 2);
+  const bLower = b.toLowerCase();
+  return words.some(w => bLower.includes(w));
+}
+
 export interface Candidate {
   href: string;
   title: string;
@@ -30,5 +72,3 @@ export function findBestCandidate(targetTitle: string, candidates: Candidate[], 
 
   return bestHref;
 }
-
-import { stringSimilarity } from 'string-similarity-js';

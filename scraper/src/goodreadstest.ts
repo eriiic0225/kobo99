@@ -6,19 +6,22 @@ chromium.use(stealthPlugin());
 
 const testBooks = [
   {
-    label: '美好人生（ISBN 直查）',
-    isbn: '9789863989028',
-    originalTitle: 'THE GOOD LIFE: Lessons from the World\'s Longest Scientific Study of Happiness',
+    label: '萬事皆美好 — authorHint 驗證（Stefanos Xenakis，之前曾配錯書）',
+    isbn: '9789861338033',
+    originalTitle: 'The Gift',
+    authorHint: 'Stefanos Xenakis',
   },
   {
-    label: '解決問題的人（ISBN 直查）',
-    isbn: '9786267181775',
-    originalTitle: 'See, Solve, Scale: How Anyone Can Turn an Unsolved Problem into a Breakthrough Success',
+    label: '世界冠軍紙飛機 — ratings 單數 fix（只有 1 則時應顯示正確 count）',
+    isbn: '9789865562427',
+    originalTitle: 'The New World Champion Paper Airplane Book: Featuring the World Record-Breaking Design, with Tear-Out Planes to Fold and Fly',
+    authorHint: null,  // "約翰‧柯林斯" 無英文
   },
   {
-    label: '伊甸園東（ISBN 直查）',
-    isbn: '9786269764051',
-    originalTitle: 'East of Eden',
+    label: '我們想要什麼 — ISBN 打到中文版無評分，應 fallback 搜尋英文版',
+    isbn: '9786263497726',
+    originalTitle: 'What We Want',
+    authorHint: null,  // "夏洛特．福斯．韋伯" 無英文
   },
 ];
 
@@ -39,7 +42,7 @@ async function run() {
       console.log(`  ISBN: ${book.isbn}`);
       console.log(`  原文書名: ${book.originalTitle}`);
 
-      const result = await scrapeGoodreads(page, book.isbn, book.originalTitle);
+      const result = await scrapeGoodreads(page, book.isbn, book.originalTitle, book.authorHint);
 
       if (!result) {
         console.log('  ❌ 找不到');

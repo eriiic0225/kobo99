@@ -1,14 +1,16 @@
 import { chromium } from 'playwright-extra';
 import stealthPlugin from 'puppeteer-extra-plugin-stealth';
-import type { Page } from 'playwright';
-import { errors } from 'playwright';
+import { errors, type Page } from 'playwright';
 import { getISOWeek, getISOWeekYear } from 'date-fns';
 import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
 import path from 'node:path';
 import { scrapeReadmooSearchPage, scrapeReadmooBookPage } from './readmoo.js';
 import { scrapeBooksSearchPage, scrapeBooksBookPage } from './booklife.js';
+import { scrapeGoodreads } from './goodreads.js';
+import { scrapeAmazon } from './amazon.js';
 import { mergeWeek } from './merge.js';
+import { sleep, isEnglishBook, extractEnglishName } from './utils.js';
 import type { Book, WeekEntry, ScrapeStatusValue } from './types.js';
 
 // 告訴 Playwright 啟用 Stealth 插件
@@ -19,8 +21,6 @@ const now = new Date();
 const week = getISOWeek(now);
 const year = getISOWeekYear(now);
 const BLOG_URL = `https://www.kobo.com/zh/blog/weekly-dd99-${year}-w${week}`;
-
-const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 export async function scrapeKoboBookPage(page: Page, url: string) {
   try {
@@ -158,12 +158,27 @@ async function main() {
         else if (!books)          booksStatus = 'error';
         else                      booksStatus = 'ok';
 
+        // 從 Kobo 作者欄提取英文名（如 "史戴凡諾斯（Stefanos Xenakis）" → "Stefanos Xenakis"）
+        const koboEnAuthor = extractEnglishName(book.author);
+
+        // 抓 Goodreads（所有書都試；authorHint 用於驗證 ISBN 結果 & 強化搜尋精準度）
+        const goodreads = await scrapeGoodreads(page, book.isbn, book.originalTitle, koboEnAuthor);
+        const goodreadsStatus: ScrapeStatusValue = goodreads ? 'ok' : 'not_found';
+
+        // 抓 Amazon（英文書才抓；enAuthor 從 Goodreads 順手帶入提升精準度）
+        const amazonSkipped = !isEnglishBook(book.originalTitle);
+        const amazon = !amazonSkipped
+          ? await scrapeAmazon(page, book.originalTitle!, goodreads?.enAuthor ?? null)
+          : null;
+        const amazonStatus: ScrapeStatusValue = amazonSkipped ? 'skipped'
+          : amazon ? 'ok' : 'not_found';
+
         const scrapeStatus = {
           kobo: koboStatus,
           readmoo: readmooStatus,
           books: booksStatus,
-          goodreads: 'skipped' as ScrapeStatusValue,
-          amazon: 'skipped' as ScrapeStatusValue,
+          goodreads: goodreadsStatus,
+          amazon: amazonStatus,
         };
         const originalPrice = book.originalPrice ?? readmoo?.ogPrice ?? null;
 
@@ -174,9 +189,11 @@ async function main() {
         console.log(`  Kobo 評分：${book.koboRating ?? '—'}（${book.koboRatingCount ?? 0} 則）`);
         console.log(`  讀墨評分：${readmoo?.readmooRating ?? '—'}（${readmoo?.readmooRatingCount ?? 0} 則）`);
         console.log(`  博客來評分：${books?.booksRating ?? '—'}（${books?.booksRatingCount ?? 0} 則）`);
+        console.log(`  Goodreads：${goodreads?.rating ?? '—'}（${goodreads?.ratingCount ?? 0} 則）${goodreads?.enAuthor ? ` · ${goodreads.enAuthor}` : ''}`);
+        console.log(`  Amazon：${amazon?.rating ?? '—'}（${amazon?.ratingCount ?? 0} 則）`);
         console.log(`  簡介：${e.description.slice(0, 60)}...`);
         console.log(`  ISBN：${book.isbn}`);
-        console.log(`  狀態：Kobo=${scrapeStatus.kobo} 讀墨=${scrapeStatus.readmoo} 博客來=${scrapeStatus.books}\n`);
+        console.log(`  狀態：Kobo=${scrapeStatus.kobo} 讀墨=${scrapeStatus.readmoo} 博客來=${scrapeStatus.books} GR=${scrapeStatus.goodreads} AMZ=${scrapeStatus.amazon}\n`);
 
         const readmooData = readmoo
           ? {
@@ -203,8 +220,12 @@ async function main() {
           isbn: book.isbn,
           readmoo: readmooData,
           books: booksData,
-          goodreads: null,
-          amazon: null,
+          goodreads: goodreads
+            ? { rating: goodreads.rating, ratingCount: goodreads.ratingCount, url: goodreads.url, enAuthor: goodreads.enAuthor }
+            : null,
+          amazon: amazon
+            ? { rating: amazon.rating, ratingCount: amazon.ratingCount, url: amazon.url }
+            : null,
           scrapeStatus,
         });
       }

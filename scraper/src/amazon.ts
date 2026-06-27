@@ -1,11 +1,5 @@
 import type { Page } from 'playwright';
-import { findBestCandidate } from './utils.js';
-
-const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
-export function isEnglishBook(originalTitle: string | null): boolean {
-  return originalTitle != null && /[A-Za-z]/.test(originalTitle);
-}
+import { findBestCandidate, sleep } from './utils.js';
 
 export async function scrapeAmazon(
   page: Page,
@@ -41,7 +35,12 @@ export async function scrapeAmazon(
         .filter(r => r.title.length > 0 && r.href.length > 0);
     });
 
-    const bestUrl = findBestCandidate(originalTitle, results);
+    // 砍副標後再比對，避免 "Tell Me What You Want: A Therapist..." 因長副標稀釋分數
+    const stripSubtitle = (s: string) => s.replace(/\s*[:–—].*/, '').trim();
+    const bestUrl = findBestCandidate(
+      stripSubtitle(originalTitle),
+      results.map(r => ({ ...r, title: stripSubtitle(r.title) })),
+    );
     if (!bestUrl) return null;
 
     // --- Step 2: 進商品頁取評分與精確數量 ---

@@ -24,10 +24,23 @@
           "ratingCount": 6,
           "url": "https://www.books.com.tw/products/E050167037"
         },
+        "goodreads": {
+          "rating": 4.14,
+          "ratingCount": 12896,
+          "url": "https://www.goodreads.com/book/show/182203970",
+          "enAuthor": "Robert Waldinger"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 2410,
+          "url": "https://www.amazon.com/dp/B0B3Y7J6PN"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -52,10 +65,23 @@
           "ratingCount": 8,
           "url": "https://www.books.com.tw/products/E050170946"
         },
+        "goodreads": {
+          "rating": 4.15,
+          "ratingCount": 171,
+          "url": "https://www.goodreads.com/book/show/195817029",
+          "enAuthor": "Danny Warshay"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 71,
+          "url": "https://www.amazon.com/dp/B08R2JKPBY"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -72,10 +98,14 @@
         "isbn": "7574532787685",
         "readmoo": null,
         "books": null,
+        "goodreads": null,
+        "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "not_found",
-          "books": "skipped"
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
         }
       },
       {
@@ -100,10 +130,23 @@
           "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050251594"
         },
+        "goodreads": {
+          "rating": 4.45,
+          "ratingCount": 685667,
+          "url": "https://www.goodreads.com/book/show/4406.East_of_Eden",
+          "enAuthor": "John Steinbeck"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 26222,
+          "url": "https://www.amazon.com/dp/B0GLLQ4F76"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -128,10 +171,23 @@
           "ratingCount": 0,
           "url": "https://www.books.com.tw/products/E050134804"
         },
+        "goodreads": {
+          "rating": 5,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/161517596-by-john-m-collins-the-new-world-champion-paper-airplane-book",
+          "enAuthor": "John M. Collins"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 1244,
+          "url": "https://www.amazon.com/dp/B009C78VC6"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -156,10 +212,23 @@
           "ratingCount": 0,
           "url": "https://www.books.com.tw/products/E050231917"
         },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/223612417",
+          "enAuthor": "夏洛特．福斯．韋伯 (Charlotte Fox Weber)"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 42,
+          "url": "https://www.amazon.com/dp/1472281470"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -184,10 +253,23 @@
           "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050263522"
         },
+        "goodreads": {
+          "rating": 3.5,
+          "ratingCount": 140835,
+          "url": "https://www.goodreads.com/book/show/32049.Lady_Chatterley_s_Lover",
+          "enAuthor": "D.H. Lawrence"
+        },
+        "amazon": {
+          "rating": 3.9,
+          "ratingCount": 8601,
+          "url": "https://www.amazon.com/dp/B08NTPNT54"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       },
       {
@@ -212,10 +294,23 @@
           "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050115232"
         },
+        "goodreads": {
+          "rating": 3.18,
+          "ratingCount": 174440,
+          "url": "https://www.goodreads.com/book/show/63945326-the-gift",
+          "enAuthor": "Freida McFadden"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 43,
+          "url": "https://www.amazon.com/dp/B08Y918PDF"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "ok"
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
         }
       }
     ]
