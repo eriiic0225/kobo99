@@ -39,8 +39,35 @@ test-results/
 
 # AI 協作相關
 CLAUDE.md
+DESIGN.md
 /scraper參考
 /dev-log
 
 # Vitest 報告與構建產物
 .vitest/
+
+# From Vite (for Web)
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
