@@ -64,7 +64,7 @@ export async function scrapeKoboBookPage(page: Page, url: string) {
 }
 
 async function main() {
-  console.log('🚀 Kobo Blog 測試開始');
+  console.log('🚀 Kobo Blog 爬蟲開始');
   console.log(`   URL: ${BLOG_URL}\n`);
 
   const browser = await chromium.launch({ 
@@ -99,6 +99,10 @@ async function main() {
 
     console.log(`頁面狀態：${isChallenge ? '⚠️  Cloudflare 挑戰頁' : '✅ 真實內容'}`);
     console.log(`HTML 大小：${(html.length / 1024).toFixed(0)} KB\n`);
+
+    if (isChallenge) {
+      throw new Error('Kobo blog 被 Cloudflare 攔截，稍後重試');
+    }
 
     if (!isChallenge) {
       const entries = await page.evaluate(() => {
