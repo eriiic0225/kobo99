@@ -639,7 +639,11 @@
         "koboRatingCount": 1,
         "isbn": "9786267063699",
         "readmoo": null,
-        "books": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050208883"
+        },
         "goodreads": {
           "rating": 4.01,
           "ratingCount": 185,
@@ -654,7 +658,7 @@
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "not_found",
-          "books": "not_found",
+          "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
         }
