@@ -1,6 +1,7 @@
 import type { Page } from 'playwright';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import { stringSimilarity } from 'string-similarity-js';
 
 //! --- 單獨測試博客來時用的程式碼
 // import { chromium } from 'playwright-extra';
@@ -43,19 +44,32 @@ export async function scrapeBooksSearchPage(title: string): Promise<string | nul
 
   const SEARCH_BASE = 'https://search.books.com.tw/search/query/key';
 
+  const searchTitle = title.replace(/\s*[：:].*/, '').trim();
   try {
-    const url = `${SEARCH_BASE}/${encodeURIComponent(title)}/cat/EBA`;
+    const url = `${SEARCH_BASE}/${encodeURIComponent(searchTitle)}/cat/EBA`;
     const response = await axios.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
       },
       timeout: 10_000,
     });
     const $ = cheerio.load(response.data);
-    const idAttr = $('[id^="prod-itemlist-"]').first().attr('id');
+    const first = $('[id^="prod-itemlist-"]').first();
+    const idAttr = first.attr('id');
     if (!idAttr) return null;
+
+    const resultTitle = first.find('a[title]').first().attr('title')
+      ?.replace(/\s*\(電子書\)$/, '').trim() ?? '';
+    const score = stringSimilarity(searchTitle, resultTitle);
+    if (score < 0.3) {
+      console.log(`  ⚠️ 博客來配對相似度過低 (${score.toFixed(2)})：「${resultTitle}」`);
+      return null;
+    }
+
     return idAttr.replace('prod-itemlist-', '');
   } catch(err) {
+    if (axios.isAxiosError(err) && err.response?.status === 404) return null;
     console.error('博客來搜尋失敗', err);
     return null;
   }
@@ -67,7 +81,7 @@ export async function scrapeBooksBookPage(page: Page, productId: string) {
   const booksUrl = `${BOOK_BASE}/${productId}`;
   try {
     await page.goto(booksUrl, { waitUntil: 'load', timeout: 30_000 });
-    await page.waitForSelector('em.ratingValue', { timeout: 5000 }).catch(() => null);
+    await page.waitForSelector('em.ratingValue', { timeout: 15000 }).catch(() => null);
 
     const { booksRating, booksRatingCount } = await page.evaluate(() => {
       const ratingText = document.querySelector('em.ratingValue')?.textContent?.trim();

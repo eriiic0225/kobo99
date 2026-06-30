@@ -61,7 +61,7 @@ export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
     `${readmooURL}${isbn}&kw=${isbn}`,
     { waitUntil: 'domcontentloaded', timeout: 30_000 }
   );
-  await page.waitForTimeout(1500 + Math.random() * 1000);
+  await page.waitForSelector('a[data-readmoo-id]', { timeout: 10000 }).catch(() => null);
   await page.evaluate(() => window.scrollBy(0, 200));
 
   const html = await page.content();
@@ -86,7 +86,8 @@ export async function scrapeReadmooBookPage(url: string, originalPrice: number |
   try{
     const response = await axios.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
       },
       timeout: 10000
     });
