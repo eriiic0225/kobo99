@@ -314,5 +314,280 @@
         }
       }
     ]
+  },
+  {
+    "week": 25,
+    "books": [
+      {
+        "date": "6/18",
+        "title": "七個習慣打造幸福家庭",
+        "originalTitle": "The 7 Habits of Highly Effective Families",
+        "author": "史蒂芬．柯維",
+        "description": "成功學大師史蒂芬．柯維以7個習慣指引你建立美好的家庭願景。家庭是社會的基石，更是個人內心充實的最大源頭。本書就是讓你在理智和情感兩方面，都把保有希望視為第一要務，幫助你培養不致偏離軌道的三種能力。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Rbo4ZszF7jiBcxYYy6qO8w",
+        "coverUrl": "https://cdn.kobo.com/book-images/18634a5b-257a-45b2-84ba-03b686962d44/1200/1200/False/Rbo4ZszF7jiBcxYYy6qO8w.jpg",
+        "originalPrice": 338,
+        "koboRating": 1,
+        "koboRatingCount": 1,
+        "isbn": "9786263553248",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050185183"
+        },
+        "goodreads": {
+          "rating": 4.13,
+          "ratingCount": 11620,
+          "url": "https://www.goodreads.com/book/show/783128.The_7_Habits_of_Highly_Effective_Families",
+          "enAuthor": "Stephen R. Covey"
+        },
+        "amazon": {
+          "rating": 4.8,
+          "ratingCount": 16913,
+          "url": "https://www.amazon.com/dp/B07WF972WK"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/19",
+        "title": "箱型時間：高速時代的15分鐘深度專注力",
+        "originalTitle": null,
+        "author": "馬克‧曹–桑德斯",
+        "description": "馬斯克1年完成8年工作的時間祕密。這是第一本全面介紹「箱型時間」的使用指南，從如何選擇任務、設定開始、結束時間、關注當下任務，並在該時間範圍內有效完成，箱型時間是解救你混亂生活的最佳指引。",
+        "url": "https://www.kobo.com/tw/zh/ebook/xYm-g6kyzza5cWxbDDKd-g",
+        "coverUrl": "https://cdn.kobo.com/book-images/b9037094-b1e2-444e-9ba9-8d9d53b3d398/1200/1200/False/xYm-g6kyzza5cWxbDDKd-g.jpg",
+        "originalPrice": 360,
+        "koboRating": 3.67,
+        "koboRatingCount": 6,
+        "isbn": "9786263585294",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050247932"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/223718261",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "6/19",
+        "title": "长江文明",
+        "originalTitle": null,
+        "author": "冯天瑜",
+        "description": "人類文明是江河的贈禮。長江流域與黃河流域同為中華文明的發祥地，這是史學界的共識。本書縱覽古今，綜合介紹了長江文明得天獨厚的自然條件，文化記憶與遺存將更成體系，喚起對長江流域歷史與將來的更多關注。",
+        "url": "https://www.kobo.com/tw/zh/ebook/RyKx2UWCTTioC30rFp7Ltw",
+        "coverUrl": "https://cdn.kobo.com/book-images/885e668d-ec20-458a-b3cf-e0cfbbb3a39d/1200/1200/False/RyKx2UWCTTioC30rFp7Ltw.jpg",
+        "originalPrice": 264,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7553521725735",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "6/20",
+        "title": "瘋狂與深情：艾倫．瑞克曼日記絮語（「石內卜教授」唯一私人日記出版！一窺其螢光幕後最真實的日常）",
+        "originalTitle": "Madly: Deeply: The Diaries of Alan Rickman",
+        "author": "艾倫．瑞克曼",
+        "description": "最狂熾又摯情的人生絮語，深受無數影迷喜愛的石內卜教授，唯一親筆出版的私人日記集結。本書收錄艾倫過世前不到一個月的私人日記，他對戲劇的熱愛、對生活的堅持，在這橫跨四十多年的字裡行間栩栩如生。",
+        "url": "https://www.kobo.com/tw/zh/ebook/zKVm2ep8ijqEObPU8QClDA",
+        "coverUrl": "https://cdn.kobo.com/book-images/aa3ddd3a-c4a8-4972-9313-32bdfa8ab277/1200/1200/False/zKVm2ep8ijqEObPU8QClDA.jpg",
+        "originalPrice": 524,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267282069",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050178779"
+        },
+        "goodreads": null,
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 4414,
+          "url": "https://www.amazon.com/dp/B09NTK2HF1"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/21",
+        "title": "遠東冰原的貓頭鷹",
+        "originalTitle": null,
+        "author": "強納森．斯萊特（Jonathan C. Slaght）",
+        "description": "在人類文明邊緣的地方，展開一段精彩的旅程，尋找與拯救世界上最大的貓頭鷹。作者以自然生動的筆調，帶領讀者深入其境，宛如置身於荒野冰原上，不僅描繪出毛腿魚鴞的樣貌和生活圖景，也一觀當地人土風情。",
+        "url": "https://www.kobo.com/tw/zh/ebook/o1ijUQ7MXDSHDeoev1k5Ww",
+        "coverUrl": "https://cdn.kobo.com/book-images/d4c0a535-fe44-41c9-ab91-48d41d8823e9/1200/1200/False/o1ijUQ7MXDSHDeoev1k5Ww.jpg",
+        "originalPrice": 385,
+        "koboRating": 3,
+        "koboRatingCount": 1,
+        "isbn": "9786269896271",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050247312"
+        },
+        "goodreads": {
+          "rating": 4.19,
+          "ratingCount": 6567,
+          "url": "https://www.goodreads.com/book/show/223605927",
+          "enAuthor": "Jonathan C. Slaght"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "6/22",
+        "title": "為什麼魚不存在：關於失去、愛與生命的本質，踏上追尋人生意義的解答之旅",
+        "originalTitle": "Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life",
+        "author": "露露．米勒",
+        "description": "科學記者露露．米勒震撼國際媒體的處女作，關於人生的真相，以及對科學的驚奇執著，一本感動人心的奇書。當你也正經歷低潮，甚至不再相信自己，這本書都能幫助你，以截然不同的寬廣角度看待所處的這個世界。",
+        "url": "https://www.kobo.com/tw/zh/ebook/qoPV9--qdTa9PJA4mjKgkA",
+        "coverUrl": "https://cdn.kobo.com/book-images/d7cfabd3-69c3-4c16-a636-b328b9dba9e6/1200/1200/False/qoPV9--qdTa9PJA4mjKgkA.jpg",
+        "originalPrice": 294,
+        "koboRating": 4.32,
+        "koboRatingCount": 31,
+        "isbn": "9786263495920",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050205615"
+        },
+        "goodreads": {
+          "rating": 4.13,
+          "ratingCount": 60795,
+          "url": "https://www.goodreads.com/book/show/223612340",
+          "enAuthor": "Lulu Miller"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 3795,
+          "url": "https://www.amazon.com/dp/B07THBZ4VD"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/23",
+        "title": "達文西：科學第一人",
+        "originalTitle": "Leonardo: The First Scientist",
+        "author": "麥可．懷特",
+        "description": "唯一從科學角度導覽，帶你看懂達文西的藝術鉅作。透過達文西的親筆手稿，以全新角度解讀達文西一生的創作歷程，將達文西背後更為複雜的歷史背景和科學成就編織在一起，勾勒出現代科學史第一位天才的真正肖像。",
+        "url": "https://www.kobo.com/tw/zh/ebook/V1WBbBj_6TaQksPcYcLmTQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/2ca59ad1-acc6-4cef-9b26-4a44b633e9e5/1200/1200/False/V1WBbBj_6TaQksPcYcLmTQ.jpg",
+        "originalPrice": 315,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789862626801",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050243453"
+        },
+        "goodreads": {
+          "rating": 3.75,
+          "ratingCount": 839,
+          "url": "https://www.goodreads.com/book/show/222248024",
+          "enAuthor": "Michael White"
+        },
+        "amazon": {
+          "rating": 3.7,
+          "ratingCount": 79,
+          "url": "https://www.amazon.com/dp/B00847GD7K"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/24",
+        "title": "外國代理人：美國公關遊說業如何威脅全球民主",
+        "originalTitle": "Foreign Agents: How American Lobbyists and Lawmakers Threaten Democracy Around the World",
+        "author": "凱西‧米歇爾",
+        "description": "從柯林頓基金會，到川普的通俄門，公關遊說業逐漸黑化成外國代理人，點滴侵蝕全球民主制度，全球第一本，揭開公關遊說產業動搖國本的秘密，一窺遊說團體如何進入國會，與議員接觸，成為外國獨裁者的代理人。",
+        "url": "https://www.kobo.com/tw/zh/ebook/HP9f96GHHjmncXO4uCDXiw",
+        "coverUrl": "https://cdn.kobo.com/book-images/2e1470af-ffff-4f6d-b626-c7e20b43c871/1200/1200/False/HP9f96GHHjmncXO4uCDXiw.jpg",
+        "originalPrice": 455,
+        "koboRating": 3,
+        "koboRatingCount": 1,
+        "isbn": "9786269932962",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050257501"
+        },
+        "goodreads": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/230876583",
+          "enAuthor": null
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 34,
+          "url": "https://www.amazon.com/dp/B0CH72L14B"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
   }
 ]
