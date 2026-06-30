@@ -622,5 +622,281 @@
         }
       }
     ]
+  },
+  {
+    "week": 24,
+    "books": [
+      {
+        "date": "6/11",
+        "title": "你不知道的權力的二十種面貌：權力不只是政治人物的事 也和商業社會裡每一個上班族有關",
+        "originalTitle": "Kinds of Power: A Guide to its Intelligent Uses",
+        "author": "詹姆斯．希爾曼",
+        "description": "榮格大師長銷經典之作將顛覆你對權力的想像。在本書中，希爾曼首次著墨於商業人士會興趣的主題，剖析權力的二十四種樣貌，將為你揭示權力的真正含義，讓你洞悉這個由商業主宰的世界。",
+        "url": "https://www.kobo.com/tw/zh/ebook/JflrQhMFYTyLR2bhreiovA",
+        "coverUrl": "https://cdn.kobo.com/book-images/3d3c0fdd-bf5d-4103-91a2-8a4c4d1592b9/1200/1200/False/JflrQhMFYTyLR2bhreiovA.jpg",
+        "originalPrice": 336,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267063699",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.01,
+          "ratingCount": 185,
+          "url": "https://www.goodreads.com/book/show/210588854",
+          "enAuthor": "James Hillman"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 43,
+          "url": "https://www.amazon.com/dp/B009UBJQN2"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/12",
+        "title": "麻省理工全能表達課：人工智慧先驅40年熱門課，掌握基本功，凸顯優勢，預測群眾心理，從激發創意到寫作簡報，縮小溝通落差，享受豐厚回報",
+        "originalTitle": "Make It Clear:Speak and Write to Persuade and Inform",
+        "author": "派屈克．亨利．溫斯頓(Patrick Henry Winston)",
+        "description": "MIT學生終身受用的自我加值課，精進你的溝通和寫作能力、思考品質，投入時間學習表達技巧，回報將遠超過你在其他方面的投資。即使只應用本書的一種方法，也可以改變人生，讓你獲得理想工作、贏得訂單。",
+        "url": "https://www.kobo.com/tw/zh/ebook/h3no5_A9EDW0HW-5azrOEg",
+        "coverUrl": "https://cdn.kobo.com/book-images/014bf638-d325-470a-a196-d81bfc159f3a/1200/1200/False/h3no5_A9EDW0HW-5azrOEg.jpg",
+        "originalPrice": 315,
+        "koboRating": 4.2,
+        "koboRatingCount": 5,
+        "isbn": "9789863989769",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050214098"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/217218726",
+          "enAuthor": null
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 172,
+          "url": "https://www.amazon.com/dp/B084V84PM7"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/12",
+        "title": "鸽翼【詹姆斯小说艺术巅峰之作】",
+        "originalTitle": null,
+        "author": "亨利·詹姆斯",
+        "description": "屹立歐美文學之巔的小說藝術大師亨利·詹姆斯代表作。一對為了攫取財富不擇手段的苦命鴛鴦，一個家財萬貫、重病纏身的清純女孩，一段畸形的三角戀。當民主的美國遇上墮落的歐洲，兩種文化將生出怎樣的矛盾。",
+        "url": "https://www.kobo.com/tw/zh/ebook/wWZxSzs1lDuxSWDxkizJmg",
+        "coverUrl": "https://cdn.kobo.com/book-images/2ad8c9ed-b860-40df-82cf-fc8c97f1f1fb/1200/1200/False/wWZxSzs1lDuxSWDxkizJmg.jpg",
+        "originalPrice": 1054,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7574532786336",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "6/13",
+        "title": "莫斯科紳士",
+        "originalTitle": "A Gentleman in Moscow",
+        "author": "亞莫爾．托歐斯(Amor Towles)",
+        "description": "歐巴馬選書推薦。一個終身不能離開豪華飯店的貴族，卻活出了精彩優雅的一生！書中慧黠的對話、令人印象深刻的諸多角色，以及輪番上演的精緻劇碼，描繪出莫斯科那段最紛亂、動盪卻也最迷人的光景。",
+        "url": "https://www.kobo.com/tw/zh/ebook/eDL3sWtM9TGDCPG1cvfbCA",
+        "coverUrl": "https://cdn.kobo.com/book-images/a14376df-dd64-4de4-87dd-78aa20e7bb73/1200/1200/False/eDL3sWtM9TGDCPG1cvfbCA.jpg",
+        "originalPrice": 349,
+        "koboRating": 4.5,
+        "koboRatingCount": 14,
+        "isbn": "9786264091169",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050270601"
+        },
+        "goodreads": {
+          "rating": 4.16,
+          "ratingCount": 110,
+          "url": "https://www.goodreads.com/book/show/34856078-summary---a-gentleman-in-moscow",
+          "enAuthor": "The Summary Guy"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 143713,
+          "url": "https://www.amazon.com/dp/B01COJUEZ0"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/14",
+        "title": "隱藏的宇宙：生物多樣性，關於物種、基因、演化、功能和生態系統的驚奇故事",
+        "originalTitle": "THE HIDDEN UNIVERSE: ADVENTURES IN BIODIVERSITY",
+        "author": "亞歷山卓．安東內利",
+        "description": "想守護生物多樣性，就得先全盤了解它究竟是什麼？一本由英國皇家植物園科學主任撰寫的人文科普書，結合充滿啟發性的故事和最新科學研究，為我們展示生物多樣性的奇蹟，守護我們息息相關的隱藏的宇宙。",
+        "url": "https://www.kobo.com/tw/zh/ebook/-_NwLQnsITiblaOCKJCz8w",
+        "coverUrl": "https://cdn.kobo.com/book-images/67f308ed-5de8-47c8-bff6-8c6dc5ce89db/1200/1200/False/-_NwLQnsITiblaOCKJCz8w.jpg",
+        "originalPrice": 309,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267074749",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050201223"
+        },
+        "goodreads": {
+          "rating": 3.9,
+          "ratingCount": 333,
+          "url": "https://www.goodreads.com/book/show/56669607-the-hidden-universe",
+          "enAuthor": "Alexandre Antonelli"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 40,
+          "url": "https://www.amazon.com/dp/B09Z74WM8S"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/15",
+        "title": "擁抱人生10大無解：馴服生命自帶的難題，轉化為享受生活的智慧",
+        "originalTitle": "The Uncomfortable Truth: Change Your Life by Taming 10 of Your Mind’s Greatest Fears",
+        "author": "安娜・馬瑟",
+        "description": "與其想要全面控制人生，不如坦然擁抱自己的無力。既然無法逃避，何不從我們的內心，深刻理解這十大無解的由來。當你體會人生就是自帶這些無解，它們就無法影響你的心境，讓你更有意識和更享受當下的生活。",
+        "url": "https://www.kobo.com/tw/zh/ebook/nM-mWgtx8DCfh8tDihYKAQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/7e5f3e33-4b02-40f5-9f41-e99a1a256636/1200/1200/False/nM-mWgtx8DCfh8tDihYKAQ.jpg",
+        "originalPrice": 332,
+        "koboRating": 5,
+        "koboRatingCount": 2,
+        "isbn": "9786269295814",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050321925"
+        },
+        "goodreads": {
+          "rating": 4.05,
+          "ratingCount": 163,
+          "url": "https://www.goodreads.com/book/show/205788252-the-uncomfortable-truth",
+          "enAuthor": "Anna Mathur"
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 68,
+          "url": "https://www.amazon.com/dp/B0CSW9SBN7"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "6/16",
+        "title": "帶來好運的家：有錢人的家都這樣整理！幫超過10,000人重整生活的空間規劃術，當家成為喜歡的樣子，人生就會是理想的樣子",
+        "originalTitle": "잘되는 집들의 비밀 부와 운을 부르는 공간과 삶에 관한 이야기",
+        "author": "鄭熙淑",
+        "description": "幫10,000人找回清爽的生活。不裝潢、不搬家，讓人生和居家空間翻新升級的整理提案。順手又好維持的習慣養成，逐步打造喜歡又順眼的空間，整理，是不再委屈自己的決心。當生活順了、財富和運氣就來了！",
+        "url": "https://www.kobo.com/tw/zh/ebook/JEeoyVVCwjixT-onoKVRhA",
+        "coverUrl": "https://cdn.kobo.com/book-images/0770a04e-787e-4dca-a4f9-58be95c8591e/1200/1200/False/JEeoyVVCwjixT-onoKVRhA.jpg",
+        "originalPrice": 280,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267532423",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050239977"
+        },
+        "goodreads": {
+          "rating": 3.67,
+          "ratingCount": 3,
+          "url": "https://www.goodreads.com/book/show/222479759",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "6/17",
+        "title": "我的朋友安娜：德國假名媛的幕後真相",
+        "originalTitle": null,
+        "author": "瑞秋．德洛奇．威廉斯",
+        "description": "與其想要全面控制人生，不如坦然擁抱自己的無力。既然無法逃避，何不從我們的內心，深刻理解這十大無解的由來。當你體會人生就是自帶這些無解，它們就無法影響你的心境，讓你更有意識和更享受當下的生活。",
+        "url": "https://www.kobo.com/tw/zh/ebook/DR0tUsCVnjW2A5ORGqK9hw",
+        "coverUrl": "https://cdn.kobo.com/book-images/f7e4a31a-0304-47e5-bbce-653102a6708b/1200/1200/False/DR0tUsCVnjW2A5ORGqK9hw.jpg",
+        "originalPrice": 273,
+        "koboRating": 4,
+        "koboRatingCount": 9,
+        "isbn": "9786269539680",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.books.com.tw/products/E050129032"
+        },
+        "goodreads": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/108916009",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      }
+    ]
   }
 ]
