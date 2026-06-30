@@ -67,6 +67,7 @@ export async function scrapeBooksBookPage(page: Page, productId: string) {
   const booksUrl = `${BOOK_BASE}/${productId}`;
   try {
     await page.goto(booksUrl, { waitUntil: 'load', timeout: 30_000 });
+    await page.waitForSelector('em.ratingValue', { timeout: 5000 }).catch(() => null);
 
     const { booksRating, booksRatingCount } = await page.evaluate(() => {
       const ratingText = document.querySelector('em.ratingValue')?.textContent?.trim();

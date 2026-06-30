@@ -18,6 +18,9 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      TARGET_YEAR: ${{ inputs.year }}
+      TARGET_WEEK: ${{ inputs.week }}
 
     steps:
       - uses: actions/checkout@v4
@@ -47,23 +50,26 @@ jobs:
           retry_wait_seconds: 1800
           command: cd scraper && xvfb-run pnpm run scrape
           new_command_on_retry: false
-        env:
-          TARGET_YEAR: ${{ inputs.year }}
-          TARGET_WEEK: ${{ inputs.week }}
-
       - name: Verify JSON
         run: |
           node -e "
             const fs = require('fs');
-            const year = new Date().getFullYear();
+            const year = process.env.TARGET_YEAR ? parseInt(process.env.TARGET_YEAR) : new Date().getFullYear();
             const data = JSON.parse(fs.readFileSync(\`data/\${year}-kobo99-deals.json\`, 'utf8'));
             if (!Array.isArray(data) || data.length === 0) { console.error('空陣列'); process.exit(1); }
-            const latest = data[0];
-            if (!latest.books || latest.books.length < 3) {
-              console.error(\`第\${latest.week}週只有 \${latest.books?.length ?? 0} 本，疑似爬蟲失敗\`);
+            let target;
+            if (process.env.TARGET_WEEK) {
+              const w = parseInt(process.env.TARGET_WEEK);
+              target = data.find(e => e.week === w);
+              if (!target) { console.error(\`第\${w}週不在 JSON 裡\`); process.exit(1); }
+            } else {
+              target = data[0];
+            }
+            if (!target.books || target.books.length < 3) {
+              console.error(\`第\${target.week}週只有 \${target.books?.length ?? 0} 本，疑似爬蟲失敗\`);
               process.exit(1);
             }
-            console.log(\`✅ 第\${latest.week}週，\${latest.books.length} 本\`);
+            console.log(\`✅ 第\${target.week}週，\${target.books.length} 本\`);
           "
 
       - name: Commit updated JSON
@@ -73,7 +79,9 @@ jobs:
           git add data/
 
           if ! git diff --staged --quiet; then
-            git commit -m "data: 自動更新書單 $(date +'%Y-W%V')"
+            YEAR=${TARGET_YEAR:-$(date +'%Y')}
+            WEEK=${TARGET_WEEK:-$(date +'%V')}
+            git commit -m "data: 自動更新書單 ${YEAR}-W${WEEK}"
             git push
           else
             echo "沒有新資料，跳過 Commit"

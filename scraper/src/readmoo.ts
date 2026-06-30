@@ -58,15 +58,28 @@ const readmooURL = `https://readmoo.com/search/keyword?q=`
 
 export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
   await page.goto(
-    `${readmooURL}${isbn}&kw=${isbn}`
-    , { waitUntil: 'domcontentloaded', timeout: 30_000 }
+    `${readmooURL}${isbn}&kw=${isbn}`,
+    { waitUntil: 'domcontentloaded', timeout: 30_000 }
   );
+  await page.waitForTimeout(1500 + Math.random() * 1000);
+  await page.evaluate(() => window.scrollBy(0, 200));
 
-  const count = await page.locator('a[data-readmoo-id]').count(); // 找不到任何資訊就跳開
+  const html = await page.content();
+  const isChallenge =
+    html.includes('cf-browser-verification') ||
+    html.includes('cf_chl_') ||
+    html.includes('Just a moment') ||
+    html.includes('Checking your browser');
+
+  if (isChallenge) {
+    throw new Error('讀墨搜尋頁被 Cloudflare 攔截，稍後重試');
+  }
+
+  const count = await page.locator('a[data-readmoo-id]').count();
   if (count === 0) return null;
 
   const readmooBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');
-  return readmooBookLink
+  return readmooBookLink;
 }
 
 export async function scrapeReadmooBookPage(url: string, originalPrice: number | null) {
