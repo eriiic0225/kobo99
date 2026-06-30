@@ -60,7 +60,7 @@ export async function scrapeBooksSearchPage(title: string): Promise<string | nul
     if (!idAttr) return null;
 
     const resultTitle = first.find('a[title]').first().attr('title')
-      ?.replace(/\s*\(電子書\)$/, '').trim() ?? '';
+      ?.replace(/\s*\(電子書\)$/, '').replace(/\s*[：:].*/, '').trim() ?? '';
     const score = stringSimilarity(searchTitle, resultTitle);
     if (score < 0.3) {
       console.log(`  ⚠️ 博客來配對相似度過低 (${score.toFixed(2)})：「${resultTitle}」`);
