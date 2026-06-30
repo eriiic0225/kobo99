@@ -330,10 +330,14 @@
         "koboRating": 1,
         "koboRatingCount": 1,
         "isbn": "9786263553248",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210297511000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 5,
+          "ratingCount": 3,
           "url": "https://www.books.com.tw/products/E050185183"
         },
         "goodreads": {
@@ -349,7 +353,7 @@
         },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
@@ -367,22 +371,26 @@
         "koboRating": 3.67,
         "koboRatingCount": 6,
         "isbn": "9786263585294",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 20,
+          "url": "https://readmoo.com/book/210365442000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 5,
+          "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050247932"
         },
         "goodreads": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 3.53,
+          "ratingCount": 446,
           "url": "https://www.goodreads.com/book/show/223718261",
-          "enAuthor": null
+          "enAuthor": "Marc Zao-Sanders"
         },
         "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "skipped"
@@ -424,13 +432,22 @@
         "koboRating": 5,
         "koboRatingCount": 1,
         "isbn": "9786267282069",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 18,
+          "url": "https://readmoo.com/book/210288919000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 5,
+          "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050178779"
         },
-        "goodreads": null,
+        "goodreads": {
+          "rating": 3.58,
+          "ratingCount": 17009,
+          "url": "https://www.goodreads.com/book/show/59808451-madly-deeply",
+          "enAuthor": "Alan Rickman"
+        },
         "amazon": {
           "rating": 4.5,
           "ratingCount": 4414,
@@ -438,9 +455,9 @@
         },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
-          "goodreads": "not_found",
+          "goodreads": "ok",
           "amazon": "ok"
         }
       },
@@ -456,10 +473,14 @@
         "koboRating": 3,
         "koboRatingCount": 1,
         "isbn": "9786269896271",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 13,
+          "url": "https://readmoo.com/book/210365242000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 4.5,
+          "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050247312"
         },
         "goodreads": {
@@ -471,7 +492,11 @@
         "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
+<<<<<<< HEAD
           "readmoo": "not_found",
+=======
+          "readmoo": "ok",
+>>>>>>> 5b003d7 (data: 補抓 2026-W25 書單（8 本）)
           "books": "ok",
           "goodreads": "ok",
           "amazon": "skipped"
@@ -489,10 +514,14 @@
         "koboRating": 4.32,
         "koboRatingCount": 31,
         "isbn": "9786263495920",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 77,
+          "url": "https://readmoo.com/book/210317237000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 5,
+          "ratingCount": 3,
           "url": "https://www.books.com.tw/products/E050205615"
         },
         "goodreads": {
@@ -508,7 +537,7 @@
         },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
@@ -526,10 +555,14 @@
         "koboRating": null,
         "koboRatingCount": null,
         "isbn": "9789862626801",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210360982000101"
+        },
         "books": {
           "rating": null,
-          "ratingCount": null,
+          "ratingCount": 0,
           "url": "https://www.books.com.tw/products/E050243453"
         },
         "goodreads": {
@@ -539,13 +572,13 @@
           "enAuthor": "Michael White"
         },
         "amazon": {
-          "rating": 3.7,
-          "ratingCount": 79,
-          "url": "https://www.amazon.com/dp/B00847GD7K"
+          "rating": 4.2,
+          "ratingCount": 38,
+          "url": "https://www.amazon.com/dp/0312203330"
         },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
@@ -563,10 +596,14 @@
         "koboRating": 3,
         "koboRatingCount": 1,
         "isbn": "9786269932962",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 3.8,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210380132000101"
+        },
         "books": {
-          "rating": null,
-          "ratingCount": null,
+          "rating": 5,
+          "ratingCount": 1,
           "url": "https://www.books.com.tw/products/E050257501"
         },
         "goodreads": {
@@ -582,7 +619,7 @@
         },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
