@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # 手動觸發，方便測試或補抓歷史資料
     inputs:
       year:
-        description: "年份（留空 = 本週）"
+        description: "年份（留空 = 今年）"
         required: false
       week:
         description: "週次（留空 = 本週）"
