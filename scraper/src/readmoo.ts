@@ -65,6 +65,7 @@ export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
   await page.evaluate(() => window.scrollBy(0, 200));
 
   const html = await page.content();
+  console.log(`  [readmoo debug] HTML 前 300 字：${html.slice(0, 300).replace(/\s+/g, ' ')}`);
   const isChallenge =
     html.includes('cf-browser-verification') ||
     html.includes('cf_chl_') ||
@@ -76,6 +77,7 @@ export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
   }
 
   const count = await page.locator('a[data-readmoo-id]').count();
+  console.log(`  [readmoo debug] a[data-readmoo-id] 數量：${count}`);
   if (count === 0) return null;
 
   const readmooBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');
