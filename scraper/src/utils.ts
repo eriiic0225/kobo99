@@ -34,6 +34,13 @@ export function extractEnglishName(name: string | null): string | null {
   return null;
 }
 
+export function isBookMatched(searchKey: string, resultTitle: string): boolean {
+  const cleanKey = (searchKey.split(/[：:—\-]/)[0] ?? '').replace(/\s+/g, '').toLowerCase();
+  const cleanResult = (resultTitle.split(/[：:—\-]/)[0] ?? '').replace(/\s+/g, '').toLowerCase();
+  if (cleanResult.includes(cleanKey) || cleanKey.includes(cleanResult)) return true;
+  return stringSimilarity(cleanKey, cleanResult) >= 0.7;
+}
+
 export function authorsMatch(a: string, b: string): boolean {
   const words = a.toLowerCase().split(/\s+/).filter(w => w.length > 2);
   const bLower = b.toLowerCase();

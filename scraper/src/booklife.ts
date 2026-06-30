@@ -1,7 +1,7 @@
 import type { Page } from 'playwright';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { stringSimilarity } from 'string-similarity-js';
+import { isBookMatched } from './utils.js';
 
 //! --- 單獨測試博客來時用的程式碼
 // import { chromium } from 'playwright-extra';
@@ -60,10 +60,10 @@ export async function scrapeBooksSearchPage(title: string): Promise<string | nul
     if (!idAttr) return null;
 
     const resultTitle = first.find('a[title]').first().attr('title')
-      ?.replace(/\s*\(電子書\)$/, '').replace(/\s*[：:].*/, '').trim() ?? '';
-    const score = stringSimilarity(searchTitle, resultTitle);
-    if (score < 0.3) {
-      console.log(`  ⚠️ 博客來配對相似度過低 (${score.toFixed(2)})：「${resultTitle}」`);
+      ?.replace(/\s*\(電子書\)$/, '').trim() ?? '';
+    if (!isBookMatched(searchTitle, resultTitle)) {
+      const cleanResult = (resultTitle.split(/[：:—\-]/)[0] ?? '').replace(/\s+/g, '');
+      console.log(`  ⚠️ 博客來配對不符：「${cleanResult}」`);
       return null;
     }
 
