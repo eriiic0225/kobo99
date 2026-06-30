@@ -492,11 +492,7 @@
         "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
-<<<<<<< HEAD
-          "readmoo": "not_found",
-=======
           "readmoo": "ok",
->>>>>>> 5b003d7 (data: 補抓 2026-W25 書單（8 本）)
           "books": "ok",
           "goodreads": "ok",
           "amazon": "skipped"
