@@ -16,10 +16,10 @@ import type { Book, WeekEntry, ScrapeStatusValue } from './types.js';
 // 告訴 Playwright 啟用 Stealth 插件
 chromium.use(stealthPlugin());
 
-// --- 週次計算 ---
+// --- 週次計算（環境變數可覆蓋，用於補抓歷史資料）---
 const now = new Date();
-const week = getISOWeek(now);
-const year = getISOWeekYear(now);
+const week = process.env.TARGET_WEEK ? parseInt(process.env.TARGET_WEEK) : getISOWeek(now);
+const year = process.env.TARGET_YEAR ? parseInt(process.env.TARGET_YEAR) : getISOWeekYear(now);
 const BLOG_URL = `https://www.kobo.com/zh/blog/weekly-dd99-${year}-w${week}`;
 
 export async function scrapeKoboBookPage(page: Page, url: string) {

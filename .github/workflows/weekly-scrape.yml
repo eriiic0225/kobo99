@@ -1,0 +1,80 @@
+name: Weekly Scrape
+
+on:
+  schedule:
+    - cron: "37 22 * * 3" # 週四 06:37 台灣時間 (UTC+8) 錯開整點尖峰
+  workflow_dispatch: # 手動觸發，方便測試或補抓歷史資料
+    inputs:
+      year:
+        description: "年份（留空 = 本週）"
+        required: false
+      week:
+        description: "週次（留空 = 本週）"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install scraper dependencies
+        working-directory: scraper
+        run: pnpm install
+
+      - name: Install Playwright browsers
+        working-directory: scraper
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Install Xvfb
+        run: sudo apt-get install -y xvfb
+
+      - name: Run scraper
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 30
+          max_attempts: 4
+          retry_wait_seconds: 1800
+          command: cd scraper && xvfb-run pnpm run scrape
+          new_command_on_retry: false
+        env:
+          TARGET_YEAR: ${{ inputs.year }}
+          TARGET_WEEK: ${{ inputs.week }}
+
+      - name: Verify JSON
+        run: |
+          node -e "
+            const fs = require('fs');
+            const year = new Date().getFullYear();
+            const data = JSON.parse(fs.readFileSync(\`data/\${year}-kobo99-deals.json\`, 'utf8'));
+            if (!Array.isArray(data) || data.length === 0) { console.error('空陣列'); process.exit(1); }
+            const latest = data[0];
+            if (!latest.books || latest.books.length < 3) {
+              console.error(\`第\${latest.week}週只有 \${latest.books?.length ?? 0} 本，疑似爬蟲失敗\`);
+              process.exit(1);
+            }
+            console.log(\`✅ 第\${latest.week}週，\${latest.books.length} 本\`);
+          "
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+
+          if ! git diff --staged --quiet; then
+            git commit -m "data: 自動更新書單 $(date +'%Y-W%V')"
+            git push
+          else
+            echo "沒有新資料，跳過 Commit"
+          fi
