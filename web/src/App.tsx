@@ -57,7 +57,7 @@ export default function App() {
                   {todayBooks.map((book) => (
                     <div
                       key={book.url}
-                      className={todayBooks.length === 1 ? 'lg:col-span-2' : ''}
+                      className={todayBooks.length === 1 ? 'lg:col-span-2' : 'flex'}
                     >
                       <BookCard book={book} year={2026} />
                     </div>
@@ -78,10 +78,29 @@ export default function App() {
 
       {/* Footer */}
       <footer className="relative border-t-4 border-black bg-black mt-16 px-6 py-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-neo-secondary font-bold text-sm tracking-widest uppercase">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-neo-secondary/70 font-medium text-xs tracking-widest uppercase">
             資料每週自動更新 · 評分僅供參考
           </p>
+          <div className="flex items-center gap-4 text-xs font-medium">
+            <a
+              href="https://github.com/eriiic0225/kobo99"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white transition-colors duration-100 uppercase tracking-wide"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://forms.gle/r7DnX868G9rCagu78"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white transition-colors duration-100 uppercase tracking-wide"
+            >
+              回報問題
+            </a>
+            <span className="text-white/30 uppercase tracking-wide">© 2026 Kobo99</span>
+          </div>
         </div>
       </footer>
     </div>

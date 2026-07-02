@@ -50,7 +50,7 @@ export default function BookCard({ book, year }: Props) {
   ].filter(Boolean) as { platform: string; rating: number; count: number | null; url: string }[]
 
   return (
-    <article className="relative bg-white border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#000] transition-all duration-200 flex flex-col">
+    <article className="relative bg-white border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#000] transition-all duration-200 flex flex-col h-full">
       {/* Today sticker */}
       {todayDeal && (
         <div className="absolute -top-3 -right-4 rotate-12 bg-neo-accent border-4 border-black shadow-[4px_4px_0px_0px_#000] px-3 py-1 z-20">
