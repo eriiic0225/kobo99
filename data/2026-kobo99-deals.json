@@ -1,5 +1,300 @@
 [
   {
+    "week": 27,
+    "books": [
+      {
+        "date": "7/2",
+        "title": "正念之身：覺察當下，活出健康",
+        "originalTitle": "The Mindful Body: Thinking Our Way to Chronic Health",
+        "author": "艾倫．蘭格",
+        "description": "面對疾病和老化，我們並非束手無策，改變你的思維方式，為自己找到新的機會。正念之母艾倫•蘭格博士近50年科學實證研究，解放你的不可能，才能活出人生更多可能，透過正念思維，讓我們更健康與富足。",
+        "url": "https://www.kobo.com/hk/zh/ebook/nhVtQFEbxD2GLUWOHpHA7w",
+        "coverUrl": "https://cdn.kobo.com/book-images/44ec629c-b7bc-415e-8c5b-a60aef5ed7e3/1200/1200/False/nhVtQFEbxD2GLUWOHpHA7w.jpg",
+        "originalPrice": 338,
+        "koboRating": 4.71,
+        "koboRatingCount": 7,
+        "isbn": "9786263559318",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 21,
+          "url": "https://readmoo.com/book/210349378000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 6,
+          "url": "https://www.books.com.tw/products/E050235974"
+        },
+        "goodreads": {
+          "rating": 3.79,
+          "ratingCount": 2173,
+          "url": "https://www.goodreads.com/book/show/66087029-the-mindful-body",
+          "enAuthor": "Ellen J. Langer"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 968,
+          "url": "https://www.amazon.com/dp/B0BP6DR5MG"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/3",
+        "title": "我在Amazon上班，需要紅酒與心理師：贏了面子卻輸了靈魂的12年",
+        "originalTitle": "Exit Interview: The Life and Death of My Ambitious Career",
+        "author": "克莉絲蒂．寇特爾",
+        "description": "誰說進入科技巨頭企業就是人生勝利組？在亞馬遜一天開會六小時是家常便飯，在辦公桌下放幾瓶酒只是剛好而已。這是一本尖銳、有時又讓人捧腹大笑的職場回憶錄，以及這份工作對她的健康和人生所造成的混亂影響。",
+        "url": "https://www.kobo.com/tw/zh/ebook/amazon-12-2",
+        "coverUrl": "https://cdn.kobo.com/book-images/bfaee0ce-6814-4eba-9aa1-cc8e98e4c0a7/1200/1200/False/amazon-12-2.jpg",
+        "originalPrice": 364,
+        "koboRating": 3.91,
+        "koboRatingCount": 11,
+        "isbn": "9786263962743",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 185,
+          "url": "https://readmoo.com/book/210339960000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 10,
+          "url": "https://www.books.com.tw/products/E050228649"
+        },
+        "goodreads": {
+          "rating": 4.12,
+          "ratingCount": 7430,
+          "url": "https://www.goodreads.com/book/show/217290879-amazon-12",
+          "enAuthor": "Kristi Coulter"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 761,
+          "url": "https://www.amazon.com/Exit-Interview-Death-Ambitious-Career/dp/0374600902"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "manual"
+        }
+      },
+      {
+        "date": "7/3",
+        "title": "气味之城",
+        "originalTitle": null,
+        "author": "文珍",
+        "description": "本書講述了11個大城市中小人物的故事，呈現了無比細小卻無比真切的愛情。五道口銀行的輕熟女白領、在酒吧駐場表演的安達盧西亞舞者，他們在城市的縫隙中尋找轉瞬即逝的愛，以微弱的連接抵抗原子化社會的孤獨。",
+        "url": "https://www.kobo.com/tw/zh/ebook/izih0fpNHjCMAojhyq6MBQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/e854b418-4e65-4ac9-bcad-aeb4ecee7d56/1200/1200/False/izih0fpNHjCMAojhyq6MBQ.jpg",
+        "originalPrice": 267,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7551208169531",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/4",
+        "title": "春琴抄：人性慾念的極致書寫，谷崎潤一郎最具官能之美短篇小說集【珍藏紀念版】",
+        "originalTitle": null,
+        "author": "谷崎潤一郎",
+        "description": "正因有許多缺點，女人的艷姿氣韻反而別具情調，令人為之心神恍惚。本書收錄六篇谷崎潤一郎最具代表性感官小說，完整呈現耽美派文豪從年少成名之作到中年巔峰造極的谷崎美學精華。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ozIqS_0BhD-jlZpJOKDD4g",
+        "coverUrl": "https://cdn.kobo.com/book-images/449c1c36-bd34-41cd-b1b1-393e9c5290c5/1200/1200/False/ozIqS_0BhD-jlZpJOKDD4g.jpg",
+        "originalPrice": 245,
+        "koboRating": 3.89,
+        "koboRatingCount": 9,
+        "isbn": "9786267102145",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 25,
+          "url": "https://readmoo.com/book/210213404000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050248685"
+        },
+        "goodreads": {
+          "rating": 3.8,
+          "ratingCount": 1215,
+          "url": "https://www.goodreads.com/book/show/2131414._Shunkin_Sh_",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/5",
+        "title": "左撇子的隱形優勢",
+        "originalTitle": "看過上萬人腦部影像的名醫教你將天賦才華發揮到120%的關鍵",
+        "author": "加藤俊德",
+        "description": "左撇子為何人才輩出？全球第一位用腦部影像來分辨人的優缺點、性格、思考模式的腦內科醫師，透過MRI發現左撇子和右撇子之間大腦構造的驚人差異。找到優勢腦，刻意練習，就能把天賦發揮到極致。",
+        "url": "https://www.kobo.com/tw/zh/ebook/4t8Hz7XobzOV-Ikb7pS98A",
+        "coverUrl": "https://cdn.kobo.com/book-images/3b1e4d88-4dc7-46fe-84a5-d5579e1c8ac4/1200/1200/False/4t8Hz7XobzOV-Ikb7pS98A.jpg",
+        "originalPrice": 224,
+        "koboRating": 4.56,
+        "koboRatingCount": 16,
+        "isbn": "9789861366166",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 37,
+          "url": "https://readmoo.com/book/210218093000101"
+        },
+        "books": {
+          "rating": 3.5,
+          "ratingCount": 5,
+          "url": "https://www.books.com.tw/products/E050122715"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/217521301-120",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/6",
+        "title": "劉博仁不藏私的健腦祕密",
+        "originalTitle": "活化大腦一點都不難，六堂課養出健康好腦",
+        "author": "劉博仁",
+        "description": "功能醫學專家劉博仁醫師累積多年研究，完整揭開逆齡健腦的祕密。以平日經常會遇到的狀況或實際案例，提出根本可行的逆齡健腦方案，讓你我可以擺脫腦細胞減少的風險，遠離大腦疾病的傷害，活出健康老化的晚年生活。",
+        "url": "https://www.kobo.com/tw/zh/ebook/BkcUlREpfz2It0Dshgg1oQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/fcc62cc3-9832-48a9-9110-b01c0e34b402/1200/1200/False/BkcUlREpfz2It0Dshgg1oQ.jpg",
+        "originalPrice": 280,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786269555970",
+        "readmoo": {
+          "rating": 4.8,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210224197000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050122717"
+        },
+        "goodreads": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://www.goodreads.com/book/show/62405733",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/7",
+        "title": "你就是困住自己的那座山:終結自我破壞，實現自我控制",
+        "originalTitle": "The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery",
+        "author": "布莉安娜‧魏斯特",
+        "description": "你必須征服的不是那座高山，而是你自己。透過從潛意識的層面，去釋放掉過往的負面經歷，並學習去扮演最富潛力的自己，我們就可以走出自己的道路，發揮自身的潛能，因為人生中那些山的真面目，一個個都是禮物。",
+        "url": "https://www.kobo.com/tw/zh/ebook/1x0yvuY5UTKLbMlNBeyS3Q",
+        "coverUrl": "https://cdn.kobo.com/book-images/dcd7ad5d-cd10-49f5-9a8b-0dc642e00c7b/1200/1200/False/1x0yvuY5UTKLbMlNBeyS3Q.jpg",
+        "originalPrice": 280,
+        "koboRating": 3.71,
+        "koboRatingCount": 99,
+        "isbn": "9789861798912",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 311,
+          "url": "https://readmoo.com/book/210333781000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050314388"
+        },
+        "goodreads": {
+          "rating": 4.03,
+          "ratingCount": 129930,
+          "url": "https://www.goodreads.com/book/show/53642699-the-mountain-is-you",
+          "enAuthor": "Brianna Wiest"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 28066,
+          "url": "https://www.amazon.com/Mountain-You-Transforming-Self-Sabotage-Self-Mastery/dp/1949759229"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "manual",
+          "amazon": "manual"
+        }
+      },
+      {
+        "date": "7/7",
+        "title": "呂昇達 職人手作貝果全書——6種麵糰、8款造型、8款手作抺醬:一次學會65種職人技法一次到位",
+        "originalTitle": null,
+        "author": "呂昇達",
+        "description": "從名店熱銷到改良口感，以專業級配方及近1000張教學步驟不藏私呈現，專為讀者量身打造的手作美味貝果基礎教學。無論是烘焙新手、職人開店，都能創造出爐秒殺的好口感，創造烘焙專業與初學者零距離的美味。",
+        "url": "https://www.kobo.com/tw/zh/ebook/HX61hyo0jTe93_xkjHOWzg",
+        "coverUrl": "https://cdn.kobo.com/book-images/24d189b0-6eb1-474e-943e-fc6ba0d62e8b/1200/1200/False/HX61hyo0jTe93_xkjHOWzg.jpg",
+        "originalPrice": 363,
+        "koboRating": 3,
+        "koboRatingCount": 2,
+        "isbn": "9786267126998",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210262731000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050153330"
+        },
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 26,
     "books": [
       {
