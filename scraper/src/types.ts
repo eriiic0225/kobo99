@@ -1,4 +1,4 @@
-export type ScrapeStatusValue = 'ok' | 'skipped' | 'not_found' | 'error';
+export type ScrapeStatusValue = 'ok' | 'skipped' | 'not_found' | 'error' | 'manual';
 
 export type Book = {
   date: string;

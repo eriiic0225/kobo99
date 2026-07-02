@@ -65,19 +65,17 @@ export async function scrapeReadmooSearchPage(page: Page, isbn: string) {
   await page.evaluate(() => window.scrollBy(0, 200));
 
   const html = await page.content();
-  console.log(`  [readmoo debug] HTML 前 300 字：${html.slice(0, 300).replace(/\s+/g, ' ')}`);
+  const is403 = html.includes('The request could not be satisfied') || html.includes('403 ERROR');
   const isChallenge =
     html.includes('cf-browser-verification') ||
     html.includes('cf_chl_') ||
     html.includes('Just a moment') ||
     html.includes('Checking your browser');
 
-  if (isChallenge) {
-    throw new Error('讀墨搜尋頁被 Cloudflare 攔截，稍後重試');
-  }
+  if (is403) throw new Error('讀墨被 IP 封鎖（403），重試無效');
+  if (isChallenge) throw new Error('讀墨搜尋頁被 Cloudflare 攔截，稍後重試');
 
   const count = await page.locator('a[data-readmoo-id]').count();
-  console.log(`  [readmoo debug] a[data-readmoo-id] 數量：${count}`);
   if (count === 0) return null;
 
   const readmooBookLink = await page.locator('a[data-readmoo-id]').first().getAttribute('href');

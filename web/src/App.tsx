@@ -1,18 +1,14 @@
-import { startOfISOWeek, endOfISOWeek, setISOWeek, setISOWeekYear, format } from 'date-fns'
 import type { WeekEntry } from './types'
 import dealsJson from '../../data/2026-kobo99-deals.json'
 import BookCard from './components/BookCard'
 
 const deals = dealsJson as unknown as WeekEntry[]
 
-function weekDateRange(year: number, week: number): string {
-  const d = setISOWeek(setISOWeekYear(new Date(), year), week)
-  return `${format(startOfISOWeek(d), 'M/d')} – ${format(endOfISOWeek(d), 'M/d')}`
-}
-
 export default function App() {
   const latest = deals[0]
-  const dateRange = weekDateRange(2026, latest.week)
+  const firstDate = latest.books[0]?.date ?? ''
+  const lastDate = latest.books[latest.books.length - 1]?.date ?? ''
+  const dateRange = firstDate === lastDate ? firstDate : `${firstDate} – ${lastDate}`
 
   return (
     <div className="min-h-screen bg-neo-bg font-sans relative">

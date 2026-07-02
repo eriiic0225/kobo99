@@ -2,7 +2,7 @@ name: Weekly Scrape
 
 on:
   schedule:
-    - cron: "37 22 * * 3" # 週四 06:37 台灣時間 (UTC+8) 錯開整點尖峰
+    - cron: "17 0 * * 4" # 週四 8:17 台灣時間 (UTC+8) 避開早上高失敗率時段
   workflow_dispatch: # 手動觸發，方便測試或補抓歷史資料
     inputs:
       year:
@@ -48,7 +48,7 @@ jobs:
           timeout_minutes: 30
           max_attempts: 4
           retry_wait_seconds: 1800
-          command: cd scraper && xvfb-run pnpm run scrape
+          command: cd scraper && xvfb-run --auto-servernum pnpm run scrape
           new_command_on_retry: false
       - name: Verify JSON
         run: |
