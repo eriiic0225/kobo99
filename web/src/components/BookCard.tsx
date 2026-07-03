@@ -95,7 +95,7 @@ export default function BookCard({ book, year }: Props) {
               {book.title}
             </h2>
             {book.originalTitle && (
-              <p className="font-medium text-sm italic opacity-40 mt-0.5 line-clamp-1">
+              <p title={book.originalTitle} className="font-medium text-sm italic opacity-40 mt-0.5 line-clamp-2">
                 {book.originalTitle}
               </p>
             )}
