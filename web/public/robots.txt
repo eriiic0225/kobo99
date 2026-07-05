@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kobo99.pages.dev/sitemap.xml
+Sitemap: https://kobo99.butitsbutter.dev/sitemap.xml
