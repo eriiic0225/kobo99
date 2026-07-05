@@ -2,7 +2,7 @@ import type { ScrapeStatusValue, Book, WeekEntry } from './types.js';
 
 export type { ScrapeStatusValue, Book, WeekEntry };
 
-const STATUS_PRIORITY: Record<ScrapeStatusValue, number> = { ok: 4, skipped: 3, not_found: 2, error: 1 };
+const STATUS_PRIORITY: Record<ScrapeStatusValue, number> = { manual:5, ok: 4, skipped: 3, not_found: 2, error: 1 };
 
 function mergeStatus(a: ScrapeStatusValue, b: ScrapeStatusValue): ScrapeStatusValue {
   return STATUS_PRIORITY[a] >= STATUS_PRIORITY[b] ? a : b;
