@@ -20,6 +20,9 @@ importers:
       react-dom:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
+      react-helmet-async:
+        specifier: ^3.0.0
+        version: 3.0.0(react@19.2.7)
       react-router-dom:
         specifier: ^6.30.4
         version: 6.30.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -861,6 +864,11 @@ packages:
     peerDependencies:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
+
+  react-helmet-async@3.0.0:
+    resolution: {integrity: sha512-nA3IEZfXiclgrz4KLxAhqJqIfFDuvzQwlKwpdmzZIuC1KNSghDEIXmyU0TKtbM+NafnkICcwx8CECFrZ/sL/1w==}
+    peerDependencies:
+      react: ^16.6.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -1744,6 +1752,13 @@ snapshots:
       prop-types: 15.8.1
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
+      react-fast-compare: 3.2.2
+      shallowequal: 1.1.0
+
+  react-helmet-async@3.0.0(react@19.2.7):
+    dependencies:
+      invariant: 2.2.4
+      react: 19.2.7
       react-fast-compare: 3.2.2
       shallowequal: 1.1.0
 

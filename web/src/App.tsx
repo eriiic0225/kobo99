@@ -1,6 +1,50 @@
-import type { WeekEntry } from './types'
+import { Helmet } from 'react-helmet-async'
+import type { WeekEntry, Book } from './types'
 import dealsJson from '../../data/2026-kobo99-deals.json'
 import BookCard from './components/BookCard'
+import { computeWeightedRating } from './utils/rating'
+
+function buildJsonLd(books: Book[], week: number) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Kobo 本週 99 元特價書單 第 ${week} 週`,
+    url: 'https://kobo99.pages.dev/',
+    itemListElement: books.map((book, i) => {
+      const platforms = [
+        book.koboRating != null ? { rating: book.koboRating, ratingCount: book.koboRatingCount } : null,
+        book.readmoo,
+        book.books,
+        book.goodreads,
+        book.amazon,
+      ]
+      const ratingValue = computeWeightedRating(platforms)
+      const ratingCount = platforms.reduce((sum, p) => {
+        if (p?.rating != null && p?.ratingCount != null && p.ratingCount > 0) return sum + p.ratingCount
+        return sum
+      }, 0)
+
+      const item: Record<string, unknown> = {
+        '@type': 'Book',
+        name: book.title,
+        author: { '@type': 'Person', name: book.author },
+        image: book.coverUrl,
+        url: book.url,
+        ...(book.isbn ? { isbn: book.isbn } : {}),
+      }
+      if (ratingValue != null && ratingCount > 0) {
+        item.aggregateRating = {
+          '@type': 'AggregateRating',
+          ratingValue: ratingValue.toFixed(2),
+          ratingCount,
+          bestRating: '5',
+          worstRating: '1',
+        }
+      }
+      return { '@type': 'ListItem', position: i + 1, item }
+    }),
+  }
+}
 
 const deals = dealsJson as unknown as WeekEntry[]
 
@@ -10,7 +54,13 @@ export default function App() {
   const lastDate = latest.books[latest.books.length - 1]?.date ?? ''
   const dateRange = firstDate === lastDate ? firstDate : `${firstDate} – ${lastDate}`
 
+  const jsonLd = buildJsonLd(latest.books, latest.week)
+
   return (
+    <>
+    <Helmet>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    </Helmet>
     <div className="min-h-screen bg-neo-bg font-sans relative">
       {/* Halftone background pattern */}
       <div className="bg-halftone absolute inset-0 pointer-events-none opacity-[0.035]" />
@@ -104,5 +154,6 @@ export default function App() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
