@@ -1,5 +1,304 @@
 [
   {
+    "week": 28,
+    "books": [
+      {
+        "date": "7/9",
+        "title": "乞丐國王的時光指環：經典歸來新譯版，殺不死我的，都會變成一則故事",
+        "originalTitle": "The Beggar King and the Secret of Happiness",
+        "author": "裘爾．班．伊齊（Joel ben Izzy）",
+        "description": "說書人失去了聲音，還能不能說出好聽的故事？一趟黑暗的解謎之旅盡頭，他在最安靜的地方找到了聲音，古老悠遠的故事是指引，像倒帶一樣帶著他解開了生命的真諦、智慧與幸福的祕密。",
+        "url": "https://www.kobo.com/tw/zh/ebook/RmEHaQpCLT6XfHvV5CEM3Q",
+        "coverUrl": "https://cdn.kobo.com/book-images/2767af73-42a7-4c03-80e8-5f7451248eb0/1200/1200/False/RmEHaQpCLT6XfHvV5CEM3Q.jpg",
+        "originalPrice": 273,
+        "koboRating": 3,
+        "koboRatingCount": 2,
+        "isbn": "9789861345215",
+        "readmoo": {
+          "rating": 4.9,
+          "ratingCount": 14,
+          "url": "https://readmoo.com/book/210366933000101"
+        },
+        "books": {
+          "rating": 4,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050249006"
+        },
+        "goodreads": {
+          "rating": 4.17,
+          "ratingCount": 1917,
+          "url": "https://www.goodreads.com/book/show/134933.The_Beggar_King_and_the_Secret_of_Happiness",
+          "enAuthor": "Joel Ben Izzy"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 291,
+          "url": "https://www.amazon.com/dp/B009LPRB5M"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/10",
+        "title": "爆文故事力：3步驟、24公式，打造有效溝通、贏得關注的非凡表達力",
+        "originalTitle": "爆款故事力：24個神奇故事公式",
+        "author": "李海峰",
+        "description": "故事，是最有力量的傳播方式，說出你的獨家故事，建立你的個人品牌。超人氣講師李海峰及9位實戰故事高手，精煉出3步驟、24公式的故事框架，讓你在最適合的場合打造成功溝通、談判、簡報、演講的表達力。",
+        "url": "https://www.kobo.com/tw/zh/ebook/IazCTYhLKTOyiAtWXCbuLA",
+        "coverUrl": "https://cdn.kobo.com/book-images/63e9585a-83c4-4bb7-8e9d-dd51910425fd/1200/1200/False/IazCTYhLKTOyiAtWXCbuLA.jpg",
+        "originalPrice": 300,
+        "koboRating": 3.67,
+        "koboRatingCount": 3,
+        "isbn": "9786263554054",
+        "readmoo": {
+          "rating": 3.5,
+          "ratingCount": 2,
+          "url": "https://readmoo.com/book/210299135000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050185186"
+        },
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/10",
+        "title": "规则时代：虚拟现实、人工智能和区块链构建的游戏化未来",
+        "originalTitle": null,
+        "author": "光速追猎者",
+        "description": "虛擬實境技術將成為進入這個虛擬世界的入口，人工智慧成為構建虛擬世界與現實世界共同運行的規則基礎，換言之，未來的社會結構將由虛擬和現實共同組成，但虛擬世界將會是人們活動的主要空間。期待這樣的未來嗎？",
+        "url": "https://www.kobo.com/tw/zh/ebook/0_TUFzT5lTakS1Sll-O4fA",
+        "coverUrl": "https://cdn.kobo.com/book-images/deb14e62-f87f-4450-b093-3fce9820bfc0/1200/1200/False/0_TUFzT5lTakS1Sll-O4fA.jpg",
+        "originalPrice": 204,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7584023914480",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/11",
+        "title": "樹冠上",
+        "originalTitle": "The Overstory",
+        "author": "理察．鮑爾斯",
+        "description": "2019年普立茲得獎小說。人與樹的連結，全新的世界，若心懷渴望，改變就要來臨。生命從地球上消失之前的關鍵時刻，森林正在向人類發出警告。一部關於樹木與人類命運、無可挽回遺憾和心靈救贖的生態史詩巨著。",
+        "url": "https://www.kobo.com/tw/zh/ebook/W1mQ9BPgITyd5xa2M6kJjQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/4fe51eeb-3dab-496c-a9a9-ca960dc78539/1200/1200/False/W1mQ9BPgITyd5xa2M6kJjQ.jpg",
+        "originalPrice": 434,
+        "koboRating": 4.36,
+        "koboRatingCount": 14,
+        "isbn": "9786263352964",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 90,
+          "url": "https://readmoo.com/book/210225216000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 12,
+          "url": "https://www.books.com.tw/products/E050129737"
+        },
+        "goodreads": {
+          "rating": 4.11,
+          "ratingCount": 205672,
+          "url": "https://www.goodreads.com/book/show/62087832-2019",
+          "enAuthor": "Richard Powers"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 41699,
+          "url": "https://www.amazon.com/dp/B073VX7HT4"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/12",
+        "title": "神明在看著呢（「巫女在身邊」書衣版）：我的巫女日記",
+        "originalTitle": "신령님이 보고 계셔-홍칼리 무당 일기",
+        "author": "洪承喜 (홍칼리)",
+        "description": "面對世界的誤解，揭開韓國巫女日常生活的神秘面紗。透過對工作日常的自述，揭開韓國薩滿教的神秘面紗，讓人們重新看待一直以來被誤解的巫女職業，他們都是擁抱消失的故事，幫忙解恨化喜的人。",
+        "url": "https://www.kobo.com/tw/zh/ebook/rU2LjPH_lDS80e9uXsqaew",
+        "coverUrl": "https://cdn.kobo.com/book-images/990b5523-23a6-4f56-a2e4-9f9f5bd3a887/1200/1200/False/rU2LjPH_lDS80e9uXsqaew.jpg",
+        "originalPrice": 245,
+        "koboRating": 4.5,
+        "koboRatingCount": 8,
+        "isbn": "9786267206744",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 146,
+          "url": "https://readmoo.com/book/210260314000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 8,
+          "url": "https://www.books.com.tw/products/E050151240"
+        },
+        "goodreads": {
+          "rating": 3.77,
+          "ratingCount": 22,
+          "url": "https://www.goodreads.com/book/show/59076602",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/13",
+        "title": "媽媽與她們的產地",
+        "originalTitle": "25組媽媽類型的行為和心理解析，讀懂自己，就能為育兒及人際問題解套",
+        "author": "鄭宇烈",
+        "description": "媽媽之間沒有對錯，只有不同，感到不愉快時，請聚焦在自己的情緒反應上吧。人與人之間有的只是性格上的不同，一旦能將自己從爭執誰對誰錯的束縛中解開，就會迎來與自己的心越來越近，人際關係也越來越融洽。",
+        "url": "https://www.kobo.com/tw/zh/ebook/C32UyDSEmTCd30zzIvkWsg",
+        "coverUrl": "https://cdn.kobo.com/book-images/50624510-0d4b-4f56-8ab8-3c348461e4f9/1200/1200/False/C32UyDSEmTCd30zzIvkWsg.jpg",
+        "originalPrice": 292,
+        "koboRating": 4,
+        "koboRatingCount": 1,
+        "isbn": "9789573296874",
+        "readmoo": {
+          "rating": 3.7,
+          "ratingCount": 3,
+          "url": "https://readmoo.com/book/210239997000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050138695"
+        },
+        "goodreads": {
+          "rating": 3,
+          "ratingCount": 2,
+          "url": "https://www.goodreads.com/book/show/62877293",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/14",
+        "title": "大亂局：東印度公司、企業暴力與帝國侵略",
+        "originalTitle": "The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire",
+        "author": "威廉．達爾林普",
+        "description": "認識印度，不能不認識英國東印度公司！十七世紀印度蒙兀兒帝國處於高峰，是歷史上最有錢的帝國，卻被納入羽翼，成為東印度公司的魁儡政權，一間英國私人企業東印度公司，如何統治一億五千萬人的印度蒙兀兒帝國。",
+        "url": "https://www.kobo.com/tw/zh/ebook/oDyVtKFRjjKkg5-pKQvStA",
+        "coverUrl": "https://cdn.kobo.com/book-images/f9405e3c-2784-4635-b0db-990d9e46700b/1200/1200/False/oDyVtKFRjjKkg5-pKQvStA.jpg",
+        "originalPrice": 574,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267356456",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 7,
+          "url": "https://readmoo.com/book/210309538000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050198233"
+        },
+        "goodreads": {
+          "rating": 4.2,
+          "ratingCount": 19601,
+          "url": "https://www.goodreads.com/book/show/42972023-the-anarchy",
+          "enAuthor": "William Dalrymple"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 9090,
+          "url": "https://www.amazon.com/dp/B07W952J1F"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/15",
+        "title": "認識你的收納人格：從個性出發，輕鬆打造好整理、不復亂、更具個人風格的理想空間",
+        "originalTitle": "The Clutter Connection: How Your Personality Type Determines Why You Organize the Way You Do",
+        "author": "卡桑德拉‧阿爾森",
+        "description": "最有效的收納，是照自己的個性做。世上沒有單一一種收納術適用於所有人，無論你喜歡什麼視覺風格、擅不擅長分類，都能在本書中找到適合自己的收納好感覺，和人愉快共享空間，從此自信掌握人生。＊香港需輸入優惠代碼：kobo0715",
+        "url": "https://www.kobo.com/tw/zh/ebook/fGHvkxHvSDSedQtVe1MyCA",
+        "coverUrl": "https://cdn.kobo.com/book-images/0d8af3d6-781f-4914-87bf-108172fc9aca/1200/1200/False/fGHvkxHvSDSedQtVe1MyCA.jpg",
+        "originalPrice": 280,
+        "koboRating": 4,
+        "koboRatingCount": 1,
+        "isbn": "9786263141124",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 59,
+          "url": "https://readmoo.com/book/210211033000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 4,
+          "url": "https://www.books.com.tw/products/E050118095"
+        },
+        "goodreads": {
+          "rating": 4.12,
+          "ratingCount": 2487,
+          "url": "https://www.goodreads.com/book/show/60499153",
+          "enAuthor": "Cassandra Aarssen"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 1599,
+          "url": "https://www.amazon.com/dp/1633538567"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 27,
     "books": [
       {
