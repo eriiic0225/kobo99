@@ -1,5 +1,293 @@
 [
   {
+    "week": 29,
+    "books": [
+      {
+        "date": "7/16",
+        "title": "心癢【鸚鵡螺圖書獎金獎】：感受內心的騷動，擁抱被數字和精準化剝奪的無限可能",
+        "originalTitle": "Tickled: A Commonsense Guide to the Present Moment",
+        "author": "達夫•麥當諾(Duff McDonald)",
+        "description": "一名終身信奉數字的商界菁英，如何拋卻對精準的依附，轉而深入探究生命的意義？本書展現一種打破框架的全新觀點，說明追求精準的源頭正是數字和量化的世界觀。找回內心平靜，感受煥然的創造力，並體驗活著的意義。＊香港需輸入優惠代碼：kobo0716",
+        "url": "https://www.kobo.com/tw/zh/ebook/icEpYXfRdTOrPJHVelISWQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/4fcc56f0-fb78-4927-b870-04aee4e2d0ea/1200/1200/False/icEpYXfRdTOrPJHVelISWQ.jpg",
+        "originalPrice": 294,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9789864898534",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210295958000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050184488"
+        },
+        "goodreads": {
+          "rating": 3.26,
+          "ratingCount": 43,
+          "url": "https://www.goodreads.com/book/show/222179803",
+          "enAuthor": "Duff McDonald"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/17",
+        "title": "早晨1小時，留給最重要的事",
+        "originalTitle": "「朝1時間」ですべてが変わる モーニングルーティン",
+        "author": "池田千恵",
+        "description": "掌握早晨1小時，就能掌握整個人生。透過時間管理，有效利用短暫的早晨1小時，不必付出過多時間代價，就能走上與過去截然不同的人生。當你試著一步步跟隨書中引導，也許就會發現，改變人生，原來真的很簡單。",
+        "url": "https://www.kobo.com/tw/zh/ebook/N4yLNXWN6jWbulwoV5RGsA",
+        "coverUrl": "https://cdn.kobo.com/book-images/35b2a319-a98f-4781-b46d-49f11d44d738/1200/1200/False/N4yLNXWN6jWbulwoV5RGsA.jpg",
+        "originalPrice": 266,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267730232",
+        "readmoo": {
+          "rating": 3.8,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210399956000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050274639"
+        },
+        "goodreads": {
+          "rating": 2.5,
+          "ratingCount": 2,
+          "url": "https://www.goodreads.com/book/show/72468444-1",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/17",
+        "title": "罗马军团：横扫欧亚非的地中海战鹰",
+        "originalTitle": "Roman Legions",
+        "author": "魏凤莲",
+        "description": "在烽煙四起的世界古代戰場上，羅馬軍團縱橫馳騁千年之久，留下過無數輝煌的戰績。本書以古羅馬帝國的興衰為大背景，記錄了羅馬軍團風雲激蕩的恢弘歷史，分析其從興起到強大直至衰落的內部和外部原因。",
+        "url": "https://www.kobo.com/tw/zh/ebook/SaJNxJMLSjuAaxACAsu-HQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/0ced53b1-ab13-4f61-8e70-c0427fb805d0/1200/1200/False/SaJNxJMLSjuAaxACAsu-HQ.jpg",
+        "originalPrice": 639,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9787301320532",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.28,
+          "ratingCount": 613,
+          "url": "https://www.goodreads.com/book/show/8677952-legions-of-rome",
+          "enAuthor": "Stephen Dando-Collins"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/18",
+        "title": "幸運女神（感動20萬人，故事轉折後勁強大，氣質女星安雅泰勒喬伊主演Apple TV改編影集原著）",
+        "originalTitle": "LUCKY",
+        "author": "瑪麗莎．斯特普利",
+        "description": "他們幹了一大票，原本想就此金盆洗手，本該在身邊的男友竟人間蒸發。就在這個緊要關頭，竟中了頭獎！福星此刻正被警方通緝，不可能領獎，她想起那個素未謀面的母親，深信血緣的牽引能讓她脫離所有苦難，重拾人生。",
+        "url": "https://www.kobo.com/tw/zh/ebook/20-apple-tv",
+        "coverUrl": "https://cdn.kobo.com/book-images/0781f64b-4165-4df0-80d9-6fd04a670cd3/1200/1200/False/20-apple-tv.jpg",
+        "originalPrice": 315,
+        "koboRating": 1,
+        "koboRatingCount": 1,
+        "isbn": "9786267282564",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 14,
+          "url": "https://readmoo.com/book/210319626000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 14,
+          "url": "https://www.books.com.tw/products/E050203034"
+        },
+        "goodreads": {
+          "rating": 3.77,
+          "ratingCount": 102290,
+          "url": "https://www.goodreads.com/book/show/82970.Lucky",
+          "enAuthor": "Alice Sebold"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/19",
+        "title": "焦慮世代：為什麼我們活在充滿不確定性與不安的社會",
+        "originalTitle": "Tänk om : en studie i oro（WHAT IF: THE NEW AGE OF ANXIETY）",
+        "author": "羅蘭．保爾森（Roland Paulsen）",
+        "description": "這是社會發展最進步的時代，卻也是人類最不快樂的時代。瑞典社會學家在本書中從社會發展的歷史視野切入，指出焦慮與批評其實是近代才有的現象，揭露我們的心靈是如何被未來、風險及個人想法或感受逐漸侵蝕。",
+        "url": "https://www.kobo.com/tw/zh/ebook/3wflSM0Y3jaY-mtA1Y91dQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/a6b055fb-b921-4b24-a62c-0d6e387e1b23/1200/1200/False/3wflSM0Y3jaY-mtA1Y91dQ.jpg",
+        "originalPrice": 336,
+        "koboRating": 4.36,
+        "koboRatingCount": 11,
+        "isbn": "9786267118016",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 20,
+          "url": "https://readmoo.com/book/210214687000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 54,
+          "url": "https://www.books.com.tw/products/E050241959"
+        },
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/20",
+        "title": "暴力犯罪的大腦檔案",
+        "originalTitle": "從神經犯罪學探究惡行的生物根源，慎思以治療取代懲罰的未來防治計畫",
+        "author": "Adrian Raine",
+        "description": "這是所有立法、執法與司法人員都應該看的書。暴力研究專家從大腦中尋找犯罪的可能性，善用生物社會的鑰匙打開犯罪原因的鎖；透過改變大腦改變行為，才能預先防範、對症下藥，也許有一天，我們可以治癒犯罪。",
+        "url": "https://www.kobo.com/tw/zh/ebook/W0cKW9ZSNTKN8TdM_wszNg",
+        "coverUrl": "https://cdn.kobo.com/book-images/726f973f-69b2-4138-8d8f-99c4737a7ecf/1200/1200/False/W0cKW9ZSNTKN8TdM_wszNg.jpg",
+        "originalPrice": 435,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789573294047",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 3,
+          "url": "https://readmoo.com/book/210211455000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050118723"
+        },
+        "goodreads": {
+          "rating": 3.96,
+          "ratingCount": 2077,
+          "url": "https://www.goodreads.com/book/show/28051507",
+          "enAuthor": "Adrian Raine"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/21",
+        "title": "紅王子：一位貴族的秘密人生與流轉中的近代歐洲認同",
+        "originalTitle": "The Red Prince: The Secret Lives of a Habsburg Archduke",
+        "author": "提摩希‧史奈德",
+        "description": "堪稱「西方版溥儀」的傳奇人生，從詩人到軍人，從王公貴族到革命志士，一場色彩斑斕的歷史旅程。反映出二十世紀上半葉的歐洲在時代轉換間的動盪歷史，展現了家族血脈、民族認同之間，繁複而令人低迴不已的糾葛。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Xlkh2Sf_ADSMnCawOkz2HQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/5b16221b-28ca-44dc-a5c9-4f9d1465446d/1200/1200/False/Xlkh2Sf_ADSMnCawOkz2HQ.jpg",
+        "originalPrice": 406,
+        "koboRating": 4,
+        "koboRatingCount": 1,
+        "isbn": "9786267645109",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 12,
+          "url": "https://readmoo.com/book/210374251000101"
+        },
+        "books": {
+          "rating": 4,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050253131"
+        },
+        "goodreads": {
+          "rating": 4,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/228794528",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/22",
+        "title": "哲學直播室：德國公民啟蒙哲學讀本，與柏拉圖、康德、亞里斯多德等大師對談，解構18大經典哲學思想",
+        "originalTitle": "Kant & Co. im Interview : Fiktive Gespräche mit Philosophen über ihre Theorien",
+        "author": "約爾格．彼得斯",
+        "description": "堪稱「西方版溥儀」的傳奇人生，從詩人到軍人，從王公貴族到革命志士，一場色彩斑斕的歷史旅程。反映出二十世紀上半葉的歐洲在時代轉換間的動盪歷史，展現了家族血脈、民族認同之間，繁複而令人低迴不已的糾葛。",
+        "url": "https://www.kobo.com/tw/zh/ebook/MN1Cj2U8czaTRgsTxfJNpA",
+        "coverUrl": "https://cdn.kobo.com/book-images/fab564ae-98a1-4a09-ad65-0db6ce3c2e75/1200/1200/False/MN1Cj2U8czaTRgsTxfJNpA.jpg",
+        "originalPrice": 266,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267488379",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210358119000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050241890"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/221902921-18",
+          "enAuthor": "Jörg Peters"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      }
+    ]
+  },
+  {
     "week": 28,
     "books": [
       {
