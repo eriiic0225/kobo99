@@ -1,5 +1,284 @@
 [
   {
+    "week": 30,
+    "books": [
+      {
+        "date": "7/23",
+        "title": "大掠奪：華爾街的擴張和美國企業的沒落",
+        "originalTitle": "Makers and Takers: The Rise of Finance and the Fall of American Business",
+        "author": "拉娜‧福洛荷 Rana Foroohar",
+        "description": "數學是一種高層次的思維能力，當中充滿捷徑，可以解決我們生活中遇到的複雜問題，文明也因數學這項強力工具而加速發展。我們可能無法依靠電腦或AI來解決生活中的所有問題，但我們可以學習如何聰明思考。",
+        "url": "https://www.kobo.com/tw/zh/ebook/9HJP-bXhpDeXJCz8UiMD6A",
+        "coverUrl": "https://cdn.kobo.com/book-images/fe0345c9-05fb-4568-b5bc-ece85b1604ba/1200/1200/False/9HJP-bXhpDeXJCz8UiMD6A.jpg",
+        "originalPrice": 364,
+        "koboRating": 4,
+        "koboRatingCount": 1,
+        "isbn": "3039571370255",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.97,
+          "ratingCount": 1674,
+          "url": "https://www.goodreads.com/book/show/26150584-makers-and-takers",
+          "enAuthor": "Rana Foroohar"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/24",
+        "title": "大掠奪：華爾街的擴張和美國企業的沒落",
+        "originalTitle": "Makers and Takers: The Rise of Finance and the Fall of American Business",
+        "author": "拉娜‧福洛荷 Rana Foroohar",
+        "description": "大到不能倒的金融巨獸威脅著所有人的生活，金融化正一步步危及美國夢的未來。作者在書中不只劃破粉紅氣泡，更透過書中內容向所有人指出如何把制度改革成更永續、讓更多人分享經濟成果的未來方針。",
+        "url": "https://www.kobo.com/tw/zh/ebook/9HJP-bXhpDeXJCz8UiMD6A",
+        "coverUrl": "https://cdn.kobo.com/book-images/fe0345c9-05fb-4568-b5bc-ece85b1604ba/1200/1200/False/9HJP-bXhpDeXJCz8UiMD6A.jpg",
+        "originalPrice": 364,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "3039571370255",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.97,
+          "ratingCount": 1674,
+          "url": "https://www.goodreads.com/book/show/26150584-makers-and-takers",
+          "enAuthor": "Rana Foroohar"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 733,
+          "url": "https://www.amazon.com/dp/B014BR46P2"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/24",
+        "title": "蒙古帝国",
+        "originalTitle": null,
+        "author": "易强",
+        "description": "蒙古如何從人口不足200萬的地方政權極速成長為勢不可擋的大帝國？作者挖掘史籍文獻，結合國內外學者的研究成果，給出了自己的理解。蒙古的征服戰爭，加速了古代東西方世界的物產流動、文化傳播等方面的交流。",
+        "url": "https://www.kobo.com/tw/zh/ebook/6ADNXdBmJjGOPMgTI-SFBQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/001f9bd9-7c69-46b0-b638-d97b19d5c2a8/1200/1200/False/6ADNXdBmJjGOPMgTI-SFBQ.jpg",
+        "originalPrice": 351,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7583513924573",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/25",
+        "title": "絕望者之歌：一個美國白人家族的悲劇與重生【暢銷經典回歸版】",
+        "originalTitle": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+        "author": "傑德‧凡斯",
+        "description": "美國第60屆大選候選人凡斯親筆自傳，來自鐵鏽帶的魯蛇男孩為何從反川變挺川，走向副總統之路？凡斯的故事述說著白人勞工階級的困境與憤怒，也見證了在親情的支持下，魯蛇翻轉人生的可能。",
+        "url": "https://www.kobo.com/tw/zh/ebook/SHwv8mdXFT614lVX8MW5Og",
+        "coverUrl": "https://cdn.kobo.com/book-images/d8f6854b-2b32-4576-87b2-bc8e86beeba1/1200/1200/False/SHwv8mdXFT614lVX8MW5Og.jpg",
+        "originalPrice": 294,
+        "koboRating": 4.6,
+        "koboRatingCount": 5,
+        "isbn": "9786267509043",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 74,
+          "url": "https://readmoo.com/book/210352795000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050237744"
+        },
+        "goodreads": {
+          "rating": 4.4,
+          "ratingCount": 5,
+          "url": "https://www.goodreads.com/book/show/220529395",
+          "enAuthor": null
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 125496,
+          "url": "https://www.amazon.com/dp/B079L5DDB4"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/26",
+        "title": "生命之核：主宰萬物生死的克氏循環",
+        "originalTitle": "Transformer: The Deep Chemistry of Life and Death",
+        "author": "尼克．連恩",
+        "description": "《萬病之王》作者強力推薦。本書將說明生命的一切驅力，從生命起源、多樣性的誕生到癌症與死亡，都離不開一個生化反應：克氏循環，揭示串起第一隻光合作用細菌和你我身上各種各樣的特化細胞。",
+        "url": "https://www.kobo.com/tw/zh/ebook/T1OhANdwtja22Fq04I5gNQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/4e572413-ccd4-4f83-8815-af3dc8cc90e8/1200/1200/False/T1OhANdwtja22Fq04I5gNQ.jpg",
+        "originalPrice": 441,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789862626641",
+        "readmoo": {
+          "rating": 4.8,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210301481000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050189991"
+        },
+        "goodreads": {
+          "rating": 4.07,
+          "ratingCount": 1173,
+          "url": "https://www.goodreads.com/book/show/202231718",
+          "enAuthor": "Nick Lane"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 393,
+          "url": "https://www.amazon.com/dp/B09KMPKGXK"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/27",
+        "title": "你不知道的搜救與犯罪現場 : 密閉空間救援與懸案鑑識調查紀實",
+        "originalTitle": "What lies beneath : my life as a forensic search and rescue expert",
+        "author": "Peter Faulding",
+        "description": "礦坑地道、湖泊與深海水域中的搜救行動記錄，連續殺人案件受害者遺體與證物調查，透過專家制定的搜尋策略與精密儀器的掃描觀察，才能最終掌握關鍵的破案線索。 一本關於頂尖搜救與鑑識調查專家的真實行動檔案！",
+        "url": "https://www.kobo.com/tw/zh/ebook/Yqs-8MAq7T2mgJlVGZJBjQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/d071bf5b-345f-4705-8553-e5e7c02b1043/1200/1200/False/Yqs-8MAq7T2mgJlVGZJBjQ.jpg",
+        "originalPrice": 350,
+        "koboRating": 3,
+        "koboRatingCount": 1,
+        "isbn": "9786263901438",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210328377000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050216567"
+        },
+        "goodreads": {
+          "rating": 3.59,
+          "ratingCount": 686,
+          "url": "https://www.goodreads.com/book/show/63295750-what-lies-beneath",
+          "enAuthor": "Peter Faulding"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 464,
+          "url": "https://www.amazon.com/dp/B0B2PGW6B8"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "7/28",
+        "title": "陰獸（亂步復刻經典紀念版．中村明日美子獨家書衣）",
+        "originalTitle": null,
+        "author": "江戶川亂步(EDOGAWA RANPO)",
+        "description": "作品歷經半世紀，不改驚世駭俗，他一人，讓日本推理成為世界的至高娛樂。四則短篇描繪追逐欲望、情思及妒忌而生的異常，文字森然妖氣，如蟲蟻蠕動肌膚，教人喘不過氣，邀你進入妖異魔魅，一讀上癮的亂步體驗。",
+        "url": "https://www.kobo.com/tw/zh/ebook/G1C0VpOEhTiCnffz5JiS8A",
+        "coverUrl": "https://cdn.kobo.com/book-images/bb8c6921-e7b0-423d-ac3f-7f9ebb8d4546/1200/1200/False/G1C0VpOEhTiCnffz5JiS8A.jpg",
+        "originalPrice": 266,
+        "koboRating": 4.56,
+        "koboRatingCount": 9,
+        "isbn": "3119865651671",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/29",
+        "title": "舌尖上的香料史：走過5000年，主宰政治、貿易、飲食的風味",
+        "originalTitle": "The History and Natural History of Spices: The 5,000-Year Search for Flavour",
+        "author": "伊恩・安德森",
+        "description": "哥倫布發現美洲大陸，竟是因為想追尋香料？探索香料的起源與變遷，這本書不只體現人類對香料的熱愛，更是見證香料如何改變全世界，下次當你拿起廚房檯面上的香料罐，也許會對它肅然起敬。",
+        "url": "https://www.kobo.com/tw/zh/ebook/IAR2fVmnuTSwDfE41noZxA",
+        "coverUrl": "https://cdn.kobo.com/book-images/0e10e80f-6823-4442-85e8-047a25fa197b/1200/1200/False/IAR2fVmnuTSwDfE41noZxA.jpg",
+        "originalPrice": 385,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267558935",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 2,
+          "url": "https://readmoo.com/book/210383910000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050262197"
+        },
+        "goodreads": {
+          "rating": 4,
+          "ratingCount": 10,
+          "url": "https://www.goodreads.com/book/show/122758064-the-history-and-natural-history-of-spices",
+          "enAuthor": "Ian Anderson"
+        },
+        "amazon": {
+          "rating": 4.8,
+          "ratingCount": 6,
+          "url": "https://www.amazon.com/dp/B0CDXVG4M3"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 29,
     "books": [
       {
