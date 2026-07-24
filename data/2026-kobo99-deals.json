@@ -4,39 +4,51 @@
     "books": [
       {
         "date": "7/23",
-        "title": "大掠奪：華爾街的擴張和美國企業的沒落",
-        "originalTitle": "Makers and Takers: The Rise of Finance and the Fall of American Business",
-        "author": "拉娜‧福洛荷 Rana Foroohar",
+        "title": "數學就是這樣用：找出生活問題的最佳解",
+        "originalTitle": "Thinking Better：The Art of the Shortcut",
+        "author": "杜．索托伊",
         "description": "數學是一種高層次的思維能力，當中充滿捷徑，可以解決我們生活中遇到的複雜問題，文明也因數學這項強力工具而加速發展。我們可能無法依靠電腦或AI來解決生活中的所有問題，但我們可以學習如何聰明思考。",
-        "url": "https://www.kobo.com/tw/zh/ebook/9HJP-bXhpDeXJCz8UiMD6A",
-        "coverUrl": "https://cdn.kobo.com/book-images/fe0345c9-05fb-4568-b5bc-ece85b1604ba/1200/1200/False/9HJP-bXhpDeXJCz8UiMD6A.jpg",
-        "originalPrice": 364,
-        "koboRating": 4,
-        "koboRatingCount": 1,
-        "isbn": "3039571370255",
-        "readmoo": null,
-        "books": null,
-        "goodreads": {
-          "rating": 3.97,
-          "ratingCount": 1674,
-          "url": "https://www.goodreads.com/book/show/26150584-makers-and-takers",
-          "enAuthor": "Rana Foroohar"
+        "url": "https://www.kobo.com/tw/zh/ebook/mGeDLn1WZTCM4Fjl0l77rg",
+        "coverUrl": "https://cdn.kobo.com/book-images/dacf122c-ba79-4b2a-a371-87274504f712/1200/1200/False/mGeDLn1WZTCM4Fjl0l77rg.jpg",
+        "originalPrice": 338,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789865258962",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210252866000101"
         },
-        "amazon": null,
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050144987"
+        },
+        "goodreads": {
+          "rating": 3.58,
+          "ratingCount": 636,
+          "url": "https://www.goodreads.com/book/show/57007645-thinking-better",
+          "enAuthor": "Marcus du Sautoy"
+        },
+        "amazon": {
+          "rating": 4.2,
+          "ratingCount": 282,
+          "url": "https://www.amazon.com/dp/B08W4Z4PMN"
+        },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "not_found",
-          "books": "skipped",
+          "readmoo": "ok",
+          "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
-        "date": "7/23",
+        "date": "7/24",
         "title": "大掠奪：華爾街的擴張和美國企業的沒落",
         "originalTitle": "Makers and Takers: The Rise of Finance and the Fall of American Business",
         "author": "拉娜‧福洛荷 Rana Foroohar",
-        "description": "數學是一種高層次的思維能力，當中充滿捷徑，可以解決我們生活中遇到的複雜問題，文明也因數學這項強力工具而加速發展。我們可能無法依靠電腦或AI來解決生活中的所有問題，但我們可以學習如何聰明思考。",
+        "description": "大到不能倒的金融巨獸威脅著所有人的生活，金融化正一步步危及美國夢的未來。作者在書中不只劃破粉紅氣泡，更透過書中內容向所有人指出如何把制度改革成更永續、讓更多人分享經濟成果的未來方針。",
         "url": "https://www.kobo.com/tw/zh/ebook/9HJP-bXhpDeXJCz8UiMD6A",
         "coverUrl": "https://cdn.kobo.com/book-images/fe0345c9-05fb-4568-b5bc-ece85b1604ba/1200/1200/False/9HJP-bXhpDeXJCz8UiMD6A.jpg",
         "originalPrice": 364,
