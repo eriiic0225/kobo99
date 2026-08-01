@@ -1,5 +1,288 @@
 [
   {
+    "week": 31,
+    "books": [
+      {
+        "date": "7/30",
+        "title": "階級與品味：隱藏在文化審美與流行趨勢背後的地位渴望",
+        "originalTitle": "Status and Culture: How Our Desire for Social Rank Creates Taste, Identity, Art, Fashion, and Constant Change",
+        "author": "W‧大衛‧馬克思",
+        "description": "是階級地位的高低決定了品味的價值？解讀文化品味與階級身分的交織，深入探索流行變遷的特徵，結合跨學科的研究與流行趨勢觀察，解讀文化偏好的誕生、品味機制的運作，人對地位的追求是貫穿一切的關鍵概念。",
+        "url": "https://www.kobo.com/tw/zh/ebook/dOyv7QGL5Tuf1BYfzQiq4A",
+        "coverUrl": "https://cdn.kobo.com/book-images/b0cb5e0c-3a7e-4c93-b615-9c7b420da37c/1200/1200/False/dOyv7QGL5Tuf1BYfzQiq4A.jpg",
+        "originalPrice": 392,
+        "koboRating": 3.71,
+        "koboRatingCount": 7,
+        "isbn": "9786267445785",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 20,
+          "url": "https://readmoo.com/book/210363900000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050246949"
+        },
+        "goodreads": {
+          "rating": 3.89,
+          "ratingCount": 1491,
+          "url": "https://www.goodreads.com/book/show/223717431",
+          "enAuthor": "W. David Marx"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "7/31",
+        "title": "一本書讀懂美元：9堂課解析美元邏輯，如何影響全球經濟和每個人的投資",
+        "originalTitle": "나는 달러로 경제를 읽는다",
+        "author": "白釋鉉 백석현",
+        "description": "是階級地位的高低決定了品味的價值？解讀文化品味與階級身分的交織，深入探索流行變遷的特徵，結合跨學科的研究與流行趨勢觀察，解讀文化偏好的誕生、品味機制的運作，人對地位的追求是貫穿一切的關鍵概念。",
+        "url": "https://www.kobo.com/tw/zh/ebook/gHNJjsnWDDiOLJTKBIzxhg",
+        "coverUrl": "https://cdn.kobo.com/book-images/fa254aed-08fe-4930-a43d-c85dd067507d/1200/1200/False/gHNJjsnWDDiOLJTKBIzxhg.jpg",
+        "originalPrice": 266,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267492987",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 8,
+          "url": "https://readmoo.com/book/210372277000101"
+        },
+        "books": {
+          "rating": 4,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050251455"
+        },
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "7/31",
+        "title": "佣兵天下",
+        "originalTitle": null,
+        "author": "说不得大师",
+        "description": "在我們所不熟知的魔法與騎士的大陸上，一群平凡的年輕傭兵被歷史滾滾洪流捲入了三大勢力中，巨大的壓力下引發了魔幻世界中眾神之戰，在創始神被殺死原因即將被揭開的一瞬，才發現在這個世界中沒有真正的勝者。",
+        "url": "https://www.kobo.com/tw/zh/ebook/HAaXOvvFTzGlaWZyoVX3AQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/3b91a3e9-4f7f-45cb-90d4-c1d34b3b1a31/1200/1200/False/HAaXOvvFTzGlaWZyoVX3AQ.jpg",
+        "originalPrice": 483,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7584036121481",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/1",
+        "title": "正念殺機【NETFLIX影集Murder Mindfully蓄弒待發】",
+        "originalTitle": "Achtsam morden",
+        "author": "卡斯登‧杜瑟（Karsten Dusse）",
+        "description": "每個人可能都在心裡殺過人。但是，你絕對無法想像這樣的謀殺。當您閱讀時，請在緊湊的情節中對呼吸保持正念覺察，跟著主角畢永前往犯罪藝術的全新境界。本書結合犯罪懸疑和正念冥想，讀來既讓人舒心，也不失血腥。",
+        "url": "https://www.kobo.com/tw/zh/ebook/netflixmurder-mindfully",
+        "coverUrl": "https://cdn.kobo.com/book-images/27a5fe7b-fa48-4181-8832-3327b20034be/1200/1200/False/netflixmurder-mindfully.jpg",
+        "originalPrice": 308,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786269876822",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 724,
+          "url": "https://readmoo.com/book/210346340000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 26,
+          "url": "https://www.books.com.tw/products/E050231343"
+        },
+        "goodreads": {
+          "rating": 4.02,
+          "ratingCount": 21678,
+          "url": "https://www.goodreads.com/book/show/46001000-achtsam-morden",
+          "enAuthor": "Karsten Dusse"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "8/2",
+        "title": "時間的起源：史蒂芬．霍金的最終理論",
+        "originalTitle": "On the Origin of Time: Stephen Hawking's Final Theory",
+        "author": "湯瑪仕．赫托",
+        "description": "由霍金最密切的研究夥伴回溯他們二十年來的宇宙探索之旅，帶我們一覽這位傳奇物理學家對宇宙起源的最終思考。以清晰深刻的筆觸描繪了霍金的學術與哲學貢獻，提出了他獨特而具前瞻性的宇宙觀。",
+        "url": "https://www.kobo.com/tw/zh/ebook/4JiAXmkILjq4cCG_5qJG9A",
+        "coverUrl": "https://cdn.kobo.com/book-images/cf686c91-bda9-407c-ba2d-b9525227e205/1200/1200/False/4JiAXmkILjq4cCG_5qJG9A.jpg",
+        "originalPrice": 455,
+        "koboRating": 5,
+        "koboRatingCount": 3,
+        "isbn": "9786267483329",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 11,
+          "url": "https://readmoo.com/book/210334595000101"
+        },
+        "books": {
+          "rating": 3.5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050223007"
+        },
+        "goodreads": {
+          "rating": 4.06,
+          "ratingCount": 2685,
+          "url": "https://www.goodreads.com/book/show/60149512-on-the-origin-of-time",
+          "enAuthor": "Thomas Hertog"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "8/3",
+        "title": "藝術的40堂公開課：透過故事，走進藝術家創作現場，看藝術如何誕生、如何形塑人類生活",
+        "originalTitle": "A Little History of Art",
+        "author": "夏洛特･馬林斯",
+        "description": "英國最會說故事的藝評家親自導覽，以電影般的臨場感，帶你走進人類十萬年的藝術創造過程。邀請你從世界上最古老的藝術遺跡開始，結束於二十世紀流行天后碧昂絲在羅浮宮拍攝的MV，一起來一趟橫跨十萬年的旅行。",
+        "url": "https://www.kobo.com/tw/zh/ebook/zNf6-dflITO0vfi37-KmsQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/b38f9fab-9c40-496a-b54e-7ed6542819cc/1200/1200/False/zNf6-dflITO0vfi37-KmsQ.jpg",
+        "originalPrice": 385,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9789864899241",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://readmoo.com/book/210326491000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050214402"
+        },
+        "goodreads": {
+          "rating": 3.72,
+          "ratingCount": 556,
+          "url": "https://www.goodreads.com/book/show/222660315-40",
+          "enAuthor": "Charlotte Mullins"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "8/4",
+        "title": "理當幸福的我們，為何不快樂？：從精神科角度，理解「富足一代」的焦慮、不安與失落",
+        "originalTitle": null,
+        "author": "陳俊欽",
+        "description": "從家庭、職場、同儕到社會角色，寫給20～40歲青壯世代的超越痛苦之書。為了打破不快樂的循環，要先鬆綁社會對你應該獲得幸福的期待。書中提供了可實際應用的方法，幫助讀者在時代的困局中安頓內心。。",
+        "url": "https://www.kobo.com/tw/zh/ebook/KVPhDNJ5mDO35AhyZt2RtQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/2eb909e9-fe41-4093-a694-e4b94dbd295b/1200/1200/False/KVPhDNJ5mDO35AhyZt2RtQ.jpg",
+        "originalPrice": 308,
+        "koboRating": 4,
+        "koboRatingCount": 2,
+        "isbn": "9786267406779",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210337842000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050222527"
+        },
+        "goodreads": {
+          "rating": 4,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/216187888",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/5",
+        "title": "蛋白質的一生（暢銷改版）──了解生命活動的秘密，讀懂生命科學的第一本書",
+        "originalTitle": "タンパク質の一生―生命活動の舞台裏",
+        "author": "永田和宏",
+        "description": "讀完本書，你會發現自己原來對人體蛋白質所知那麼少，就讓專攻細胞生物學的專家帶領你從認識蛋白質的生老病死開始，精妙的譬喻和簡明扼要的說明讓人能輕鬆了解人體中蛋白質的重要性和運作方式。",
+        "url": "https://www.kobo.com/tw/zh/ebook/GCpb0TAYBzieYXXwoz0HuA",
+        "coverUrl": "https://cdn.kobo.com/book-images/8153feae-078f-410c-a3f9-47f29a03611d/1200/1200/False/GCpb0TAYBzieYXXwoz0HuA.jpg",
+        "originalPrice": 240,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786263903869",
+        "readmoo": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210375143000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050254457"
+        },
+        "goodreads": {
+          "rating": 4.57,
+          "ratingCount": 7,
+          "url": "https://www.goodreads.com/book/show/35597043",
+          "enAuthor": "Kazuhiro Nagata"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 30,
     "books": [
       {
