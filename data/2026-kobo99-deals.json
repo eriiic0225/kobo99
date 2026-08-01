@@ -30,13 +30,17 @@
           "url": "https://www.goodreads.com/book/show/223717431",
           "enAuthor": "W. David Marx"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 278,
+          "url": "https://www.amazon.com/dp/B09JVG323B"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -104,8 +108,8 @@
         "url": "https://www.kobo.com/tw/zh/ebook/netflixmurder-mindfully",
         "coverUrl": "https://cdn.kobo.com/book-images/27a5fe7b-fa48-4181-8832-3327b20034be/1200/1200/False/netflixmurder-mindfully.jpg",
         "originalPrice": 308,
-        "koboRating": null,
-        "koboRatingCount": null,
+        "koboRating": 4.52,
+        "koboRatingCount": 33,
         "isbn": "9786269876822",
         "readmoo": {
           "rating": 4.6,
@@ -123,13 +127,17 @@
           "url": "https://www.goodreads.com/book/show/46001000-achtsam-morden",
           "enAuthor": "Karsten Dusse"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 26334,
+          "url": "https://www.amazon.com/dp/B07K26YRTL"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -160,13 +168,17 @@
           "url": "https://www.goodreads.com/book/show/60149512-on-the-origin-of-time",
           "enAuthor": "Thomas Hertog"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 1032,
+          "url": "https://www.amazon.com/dp/B09N73FX8Q"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -197,13 +209,17 @@
           "url": "https://www.goodreads.com/book/show/222660315-40",
           "enAuthor": "Charlotte Mullins"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 121,
+          "url": "https://www.amazon.com/dp/0300278357"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
