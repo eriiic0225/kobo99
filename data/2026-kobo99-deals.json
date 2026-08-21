@@ -1,5 +1,260 @@
 [
   {
+    "week": 34,
+    "books": [
+      {
+        "date": "8/20",
+        "title": "頭腦好的人說話前思考的事：第一本！將「思考維度」融入於「溝通法則」的工具書",
+        "originalTitle": "頭のいい人が話す前に考えていること",
+        "author": "安達裕哉",
+        "description": "「結果」往往是在你說出口之前就決定好的！作者22年顧問經歷知識濃縮成一冊，只要讀過本書，就能讓你一開口便獲得他人的信任與認可，7大重建心態的黃金法則，5大改善工作的思考法，讓任何人都能成為聰明人。",
+        "url": "https://www.kobo.com/tw/zh/ebook/kMZm4U1pdDWLhOtu7qRk8g",
+        "coverUrl": "https://cdn.kobo.com/book-images/98854b13-00f3-459b-8c97-ba9f8bcae83e/1200/1200/False/kMZm4U1pdDWLhOtu7qRk8g.jpg",
+        "originalPrice": 315,
+        "koboRating": 4.1,
+        "koboRatingCount": 30,
+        "isbn": "9786267406519",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 68,
+          "url": "https://readmoo.com/book/210329082000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.75,
+          "ratingCount": 8,
+          "url": "https://www.goodreads.com/book/show/213462934",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/21",
+        "title": "數據的假象：數據識讀是深度偽造時代最重要的思辨素養，聰明決策不被操弄",
+        "originalTitle": "Calling Bullshit: The Art of Skepticism in a Data-Driven World",
+        "author": "卡爾．伯格斯特姆(Carl T. Bergstrom);杰文．威斯特(Jevin D. West )",
+        "description": "三位諾貝爾獎得主重磅推薦。如何偵測科學鬼扯？如何識破數據資料不合邏輯的破綻？高度量化時代，數字絕對更會騙人，騙更大。掌握數據的底層邏輯，洞悉科學量化包裝術，資訊批判思考力，是最強自我保護力。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Z5w2FXtqbjK5RtNdGPC_6w",
+        "coverUrl": "https://cdn.kobo.com/book-images/30eb93f9-5e01-466f-b29c-eb7a669acb7a/1200/1200/False/Z5w2FXtqbjK5RtNdGPC_6w.jpg",
+        "originalPrice": 336,
+        "koboRating": 4.6,
+        "koboRatingCount": 5,
+        "isbn": "9789863987765",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 43,
+          "url": "https://readmoo.com/book/210231307000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.1,
+          "ratingCount": 5539,
+          "url": "https://www.goodreads.com/book/show/61318608",
+          "enAuthor": "Carl T. Bergstrom"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "8/21",
+        "title": "皇后是这样炼成的",
+        "originalTitle": null,
+        "author": "酒小七",
+        "description": "這是一本輕鬆幽默的小說。葉槁藻被爺爺嫁給當今皇帝紀無咎為皇后。這場婚姻讓兩個當事人並不滿意。皇帝的寵妃受到謀害，葉秦槁首當其衝被紀無咎責斥，她只好一秒鐘變神探。最後兩個人的心漸漸靠攏，愛上對方。",
+        "url": "https://www.kobo.com/tw/zh/ebook/rCRugS33IDSsrE38Uew9bg",
+        "coverUrl": "https://cdn.kobo.com/book-images/5698259b-173f-4577-bf4e-414bf98a8940/1200/1200/False/rCRugS33IDSsrE38Uew9bg.jpg",
+        "originalPrice": 332,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7584029404083",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/22",
+        "title": "迫在眉睫：美國五角大廈研究不明異常現象的絕密內幕",
+        "originalTitle": null,
+        "author": "路易士．埃利桑多",
+        "description": "川普、歐巴馬、柯林頓，親口證實，美國政府最後一個不能說的秘密，終於說出口，不明飛行物。如今被美國官方正面肯定，並坦承威脅已迫在眉睫。這個21世紀最戲劇化翻轉，全歸功於本書作者鍥而不捨的解密。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Q8-6C7uV2Tic2mhz8UdCLA",
+        "coverUrl": "https://cdn.kobo.com/book-images/4c3f694d-1561-4190-8b02-d4b4001b572c/1200/1200/False/Q8-6C7uV2Tic2mhz8UdCLA.jpg",
+        "originalPrice": 434,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786269978434",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 3,
+          "url": "https://readmoo.com/book/210417006000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.93,
+          "ratingCount": 8511,
+          "url": "https://www.goodreads.com/book/show/243081166",
+          "enAuthor": "Luis Elizondo"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/23",
+        "title": "賣茶如金．席捲全球的秘史",
+        "originalTitle": "三大茶書之一，看數百年來的異國茶事、茶具演進、世紀廣宣，全面揭露茶葉帝國如何征服全球的致富史！",
+        "author": "威廉．H．烏克斯",
+        "description": "從庶民到貴族、皇帝都愛喝的黃金甘露，手搖盛世愛茶人必追經典！所有茶葉的蛛絲馬跡，都在這本書裡匯聚成章。開創茶書寫作的全球觀，一窺百年前臺灣茶的風味如何推廣到全世界，茶葉的貿易如何震盪全球經濟。",
+        "url": "https://www.kobo.com/tw/zh/ebook/4d2Cs0l8zj2r5ejxGsA0Hw",
+        "coverUrl": "https://cdn.kobo.com/book-images/a7878bee-0e6c-4aa2-a353-5aede0a90ce9/1200/1200/False/4d2Cs0l8zj2r5ejxGsA0Hw.jpg",
+        "originalPrice": 480,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267408421",
+        "readmoo": {
+          "rating": 3.5,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210329010000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/213534760",
+          "enAuthor": "William Harrison Ukers"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/24",
+        "title": "比賽，從心開始（50週年紀念版，比爾‧蓋茲推薦）：如何建立自信、發揮潛力，學習任何技能的經典方法",
+        "originalTitle": "The Inner Game of Tennis (50th Anniversary Edition)",
+        "author": "提摩西‧高威",
+        "description": "你的對手不是別人，是你自己！50年來，這本書不僅陪伴讀者贏得比賽，更鼓舞他們的人生。這套教練心法可以用在任何運動上、或是學習任何一種技能。透過內心的修練，或許人生也可以是日復一日的有趣遊戲。",
+        "url": "https://www.kobo.com/tw/zh/ebook/iyBGzXUHlD2a7YHGrqQNbg",
+        "coverUrl": "https://cdn.kobo.com/book-images/5cf7fb8e-8499-407d-b243-05b3f815db48/1200/1200/False/iyBGzXUHlD2a7YHGrqQNbg.jpg",
+        "originalPrice": 300,
+        "koboRating": 3.5,
+        "koboRatingCount": 2,
+        "isbn": "9786267195901",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 15,
+          "url": "https://readmoo.com/book/210370481000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/235381954-the-inner-game-of-tennis-50th-anniversary-edition",
+          "enAuthor": "W Timothy Gallwey"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "8/25",
+        "title": "跟達爾文學投資：取經大自然，從物競天擇脫穎成為市場贏家！",
+        "originalTitle": "What I Learned about Investing from Darwin",
+        "author": "普拉克．普拉薩德",
+        "description": "麥肯錫管理顧問公司資深項目經理，結合演化生物學的啟發與30年管理諮詢與投資經驗，從自然界的生動例子中，看清投資時最重要的事，建立適者生存、遠離風險的長期獲利法則，更充份地掌握投資這門學問。",
+        "url": "https://www.kobo.com/tw/zh/ebook/2GbehAMHoTu0sMN6faZVjg",
+        "coverUrl": "https://cdn.kobo.com/book-images/d9dce9d4-aec9-4711-bbd7-ed9644c47ed2/1200/1200/False/2GbehAMHoTu0sMN6faZVjg.jpg",
+        "originalPrice": 364,
+        "koboRating": 4,
+        "koboRatingCount": 4,
+        "isbn": "9786267589038",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 19,
+          "url": "https://readmoo.com/book/210355017000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.55,
+          "ratingCount": 2066,
+          "url": "https://www.goodreads.com/book/show/62792694-what-i-learned-about-investing-from-darwin",
+          "enAuthor": "Pulak Prasad"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 1287,
+          "url": "https://www.amazon.com/dp/B0BG99WS31"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "8/26",
+        "title": "以粥養生：清代名著《老老恆言》粥品精選，保健防老，調整體質，活得快樂又長壽",
+        "originalTitle": null,
+        "author": "全方位保健推廣研究室",
+        "description": "彙整超過300冊古籍的養生智慧，以藥治病，以粥扶正，清代養生名著曹庭棟《老老恆言》粥品百方精選重現！取法養生古籍，結合名老中醫的應用經驗，飲食清淡有節制，是長青康健不二法門。",
+        "url": "https://www.kobo.com/tw/zh/ebook/fyMcBbxf-D-GKRvKaP-YAA",
+        "coverUrl": "https://cdn.kobo.com/book-images/5091576e-9ecc-413e-b9db-1932c02f75a6/1200/1200/False/fyMcBbxf-D-GKRvKaP-YAA.jpg",
+        "originalPrice": 235,
+        "koboRating": 3,
+        "koboRatingCount": 2,
+        "isbn": "3129000000254",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 31,
     "books": [
       {
