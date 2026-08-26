@@ -1,5 +1,281 @@
 [
   {
+    "week": 35,
+    "books": [
+      {
+        "date": "8/27",
+        "title": "正念老化：擺脫年齡焦慮，提早開始練習！透過覺察適應，愈老愈快樂",
+        "originalTitle": "Ageing Upwards: A mindfulness-based framework for the longevity revolution",
+        "author": "貝莉特．路易斯(Berit Lewis)",
+        "description": "你害怕變老嗎？希望看起來年輕？打破人生從五十歲後開始走下坡的迷思，比起生理指標，主觀的幸福感和社交連結更重要，結合正念知識及最新研究的老化曲線向上架構，將幫助我們度過史上最幸福的八十歲。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ZUCmyGh2EDm5njpnzfaRtg",
+        "coverUrl": "https://cdn.kobo.com/book-images/7f364167-92f5-4142-9d25-d9d25d812a8d/1200/1200/False/ZUCmyGh2EDm5njpnzfaRtg.jpg",
+        "originalPrice": 406,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789864932023",
+        "readmoo": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210378086000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.79,
+          "ratingCount": 14,
+          "url": "https://www.goodreads.com/book/show/123957809-ageing-upwards",
+          "enAuthor": "Berit Lewis"
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 13,
+          "url": "https://www.amazon.com/dp/B0BWK7BM7W"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "8/28",
+        "title": "我們為什麼對好事麻木、對壞事容忍？：習慣化如何左右人生",
+        "originalTitle": "Look Again: The Power of Noticing What Was Always There",
+        "author": "塔莉．沙羅特",
+        "description": "聯手解密人類的最大盲點：習慣化傾向。危機與轉機，就藏在習以為常的事物裡。從個人幸福到社會議題，當現狀變得沉悶且黯淡，去習慣化就是走出新局的路線圖，用嶄新的眼光衡量自己的人生、撼動已經凍結的信念。",
+        "url": "https://www.kobo.com/tw/zh/ebook/csM0FfSlgDentybv3IlcOA",
+        "coverUrl": "https://cdn.kobo.com/book-images/bf092561-9764-4d2e-9d85-23774e56c8ba/1200/1200/False/csM0FfSlgDentybv3IlcOA.jpg",
+        "originalPrice": 315,
+        "koboRating": 4.71,
+        "koboRatingCount": 14,
+        "isbn": "9786263963719",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 48,
+          "url": "https://readmoo.com/book/210340199000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.65,
+          "ratingCount": 1259,
+          "url": "https://www.goodreads.com/book/show/216985421",
+          "enAuthor": "Tali Sharot"
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 236,
+          "url": "https://www.amazon.com/dp/B0C7RNBHT5"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "8/28",
+        "title": "人工智能未来简史：基于脑机接口的超人制造愿景",
+        "originalTitle": null,
+        "author": "杨义先 钮心忻",
+        "description": "曾經，意念控制被認為是癡人說夢；如今，它早已變得輕輕鬆松。本書將以嚴謹的科學態度，基於神經生物學、腦科學、微電子學和虛擬實境等領域的成就，向你展示一幅更玄幻的內涵型人工智慧願景。",
+        "url": "https://www.kobo.com/tw/zh/ebook/tdoMvHEDlTqj3iBJcauyaA",
+        "coverUrl": "https://cdn.kobo.com/book-images/a0f41902-266d-4b7e-8df4-b5a4391d8f54/1200/1200/False/tdoMvHEDlTqj3iBJcauyaA.jpg",
+        "originalPrice": 300,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7584044819738",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "8/29",
+        "title": "穿透《心經》：原來，你以為的只是假象",
+        "originalTitle": "Thunderous Silence: A Formula for Ending Suffering: A Practical Guide to the Heart Sutra",
+        "author": "柳道成法師",
+        "description": "到底《心經》跟我們的生命和生活有什麼關係？《心經》是一張描繪我們自性的圖，是我們的究竟實相。帶領我們回到真實的家，走向那個名為佛性的寶藏，徹底解構人們對於實體物質及現象的執著。",
+        "url": "https://www.kobo.com/tw/zh/ebook/LRm7chqE-zWhHMPD6_uliw",
+        "coverUrl": "https://cdn.kobo.com/book-images/bace93f2-06ec-4e5e-8d45-5965729b0725/1200/1200/False/LRm7chqE-zWhHMPD6_uliw.jpg",
+        "originalPrice": 285,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267449035",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://readmoo.com/book/210319622000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.38,
+          "ratingCount": 37,
+          "url": "https://www.goodreads.com/book/show/15811114-thunderous-silence",
+          "enAuthor": "Dosung Yoo"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 40,
+          "url": "https://www.amazon.com/dp/B00AQ3WVDA"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "8/30",
+        "title": "人類怎麼學：比大數據更重要的事，人類學教你顛覆成見、突破盲點的洞察思考",
+        "originalTitle": "Think Like an Anthropologist",
+        "author": "馬修．恩格爾克（Matthew Engelke）",
+        "description": "統計數據過度簡化人的複雜性，忽略了人類物種發展的多元性及可能性。人類學——最擅長挑戰概念、質疑常識的學科，顛覆你慣常的思考模式，當今世代最需要的一門知識，大數據無法掌握的事，讓人類學家來告訴你。",
+        "url": "https://www.kobo.com/tw/zh/ebook/hMPVUe6C5j2e4WjsTvz_gw",
+        "coverUrl": "https://cdn.kobo.com/book-images/8547d41b-bb25-4e2f-a115-19acc46a9fe2/1200/1200/False/hMPVUe6C5j2e4WjsTvz_gw.jpg",
+        "originalPrice": 315,
+        "koboRating": 4.25,
+        "koboRatingCount": 4,
+        "isbn": "9789570871296",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 12,
+          "url": "https://readmoo.com/book/210292833000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.83,
+          "ratingCount": 955,
+          "url": "https://www.goodreads.com/book/show/35679614-think-like-an-anthropologist",
+          "enAuthor": "Matthew Engelke"
+        },
+        "amazon": {
+          "rating": 4.2,
+          "ratingCount": 320,
+          "url": "https://www.amazon.com/dp/B076ZYFFTX"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "8/31",
+        "title": "不安到受不了時，念念佛洛姆：首爾大學名師講座，帶你遠離焦慮與孤獨，發現內在力量的紙上哲學課",
+        "originalTitle": "참을 수 없이 불안할 때 에리히 프롬",
+        "author": "朴贊國",
+        "description": "獻給失去自由與自我且放棄活得像自己的你。當我們孤獨無力地被拋到陌生世界，真正自由與自我的唯一途徑，就是「愛」。首爾大學名師講座，帶你遠離焦慮與孤獨的紙上哲學課，把愛的先知眼裡的世界介紹給我們。",
+        "url": "https://www.kobo.com/tw/zh/ebook/sjMTn5fbnTGAWudmXs0ILQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/9af49212-086e-42a6-8df3-1f4f281a6ec3/1200/1200/False/sjMTn5fbnTGAWudmXs0ILQ.jpg",
+        "originalPrice": 266,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267442074",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 9,
+          "url": "https://readmoo.com/book/210318029000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.5,
+          "ratingCount": 2,
+          "url": "https://www.goodreads.com/book/show/210431007",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/1",
+        "title": "前男友的遺書",
+        "originalTitle": "元彼の遺言状",
+        "author": "新川帆立",
+        "description": "『這本推理小說了不起！』大賞受賞作。我要把所有的財產，贈與將我殺死的犯人。這是我對犯人的復仇，給予就等於剝奪。請務必找到犯人，假如沒能找到犯人，我的財產將歸國庫所有。",
+        "url": "https://www.kobo.com/tw/zh/ebook/n1NtJpjWgTyOJ3pPEbDLVw",
+        "coverUrl": "https://cdn.kobo.com/book-images/4abd124c-4ae5-4603-b364-36e5776484bb/1200/1200/False/n1NtJpjWgTyOJ3pPEbDLVw.jpg",
+        "originalPrice": 280,
+        "koboRating": 4.15,
+        "koboRatingCount": 108,
+        "isbn": "9789577414861",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 1093,
+          "url": "https://readmoo.com/book/210210411000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.34,
+          "ratingCount": 398,
+          "url": "https://www.goodreads.com/book/show/56584559",
+          "enAuthor": "Hotate Shinkawa"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/2",
+        "title": "深刻認識一個人：發現自己與他人的非凡之處",
+        "originalTitle": "How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen",
+        "author": "大衛．布魯克斯",
+        "description": "比爾‧蓋茲2024夏季選書。當我們在一個人身上看到寶貴之處，同時也能照見自己的非凡之處。在疏離的年代幫助你真正看見他人，進而在家庭、職場和生活中締造更深刻的人際關係。。",
+        "url": "https://www.kobo.com/tw/zh/ebook/9JdedbQJ3Tyd_9bG7OXObQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/009fcd4f-c9d0-448d-a93a-0aa69f60278e/1200/1200/False/9JdedbQJ3Tyd_9bG7OXObQ.jpg",
+        "originalPrice": 338,
+        "koboRating": 4.31,
+        "koboRatingCount": 87,
+        "isbn": "9786263557130",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 203,
+          "url": "https://readmoo.com/book/210326479000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.02,
+          "ratingCount": 45020,
+          "url": "https://www.goodreads.com/book/show/112974860-how-to-know-a-person",
+          "enAuthor": "David  Brooks"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      }
+    ]
+  },
+  {
     "week": 34,
     "books": [
       {
