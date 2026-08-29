@@ -264,13 +264,17 @@
           "url": "https://www.goodreads.com/book/show/112974860-how-to-know-a-person",
           "enAuthor": "David  Brooks"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 5778,
+          "url": "https://www.amazon.com/dp/B0BV65SS5X"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "not_found",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       }
     ]
