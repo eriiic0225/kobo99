@@ -1,5 +1,260 @@
 [
   {
+    "week": 36,
+    "books": [
+      {
+        "date": "9/3",
+        "title": "高效原力：用愉悅心態激發生產力，做更多重要的事",
+        "originalTitle": null,
+        "author": "阿里．阿布達爾",
+        "description": "劍橋學霸，首次公開人生管理術。本書結合豐富的企業名人故事案例和完整的架構，帶領你巧妙運用正向情緒科學，完成激勵、解鎖、續航三大步驟，從此無痛展開高效率的全方位人生，開啟成功的自動導航模式。＊台灣和香港99優惠代碼： kobo03Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/fsKFTWFTwDCYx-pyWBYO3A",
+        "coverUrl": "https://cdn.kobo.com/book-images/e5359f2a-304b-42b1-aa14-cf6ea276e935/1200/1200/False/fsKFTWFTwDCYx-pyWBYO3A.jpg",
+        "originalPrice": 338,
+        "koboRating": 4.53,
+        "koboRatingCount": 68,
+        "isbn": "9786263583207",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 150,
+          "url": "https://readmoo.com/book/210321038000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.96,
+          "ratingCount": 21804,
+          "url": "https://www.goodreads.com/book/show/210480840",
+          "enAuthor": "Ali  Abdaal"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/4",
+        "title": "完成：把不了了之的待辦目標變成以實現的有效練習",
+        "originalTitle": "FINISH: GIVE YOURSELF THE GIFT OF DONE",
+        "author": "喬恩‧阿考夫 Jon Acuff",
+        "description": "開始很重要，但不是最重要。完成目標，你就勝過92％的人！沒有完成目標，就像打破對自己的承諾。只要遵循幾個簡單的原則，調整心態，你健身有成或提升績效的機會，就多了將近一半。＊台灣和香港99優惠代碼： kobo04Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/J6OmdSqMHDKveaWHJlTvUA",
+        "coverUrl": "https://cdn.kobo.com/book-images/93e2ef6c-43d3-415e-acf6-b3d4c988a8ac/1200/1200/False/J6OmdSqMHDKveaWHJlTvUA.jpg",
+        "originalPrice": 245,
+        "koboRating": 4.43,
+        "koboRatingCount": 53,
+        "isbn": "3329863983712",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.13,
+          "ratingCount": 12985,
+          "url": "https://www.goodreads.com/book/show/35397160-finish",
+          "enAuthor": "Jon Acuff"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "9/4",
+        "title": "三生三世倾君心",
+        "originalTitle": null,
+        "author": "女巫的猫",
+        "description": "殺手阿九受命盜取千年玉璽，卻無意中綁架皇帝君卿舞，成為了君卿舞厭惡的人。這場奪權篡位之爭讓兩人走向聯合，彼此之間產生了真摯的感情。為了消除爭鬥、保護腹中的骨血，君卿舞剷除莫丞相的反叛勢力。＊台灣和香港99優惠代碼： kobo04Sep2",
+        "url": "https://www.kobo.com/tw/zh/ebook/lPkm7-VZ0jSvR1KIfYmVnw",
+        "coverUrl": "https://cdn.kobo.com/book-images/bbe6f2a8-d3c7-4e92-a042-036c2ec6c4b3/1200/1200/False/lPkm7-VZ0jSvR1KIfYmVnw.jpg",
+        "originalPrice": 261,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7584024289558",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/5",
+        "title": "天防者",
+        "originalTitle": "Skyward",
+        "author": "布蘭登．山德森",
+        "description": "奇幻界最高榮耀雨果獎得主布蘭登．山德森力作。衝入天際，邀遊星辰，撼動宇宙，有如《戰爭遊戲》般暢快淋漓、熱血沸騰的太空史詩。我將會成為「無畏者」，成為天空中的英雄， 只有迎向挑戰，才能生存下去。＊台灣和香港99優惠代碼： kobo05Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/uPEC1olYKz28VmK31wyKGw",
+        "coverUrl": "https://cdn.kobo.com/book-images/d263a81b-db16-4033-9577-11b91174dfa7/1200/1200/False/uPEC1olYKz28VmK31wyKGw.jpg",
+        "originalPrice": 294,
+        "koboRating": 4.16,
+        "koboRatingCount": 25,
+        "isbn": "3119869762809",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.46,
+          "ratingCount": 173817,
+          "url": "https://www.goodreads.com/book/show/36642458-skyward",
+          "enAuthor": "Brandon Sanderson"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "9/6",
+        "title": "種子的勝利（暢銷改版）：穀類、堅果、果仁、豆類、核籽如何征服植物王國，形塑人類歷史",
+        "originalTitle": "The Triumph of Seeds: How Grains, Nuts, Kernels, Pulses, and Pips Conquered the Plant Kingdom and Shaped Human History",
+        "author": "索爾．漢森",
+        "description": "從浣熊小屋到亞馬遜的咖啡農場，從後院花圃到印度喀拉拉邦的香料之路，本書將帶給你一場知識、冒險以及驚奇的饗宴。本書富含知識、洋溢人文氣息，不論你是否喜愛拈花惹草，都會著迷於作者精彩生動的種子故事。＊台灣和香港99優惠代碼： kobo06Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/5QDJLtIngjueJzA7WicCdQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/e8a2164e-a240-43a5-a5df-8b6ec3936bb7/1200/1200/False/5QDJLtIngjueJzA7WicCdQ.jpg",
+        "originalPrice": 266,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "3117702110444",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 457,
+          "url": "https://www.amazon.com/dp/B00PWX7S4G"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/7",
+        "title": "顏值：從第一印象到刻板印象，臉孔社交價值的科學解密",
+        "originalTitle": null,
+        "author": "亞歷山大・托多洛夫",
+        "description": "人雖自認理性，在決策和判斷時，卻還是會受一張臉的眉毛和下巴線條所影響。一部解開臉孔諸多纖細幽微的訊息如何影響大腦建構第一印象的奇書。儘管臉孔始終誤導我們，但這本書卻讓我們用不同方式來觀看臉。＊台灣和香港99優惠代碼： kobo07Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/p4RqHEQ3ITOhXEyVAszoLg",
+        "coverUrl": "https://cdn.kobo.com/book-images/eecb1f46-606f-40de-b237-b9a9d36b0bee/1200/1200/False/p4RqHEQ3ITOhXEyVAszoLg.jpg",
+        "originalPrice": 350,
+        "koboRating": 3.55,
+        "koboRatingCount": 11,
+        "isbn": "9789860632842",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 25,
+          "url": "https://readmoo.com/book/210179072000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.97,
+          "ratingCount": 117,
+          "url": "https://www.goodreads.com/book/show/58170524",
+          "enAuthor": "Alexander Todorov"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/8",
+        "title": "人類時代：我們所塑造的世界（全新修訂校對暢銷新版，吳明益推薦導讀）",
+        "originalTitle": "The Human Age: The World Shaped By Us",
+        "author": "黛安．艾克曼",
+        "description": "從適應自然到創造自然，我們進入一個真正以人類為主宰的全新時代。在這本劃時代的新作中，作者細膩描繪「智人」這種聰明絕頂卻又自以為是的生物，如何主宰地球的現狀，又如何掌控地球未來的命運。＊台灣和香港99優惠代碼： kobo08Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/6HDoFHhaVjC_qe1SIHY4Vw",
+        "coverUrl": "https://cdn.kobo.com/book-images/da0557f4-6bcb-46cc-8e2c-057b3a49f3af/1200/1200/False/6HDoFHhaVjC_qe1SIHY4Vw.jpg",
+        "originalPrice": 336,
+        "koboRating": 5,
+        "koboRatingCount": 3,
+        "isbn": "9789571386591",
+        "readmoo": {
+          "rating": 4.8,
+          "ratingCount": 10,
+          "url": "https://readmoo.com/book/210176670000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.68,
+          "ratingCount": 1431,
+          "url": "https://www.goodreads.com/book/show/58341114",
+          "enAuthor": "Diane Ackerman"
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 218,
+          "url": "https://www.amazon.com/dp/B00J8R3M4C"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/9",
+        "title": "瑞秋的青春事件簿：邦諾書店年度十大好書，橫掃歐美書市千禧世代成長小說！",
+        "originalTitle": "The Rachel Incident",
+        "author": "卡洛琳．歐丹娜修",
+        "description": "在最壞的時代，我們仍能擁有最好的人生。二十幾歲的我們，如何在世上尋找一席之地？以笑中帶淚的筆調，描繪一個青春熾熱的故事。站在成年的路口，我們陪著瑞秋經歷年輕的迷茫與掙扎，也體驗著最肆無忌憚的愛與狂歡。。＊台灣和香港99優惠代碼： kobo09Sep",
+        "url": "https://www.kobo.com/tw/zh/ebook/bCIjDCxK7jSCkxNzwT2wAw",
+        "coverUrl": "https://cdn.kobo.com/book-images/b664eab8-e2d7-4c8e-8561-eac63d04434e/1200/1200/False/bCIjDCxK7jSCkxNzwT2wAw.jpg",
+        "originalPrice": 379,
+        "koboRating": 4,
+        "koboRatingCount": 4,
+        "isbn": "9786267721506",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 56,
+          "url": "https://readmoo.com/book/210424341000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.05,
+          "ratingCount": 157103,
+          "url": "https://www.goodreads.com/book/show/63094957-the-rachel-incident",
+          "enAuthor": "Caroline O'Donoghue"
+        },
+        "amazon": {
+          "rating": 4.2,
+          "ratingCount": 16935,
+          "url": "https://www.amazon.com/dp/B0BGPQCQS7"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 35,
     "books": [
       {
