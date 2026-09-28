@@ -55,13 +55,17 @@
           "url": "https://www.goodreads.com/book/show/35397160-finish",
           "enAuthor": "Jon Acuff"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 2683,
+          "url": "https://www.amazon.com/dp/B01N4VVT1Z"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "not_found",
           "books": "skipped",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -108,13 +112,17 @@
           "url": "https://www.goodreads.com/book/show/36642458-skyward",
           "enAuthor": "Brandon Sanderson"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 1960,
+          "url": "https://www.amazon.com/dp/B09LRXBPTF"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "not_found",
           "books": "skipped",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
