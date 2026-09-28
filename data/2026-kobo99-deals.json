@@ -1,5 +1,285 @@
 [
   {
+    "week": 39,
+    "books": [
+      {
+        "date": "9/24",
+        "title": "億萬救援：從白宮壓力到貨幣決策，鮑爾與川普的聯準會權力之戰（全新修訂版）",
+        "originalTitle": "Trillion Dollar Triage: How Jay Powell and the Fed Battled a President and a Pandemic—And Prevented Economic Disaster",
+        "author": "尼克‧提米羅斯",
+        "description": "聯準會有雙重使命：提升就業率、穩定物價。以聯準會主席鮑爾為主角的政經角力，詳細描述新冠疫情席捲全球後，美國如何迅速從經濟蓬勃的狀態，進入一場猶如醫學誘導的昏迷，大大小小的企業面臨崩潰的邊緣。",
+        "url": "https://www.kobo.com/tw/zh/ebook/vXmlpU6XfzWb7jzN7osKTw",
+        "coverUrl": "https://cdn.kobo.com/book-images/b3e0e2f7-a17d-4c66-8e0e-7926a7078c85/1200/1200/False/vXmlpU6XfzWb7jzN7osKTw.jpg",
+        "originalPrice": 364,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267523537",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210396178000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.15,
+          "ratingCount": 800,
+          "url": "https://www.goodreads.com/book/show/58450272",
+          "enAuthor": "Nick Timiraos"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 312,
+          "url": "https://www.amazon.com/dp/B09B74MC63"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/25",
+        "title": "人人都有數學腦：打破天賦論，史丹佛頂尖學者裘．波勒帶孩子從學不會到養成多元學習力",
+        "originalTitle": "Math-ish: Finding Creativity, Diversity, and Meaning in Mathematics",
+        "author": "裘．波勒",
+        "description": "數學並不只是生搬照套公式和硬背一個個困難的解法，而是我們用科學方式看待世界所有現象的方法。任何數學概念都能有多種思考、觀察和解決的方法，善用多元化的方式教授數學，學生就能順利進入數學世界。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Z240eRYJijSpL42PiyyRaQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/55381e54-77c2-4126-8fa3-962a3ee59c77/1200/1200/False/Z240eRYJijSpL42PiyyRaQ.jpg",
+        "originalPrice": 338,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786263559134",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 3,
+          "url": "https://readmoo.com/book/210346758000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.22,
+          "ratingCount": 615,
+          "url": "https://www.goodreads.com/book/show/206029533",
+          "enAuthor": "Jo Boaler"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 219,
+          "url": "https://www.amazon.com/dp/B0CF2H7GY5"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/25",
+        "title": "车轮上的历史",
+        "originalTitle": "A Brief History of Motion",
+        "author": "[英]汤姆·斯丹迪奇",
+        "description": "這是一次穿越了5500年人類歷史、令人眼界大開的公路之旅。深入探究了汽車發展的歷史，以及在汽車被廣泛使用過程中社會所發生的劇變。思考了那些我們未曾選擇的道路，並引領我們用新的眼光來看待過去。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ZOeUMVGiTTSQ_U_oiqzeag",
+        "coverUrl": "https://cdn.kobo.com/book-images/cd0db3cd-b0db-4abf-9350-6df3c2ffc780/1200/1200/False/ZOeUMVGiTTSQ_U_oiqzeag.jpg",
+        "originalPrice": 270,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7553521749649",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.79,
+          "ratingCount": 691,
+          "url": "https://www.goodreads.com/book/show/54860184",
+          "enAuthor": "Tom Standage"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 191,
+          "url": "https://www.amazon.com/dp/B08TMZBD47"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/26",
+        "title": "流浪者之歌",
+        "originalTitle": "Siddhartha",
+        "author": "赫曼．赫塞",
+        "description": "諾貝爾文學獎得主赫塞小說代表作。一部融匯中、印、歐三大文明的跨界之作，一本如詩又如歌的悟道之書，帶你踏上靈性開悟的智慧之旅，走出人生低谷，我學會了接受這世界，以它本來如此的樣子。",
+        "url": "https://www.kobo.com/tw/zh/ebook/SSmAUWRnWD-200t2EoH_qQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/dbaffb64-2df7-46df-9836-4b43eb375d74/1200/1200/False/SSmAUWRnWD-200t2EoH_qQ.jpg",
+        "originalPrice": 245,
+        "koboRating": 3,
+        "koboRatingCount": 6,
+        "isbn": "9786263744417",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 80,
+          "url": "https://readmoo.com/book/210302426000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.09,
+          "ratingCount": 916835,
+          "url": "https://www.goodreads.com/book/show/52036",
+          "enAuthor": "Hermann Hesse"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 18170,
+          "url": "https://www.amazon.com/dp/B0FP1RF8TW"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/27",
+        "title": "土壤下的迷你工程師：如果少了蚯蚓，人類還能生存嗎？",
+        "originalTitle": "The Book of the Earthworm",
+        "author": "莎莉．庫特哈德(Sally Coulthard)",
+        "description": "生物學家達爾文認為，地球上最重要的動物是那些在雨後濕滑地面上蠢蠢蠕動的條狀生物──蚯蚓這是一本與我們生活息息相關的自然科普書，將為我們揭露地球上最重要生物的趣味八卦，下次遇到蚯蚓，請留意你的腳步！",
+        "url": "https://www.kobo.com/tw/zh/ebook/sYH1mXEstz2dGqRhQJtl3g",
+        "coverUrl": "https://cdn.kobo.com/book-images/2241992c-fba6-4317-a6c8-3147869055a7/1200/1200/False/sYH1mXEstz2dGqRhQJtl3g.jpg",
+        "originalPrice": 315,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267465684",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210399885000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.1,
+          "ratingCount": 332,
+          "url": "https://www.goodreads.com/book/show/54578903",
+          "enAuthor": "Sally Coulthard"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 54,
+          "url": "https://www.amazon.com/dp/B08D3W8GF4"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "9/28",
+        "title": "好人≠耗人：從內耗中抽身的東大情緒整理",
+        "originalTitle": "「悩む」を時短する！東大式感情コントロール術",
+        "author": "東大CARPE DIEM",
+        "description": "日本高材生的逆轉心法，助你重新開啟人生。本書開頭透過10個小問題，將大家的思考模式分為4個類型。並依據各種情況與類型，參考東大生的情緒處理，給予最佳解方，說不定換個角度，便能迎來屬於你的柳暗花明。",
+        "url": "https://www.kobo.com/tw/zh/ebook/aXFhfBbf6jyQI9hgYYq07g",
+        "coverUrl": "https://cdn.kobo.com/book-images/d9c66787-e887-475c-bf14-db9b6eb9a5bc/1200/1200/False/aXFhfBbf6jyQI9hgYYq07g.jpg",
+        "originalPrice": 294,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789863708094",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210394632000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/252635783",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/29",
+        "title": "70％繭居族都能自立",
+        "originalTitle": "從在家啃老到獨立生活，日本專業輔導機構靠三步驟，幫助超過1,700位繭居族回到正軌。",
+        "author": "二神能基",
+        "description": "什麼是繭居族？不上學、不上班，生活自我封閉的人。從在家啃老到獨立生活，日本最大輔導機構靠三步驟，幫助超過1,700位繭居族破繭而出，自立更生。本書內附臺灣專業協助機構，幫助繭居族破繭而出。。",
+        "url": "https://www.kobo.com/tw/zh/ebook/PuJaC7wtfTi5yUA8aoeEIA",
+        "coverUrl": "https://cdn.kobo.com/book-images/1bd96f69-bb1e-4548-8c32-be4d1371080d/1200/1200/False/PuJaC7wtfTi5yUA8aoeEIA.jpg",
+        "originalPrice": 265,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267448854",
+        "readmoo": {
+          "rating": 3.5,
+          "ratingCount": 2,
+          "url": "https://readmoo.com/book/210340556000101"
+        },
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "9/30",
+        "title": "我們身體裡的生命演化史：演化如何打造出身體，而身體的演化又如何構成新的物種？ 一部關於器官、組織、細胞、DNA長達40億年的故事",
+        "originalTitle": null,
+        "author": "尼爾‧蘇賓",
+        "description": "達爾文當時無法回答的問題，蘇賓給出了解答！身體的出現，打開了新的演化方式，它就像是個什麼都有的材料箱，演化出你想不到的生命形態，從共通的材料箱中，製造出生命之樹上許多不同分支的物種。",
+        "url": "https://www.kobo.com/tw/zh/ebook/dna40",
+        "coverUrl": "https://cdn.kobo.com/book-images/ffd6ef4e-d375-4074-ab9e-594b57f1e87b/1200/1200/False/dna40.jpg",
+        "originalPrice": 315,
+        "koboRating": 5,
+        "koboRatingCount": 2,
+        "isbn": "9789860632873",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 6,
+          "url": "https://readmoo.com/book/210188628000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.14,
+          "ratingCount": 2847,
+          "url": "https://www.goodreads.com/book/show/80724027-dna-40",
+          "enAuthor": "Neil Shubin"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 36,
     "books": [
       {
