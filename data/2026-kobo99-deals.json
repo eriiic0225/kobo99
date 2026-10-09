@@ -1,5 +1,285 @@
 [
   {
+    "week": 41,
+    "books": [
+      {
+        "date": "10/8",
+        "title": "美學修煉：看見不一樣的世界，美學博士CEO教你打開視角拓展審美力",
+        "originalTitle": null,
+        "author": "盤龍",
+        "description": "橫跨古今、涵蓋層面最廣的美學入門書。該如何活出鮮活自在的充實生命？解鎖單向思維，打開心靈之窗，看見美感無處不在，透過有意識的美學修煉，你將眼睛一亮，看見更加寬廣有趣、繽紛多彩的人生風景。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ceo-76",
+        "coverUrl": "https://cdn.kobo.com/book-images/efa426e3-a652-463b-bb04-6073dbd9a160/1200/1200/False/ceo-76.jpg",
+        "originalPrice": 294,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786264190053",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210372727000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/228178089",
+          "enAuthor": "William Pan"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/9",
+        "title": "AI時代的現金戰爭：通膨、銀行倒閉、金融詐騙……當金錢只剩一組數字，如何在「無現金社會」保護自己的雲端財富？",
+        "originalTitle": "Cloudmoney: Cash, Cards, Crypto and the War for our Wallets",
+        "author": "布萊特．史考特（Brett Scott）",
+        "description": "21世紀，一場無煙硝且規模最大的貨幣戰爭，已經全面默默開打。你我該如何保護自己的財富？「實體貨幣」漸漸變成「雲端貨幣」，會對你我帶來哪些影響？了解利與弊，更能掌控財富的自主權！",
+        "url": "https://www.kobo.com/tw/zh/ebook/ai-121",
+        "coverUrl": "https://cdn.kobo.com/book-images/36fdca9b-0f5e-4cab-8636-139f6337af9d/1200/1200/False/ai-121.jpg",
+        "originalPrice": 350,
+        "koboRating": 3.75,
+        "koboRatingCount": 4,
+        "isbn": "9786263492677",
+        "readmoo": {
+          "rating": 4.1,
+          "ratingCount": 16,
+          "url": "https://readmoo.com/book/210274199000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.67,
+          "ratingCount": 491,
+          "url": "https://www.goodreads.com/book/show/223460013-ai",
+          "enAuthor": "Brett Scott"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 97,
+          "url": "https://www.amazon.com/dp/B09HSBDLKG"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/9",
+        "title": "人类的第一步：直立行走如何塑造人类",
+        "originalTitle": "First Steps: How Upright Walking Made Us Human",
+        "author": "[美]杰里米 · 德席尔瓦",
+        "description": "你學到的人類進化示意圖可能是錯的！人類從來都不是從黑猩猩進化而來的，也很可能從來沒有弓著身子在地上行走過。這本書聚焦人類用雙足直立行走的獨特能力，探討它的起源和演化過程，以及如何塑造了現代人類。",
+        "url": "https://www.kobo.com/tw/zh/ebook/H5rYHuKAsjaoncl92eNXcA",
+        "coverUrl": "https://cdn.kobo.com/book-images/f36f1952-cb60-4225-b5f4-af4dc02c8da5/1200/1200/False/H5rYHuKAsjaoncl92eNXcA.jpg",
+        "originalPrice": 235,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7553521748093",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.33,
+          "ratingCount": 1410,
+          "url": "https://www.goodreads.com/book/show/52716713",
+          "enAuthor": "Jeremy Desilva"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 535,
+          "url": "https://www.amazon.com/dp/B08CRG7XRL"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/10",
+        "title": "香水【出版40週年紀念版】：此生必讀的氣味文學經典",
+        "originalTitle": "Das Parfum",
+        "author": "徐四金",
+        "description": "文壇大師徐四金，此生必讀的氣味文學經典。她的臉蛋，他早就不復記憶，然而他已經保存了她最美好的部分，他要像從她身上剝下一層皮那樣，確確實實把她變作一支專屬於自己的香水，一件氣味王國裡的永恆收藏。",
+        "url": "https://www.kobo.com/tw/zh/ebook/C29TWDKETzOwHXDRbdP_sQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/9443ec40-1674-41c4-bf95-bc7aa81c4600/1200/1200/False/C29TWDKETzOwHXDRbdP_sQ.jpg",
+        "originalPrice": 295,
+        "koboRating": 5,
+        "koboRatingCount": 5,
+        "isbn": "9789573342687",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 23,
+          "url": "https://readmoo.com/book/210375860000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.04,
+          "ratingCount": 588552,
+          "url": "https://www.goodreads.com/book/show/2896",
+          "enAuthor": "Patrick Süskind"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 4474,
+          "url": "https://www.amazon.com/dp/B07981SWFB"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/11",
+        "title": "德國一流大學教你數學家的22個思考工具",
+        "originalTitle": "Das kleine Einmaleins des klaren Denkens: 22 Denkwerkzeuge für ein besseres Leben",
+        "author": "克里斯昂．赫塞(Christian Hesse)",
+        "description": "22堂針對一般人開設的數學課，帶你學會抽象思考技巧，解決日常生活的問題。只需具備基礎數學知識跟一顆嘗試冒險的心，即可透過這些容易理解、但極為有效的思考工具，領略數學思考的樂趣與迷人之處。",
+        "url": "https://www.kobo.com/tw/zh/ebook/63PYM1Rbdzi-a3Z7lfJDpg",
+        "coverUrl": "https://cdn.kobo.com/book-images/ea7f4c6d-b431-48da-ab98-ee3ed75bfe31/1200/1200/False/63PYM1Rbdzi-a3Z7lfJDpg.jpg",
+        "originalPrice": 280,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786264090506",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210366769000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/223618513-22",
+          "enAuthor": "Christian Hesse"
+        },
+        "amazon": {
+          "rating": 4,
+          "ratingCount": 8,
+          "url": "https://www.amazon.com/dp/3406586848"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/12",
+        "title": "不動用武器的戰爭：資源、貿易、數據，交織全球經濟大戰略",
+        "originalTitle": null,
+        "author": "鈴木一人",
+        "description": "不必動用武器的戰爭──經濟治略，世界貿易正全面進入政治風險的年代，此時決定霸權地位的國家級戰略資源是什麼？22張直觀圖表完整揭露全球資源現狀，帶您一手掌握人們日常生活與國際政治經濟的重大議題。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ZQnTC6AqLzipua5duhy6NA",
+        "coverUrl": "https://cdn.kobo.com/book-images/c3efbdf0-a95a-44f1-a706-42e379acec73/1200/1200/False/ZQnTC6AqLzipua5duhy6NA.jpg",
+        "originalPrice": 336,
+        "koboRating": 3.67,
+        "koboRatingCount": 3,
+        "isbn": "9786269932993",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210392914000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.5,
+          "ratingCount": 2,
+          "url": "https://www.goodreads.com/book/show/236119779",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/13",
+        "title": "最好的夏天：德國獨立書商最愛的年度小說！",
+        "originalTitle": "Der große Sommer",
+        "author": "艾瓦‧亞倫茲",
+        "description": "讓所有讀者回憶起青春時光，溫柔坦率的成長文學。作者把青少年心靈的成長痛，以一種深刻的方式描寫出來，自己彷彿再經歷了一次少年時期，那也許是生命中絕無僅有的一個夏天，一夕之間，所有事物不再相同。",
+        "url": "https://www.kobo.com/tw/zh/ebook/fGXmBqBe8TyLLVuoiwwrqg",
+        "coverUrl": "https://cdn.kobo.com/book-images/17d6fd85-4056-4a61-b5a8-2a33d1447ef4/1200/1200/False/fGXmBqBe8TyLLVuoiwwrqg.jpg",
+        "originalPrice": 364,
+        "koboRating": 4.25,
+        "koboRatingCount": 8,
+        "isbn": "9786267537046",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 6,
+          "url": "https://readmoo.com/book/210345536000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.24,
+          "ratingCount": 22692,
+          "url": "https://www.goodreads.com/book/show/55958491",
+          "enAuthor": "Ewald Arenz"
+        },
+        "amazon": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://www.amazon.com/dp/B0DG983VPZ"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/14",
+        "title": "當富豪遇上僧侶：一個逆轉人生的真實故事",
+        "originalTitle": null,
+        "author": "朱利安．赫姆森",
+        "description": "一個關於人生意義的真實故事，一趟逆轉人生的意外旅程。在這個真實故事中，我們聆聽著這位富豪和僧侶在相遇後，談論幸福、愛、財富、成功、教育和生命的意義。雖然談的是生命意義，卻不嚴肅，也不講大道理。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Uh3NKiBkTzG9YpTHF-dgbA",
+        "coverUrl": "https://cdn.kobo.com/book-images/e24b5c42-881a-477b-802d-a468671ec0c7/1200/1200/False/Uh3NKiBkTzG9YpTHF-dgbA.jpg",
+        "originalPrice": 284,
+        "koboRating": 4.8,
+        "koboRatingCount": 10,
+        "isbn": "9786263616790",
+        "readmoo": {
+          "rating": 4.8,
+          "ratingCount": 36,
+          "url": "https://readmoo.com/book/210327143000101"
+        },
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 40,
     "books": [
       {
@@ -26,13 +306,17 @@
           "url": "https://www.goodreads.com/book/show/146487058",
           "enAuthor": "Dave Ramsey"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 3939,
+          "url": "https://www.amazon.com/dp/B09LR3HHG2"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "not_found",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
