@@ -152,18 +152,26 @@ async function main() {
 
         // 抓博客來（非 978 開頭 = 中國大陸出版，博客來無電子版，跳過）
         const booksSkipped = !book.isbn.startsWith('978');
-        const booksProdId = !booksSkipped
-          ? await scrapeBooksSearchPage(book.title)
-          : null;
+        let booksProdId: string | null = null;
+        let booksSearchFailed = false;
+        if (!booksSkipped) {
+          try {
+            booksProdId = await scrapeBooksSearchPage(page, book.title);
+          } catch (err) {
+            console.error(`  ⚠️ 博客來搜尋失敗：${(err as Error).message}`);
+            booksSearchFailed = true;
+          }
+        }
         const books = booksProdId
           ? await scrapeBooksBookPage(page, booksProdId)
           : null;
 
         let booksStatus: 'skipped' | 'not_found' | 'error' | 'ok';
-        if (booksSkipped)         booksStatus = 'skipped';
-        else if (!booksProdId)    booksStatus = 'not_found';
-        else if (!books)          booksStatus = 'error';
-        else                      booksStatus = 'ok';
+        if (booksSkipped)           booksStatus = 'skipped';
+        else if (booksSearchFailed) booksStatus = 'error';
+        else if (!booksProdId)      booksStatus = 'not_found';
+        else if (!books)            booksStatus = 'error';
+        else                        booksStatus = 'ok';
 
         // 從 Kobo 作者欄提取英文名（如 "史戴凡諾斯（Stefanos Xenakis）" → "Stefanos Xenakis"）
         const koboEnAuthor = extractEnglishName(book.author);
