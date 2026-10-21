@@ -1,5 +1,277 @@
 [
   {
+    "week": 42,
+    "books": [
+      {
+        "date": "10/15",
+        "title": "AI科學家李飛飛的視界之旅",
+        "originalTitle": "The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI",
+        "author": "李飛飛",
+        "description": "美國前總統歐巴馬推薦AI崛起時代必讀書籍。本書是李飛飛親筆撰寫的回憶錄，講述她在中國和美國兩地的成長、求學及研究生涯，她堅定志向完成了學業，並從物理轉向AI領域，之後更決定用AI幫助人類。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ai-146",
+        "coverUrl": "https://cdn.kobo.com/book-images/8cc83aad-ff44-44bb-95aa-e8fe96f6a420/1200/1200/False/ai-146.jpg",
+        "originalPrice": 450,
+        "koboRating": 4.77,
+        "koboRatingCount": 13,
+        "isbn": "9786263555051",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 141,
+          "url": "https://readmoo.com/book/210305021000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.3,
+          "ratingCount": 5722,
+          "url": "https://www.goodreads.com/book/show/144405196",
+          "enAuthor": "Fei-Fei Li"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "10/16",
+        "title": "超高齡社會的消費行為學：為熟齡者消除「不安、不滿、不便」，就是商機所在！",
+        "originalTitle": "成功するシニアビジネスの教科書―「超高齢社会」をビジネスチャンスにする技術",
+        "author": "村田裕之",
+        "description": "一本書，幫助我們徹底了解中高齡族群的消費行為與心理，掌握熟齡產業的趨勢。只要有更多人願意投入熟齡產業，不只服務熟齡族群，也能因為拓展商機讓年輕人有更多成功機會，打造一個更幸福的社會。",
+        "url": "https://www.kobo.com/tw/zh/ebook/zcPpACscIjOJ9pRZVCVZcA",
+        "coverUrl": "https://cdn.kobo.com/book-images/0dcffe3e-f0e9-4710-afb3-25888b5b0052/1200/1200/False/zcPpACscIjOJ9pRZVCVZcA.jpg",
+        "originalPrice": 300,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267195840",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 12,
+          "url": "https://readmoo.com/book/210364208000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.67,
+          "ratingCount": 3,
+          "url": "https://www.goodreads.com/book/show/29105581",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/16",
+        "title": "霍金传",
+        "originalTitle": "Hawking Hawking: The Selling of a Scientific Celebrity",
+        "author": "[美]查尔斯 · 塞费",
+        "description": "本書講述了作為科學家的霍金的一生，也描繪了霍金作為一個丈夫、一個老師、一個朋友是如何影響和鼓舞著身邊的每個人的。他的一生絕無僅有，他的精神如金子般珍貴。他一生最偉大的成就，也是他名垂千古的憑證。",
+        "url": "https://www.kobo.com/tw/zh/ebook/n1438rk70Ta4hIggtPL67A",
+        "coverUrl": "https://cdn.kobo.com/book-images/bc3d67e6-4764-4da4-8926-eb27cc03de4e/1200/1200/False/n1438rk70Ta4hIggtPL67A.jpg",
+        "originalPrice": 235,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7553521743449",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.72,
+          "ratingCount": 191,
+          "url": "https://www.goodreads.com/book/show/54817579",
+          "enAuthor": "Charles Seife"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B08F51GC3M"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/17",
+        "title": "告白者（普立茲獎得主阮越清《同情者》全新續作）",
+        "originalTitle": "The Committed",
+        "author": "阮越清",
+        "description": "普立茲獎得主阮越清和他的「雙面人」回來了！本書透過主角的自我對話呈現自我存在與各種主義的反思，深刻地叩問殖民與被殖民、難民等社會面向，又直探存在主義精神，以炙熱的筆觸描繪出忠誠與背叛的面貌。",
+        "url": "https://www.kobo.com/tw/zh/ebook/_1Xk_Ms1LTyAWnmCT65bSA",
+        "coverUrl": "https://cdn.kobo.com/book-images/c50d01c4-6e5f-4887-ade1-5c1073ddb317/1200/1200/False/_1Xk_Ms1LTyAWnmCT65bSA.jpg",
+        "originalPrice": 336,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267156780",
+        "readmoo": {
+          "rating": 4.2,
+          "ratingCount": 6,
+          "url": "https://readmoo.com/book/210271286000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.96,
+          "ratingCount": 13020,
+          "url": "https://www.goodreads.com/book/show/52260627",
+          "enAuthor": "Viet Thanh Nguyen"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B085FP3VT1"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/18",
+        "title": "超圖解電動車的構造與原理：驅動方式×發展趨勢，通盤了解產業鏈的現況及展望",
+        "originalTitle": null,
+        "author": "川邊謙一",
+        "description": "一次掌握為交通帶來巨大變化的移動革命。認識電動車，不單單只是多認識一種汽車，更能幫你思考未來的社會變化，促使人們去思考能源之於社會的意義，以及現在全球正努力實現的永續社會。",
+        "url": "https://www.kobo.com/tw/zh/ebook/O05EwxH6CjKtdey-mC1_mg",
+        "coverUrl": "https://cdn.kobo.com/book-images/74d071b0-8af7-4e99-935a-edbc1df2298f/1200/1200/False/O05EwxH6CjKtdey-mC1_mg.jpg",
+        "originalPrice": 294,
+        "koboRating": 2,
+        "koboRatingCount": 1,
+        "isbn": "9786263796966",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210364015000101"
+        },
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/19",
+        "title": "就算長大了，也還是會難過：不完美也沒關係，擁抱自己的55個溫暖練習（人氣韓團SEVENTEEN成員THE 8推薦）",
+        "originalTitle": "아무것도 모른 채 어른이 되었다",
+        "author": "安賢貞",
+        "description": "即使好辛苦卻還是得長大，對任何人來說都不是一件容易的事。寫給在大人世界中跌跌撞撞，卻仍然很努力的你。本書收錄55篇療癒文章，書寫人生、工作和愛情，同時穿插可愛的乙小喵插圖，陪你走過辛苦時刻。",
+        "url": "https://www.kobo.com/tw/zh/ebook/55-seventeenthe-8",
+        "coverUrl": "https://cdn.kobo.com/book-images/070f00d1-74e8-401a-bbfe-da315305d386/1200/1200/False/55-seventeenthe-8.jpg",
+        "originalPrice": 254,
+        "koboRating": 4,
+        "koboRatingCount": 2,
+        "isbn": "9789570867251",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210258656000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4,
+          "ratingCount": 13,
+          "url": "https://www.goodreads.com/book/show/59583766",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/20",
+        "title": "柳林風聲：年度暢銷書《蛤蟆先生去看心理師》故事原型，英國百年經典文學之作",
+        "originalTitle": null,
+        "author": "肯尼斯·葛拉罕 (Kenneth Grahame)、郭漁改寫",
+        "description": "一本關於友情、冒險的童話，透過生動的田園生活描寫，喚醒內心早被遺忘的純真，找回生命最初的悸動與希望，感受真摯而深刻的人生哲理。故事就從鼴鼠被春天氣息所召喚而離開地底生活，遇見柳岸邊的河鼠開始。",
+        "url": "https://www.kobo.com/tw/zh/ebook/jJ6inmB9YjCGDlHmAduB_Q",
+        "coverUrl": "https://cdn.kobo.com/book-images/bdbbe99d-bee2-4dfa-a224-30c3fd1ebad9/1200/1200/False/jJ6inmB9YjCGDlHmAduB_Q.jpg",
+        "originalPrice": 266,
+        "koboRating": 4.69,
+        "koboRatingCount": 13,
+        "isbn": "9789863425809",
+        "readmoo": {
+          "rating": 4.1,
+          "ratingCount": 40,
+          "url": "https://readmoo.com/book/210258590000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.03,
+          "ratingCount": 249766,
+          "url": "https://www.goodreads.com/book/show/75583697",
+          "enAuthor": "Kenneth Grahame"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/21",
+        "title": "思考致富：全球銷售七千萬冊，洛克菲勒、福特、卡內基的財富締造機密",
+        "originalTitle": "Think and Grow Rich",
+        "author": "拿破崙．希爾",
+        "description": "改變3億人生命，史上最暢銷勵志致富書。書中明確列出希爾的13步致富法則，透過自我暗示、想像力與潛意識，將你所知的一切組織為計畫，現在，致富需要的祕訣，已經實實在在地掌握在你手中。",
+        "url": "https://www.kobo.com/tw/zh/ebook/8Xa4LHOkrjm3RL4D0c3ftw",
+        "coverUrl": "https://cdn.kobo.com/book-images/4cd56392-7b9e-4d7a-8963-c35a4a878a29/1200/1200/False/8Xa4LHOkrjm3RL4D0c3ftw.jpg",
+        "originalPrice": 238,
+        "koboRating": 4.29,
+        "koboRatingCount": 7,
+        "isbn": "9786267442593",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210342750000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.16,
+          "ratingCount": 397268,
+          "url": "https://www.goodreads.com/book/show/30186948",
+          "enAuthor": "Napoleon Hill"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B0C71V2DXM"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 41,
     "books": [
       {
