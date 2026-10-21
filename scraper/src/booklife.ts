@@ -1,6 +1,4 @@
 import type { Page } from 'playwright';
-import axios from 'axios';
-import * as cheerio from 'cheerio';
 import { isBookMatched } from './utils.js';
 
 //! --- 單獨測試博客來時用的程式碼
@@ -12,10 +10,6 @@ import { isBookMatched } from './utils.js';
 // const TEST_TITLE = '萬事皆美好:讓無數希臘人感受幸福的禮物書';
 
 // async function run() {
-//   const productId = await scrapeBooksSearchPage(TEST_TITLE);
-//   console.log('商品編號：', productId);
-//   if (!productId) return;
-
 //   const browser = await chromium.launch({ headless: false });
 //   const context = await browser.newContext({
 //     locale: 'zh-TW',
@@ -26,6 +20,10 @@ import { isBookMatched } from './utils.js';
 //   const page = await context.newPage();
 
 //   try {
+//     const productId = await scrapeBooksSearchPage(page, TEST_TITLE);
+//     console.log('商品編號：', productId);
+//     if (!productId) return;
+
 //     const result = await scrapeBooksBookPage(page, productId);
 //     console.log('博客來評分：', result?.booksRating);
 //     console.log('博客來則數：', result?.booksRatingCount);
@@ -40,39 +38,43 @@ import { isBookMatched } from './utils.js';
 // run().catch(err => { console.error(err); process.exit(1); });
 // -------- block end -----------
 
-export async function scrapeBooksSearchPage(title: string): Promise<string | null> {
+export async function scrapeBooksSearchPage(page: Page, title: string): Promise<string | null> {
 
   const SEARCH_BASE = 'https://search.books.com.tw/search/query/key';
 
+  // 回傳 null = 確定配不到；被擋或載入失敗則 throw，讓主流程記成 error 而非 not_found
   const searchTitle = title.replace(/\s*[：:].*/, '').trim();
-  try {
-    const url = `${SEARCH_BASE}/${encodeURIComponent(searchTitle)}/cat/EBA`;
-    const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
-      },
-      timeout: 10_000,
-    });
-    const $ = cheerio.load(response.data);
-    const first = $('[id^="prod-itemlist-"]').first();
-    const idAttr = first.attr('id');
-    if (!idAttr) return null;
+  const url = `${SEARCH_BASE}/${encodeURIComponent(searchTitle)}/cat/EBA`;
+  const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+  const status = response?.status();
+  if (status === 404) return null;
+  if (status !== undefined && status >= 400) throw new Error(`博客來搜尋頁回應 ${status}`);
 
-    const resultTitle = first.find('a[title]').first().attr('title')
-      ?.replace(/\s*\(電子書\)$/, '').trim() ?? '';
-    if (!isBookMatched(searchTitle, resultTitle)) {
-      const cleanResult = (resultTitle.split(/[：:—\-]/)[0] ?? '').replace(/\s+/g, '');
-      console.log(`  ⚠️ 博客來配對不符：「${cleanResult}」`);
-      return null;
-    }
+  const html = await page.content();
+  const isChallenge =
+    html.includes('cf-browser-verification') ||
+    html.includes('cf_chl_') ||
+    html.includes('Just a moment') ||
+    html.includes('Checking your browser');
+  if (isChallenge) throw new Error('博客來搜尋頁被 Cloudflare 攔截');
 
-    return idAttr.replace('prod-itemlist-', '');
-  } catch(err) {
-    if (axios.isAxiosError(err) && err.response?.status === 404) return null;
-    console.error('博客來搜尋失敗', err);
+  await page.waitForSelector('[id^="prod-itemlist-"]', { timeout: 10_000 }).catch(() => null);
+
+  const first = await page.evaluate(() => {
+    const el = document.querySelector('[id^="prod-itemlist-"]');
+    if (!el) return null;
+    return { id: el.id, title: el.querySelector('a[title]')?.getAttribute('title') ?? '' };
+  });
+  if (!first) return null;
+
+  const resultTitle = first.title.replace(/\s*\(電子書\)$/, '').trim();
+  if (!isBookMatched(searchTitle, resultTitle)) {
+    const cleanResult = (resultTitle.split(/[：:—\-]/)[0] ?? '').replace(/\s+/g, '');
+    console.log(`  ⚠️ 博客來配對不符：「${cleanResult}」`);
     return null;
   }
+
+  return first.id.replace('prod-itemlist-', '');
 }
 
 export async function scrapeBooksBookPage(page: Page, productId: string) {
