@@ -1,5 +1,288 @@
 [
   {
+    "week": 43,
+    "books": [
+      {
+        "date": "10/22",
+        "title": "奇點已近：當人類與AI融合一體",
+        "originalTitle": "The Singularity Is Nearer: When We Merge with AI",
+        "author": "雷．庫茲威爾",
+        "description": "延續其經典著作《奇點臨近》，本書探討未來數十年科技將如何改變人類。評估了他1999年提出的AI將在2029年前達到人類智慧水準的預言，在不久的將來，科技將使人類的智能擴大一百萬倍，並將永遠改變人類的生活。",
+        "url": "https://www.kobo.com/tw/zh/ebook/ai-309",
+        "coverUrl": "https://cdn.kobo.com/book-images/b75953e2-04a3-4270-a3ee-43595b427072/1200/1200/False/ai-309.jpg",
+        "originalPrice": 520,
+        "koboRating": 4.25,
+        "koboRatingCount": 4,
+        "isbn": "9786267736012",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 7,
+          "url": "https://readmoo.com/book/210392140000101"
+        },
+        "books": {
+          "rating": 4,
+          "ratingCount": 4,
+          "url": "https://www.books.com.tw/products/E050269072"
+        },
+        "goodreads": {
+          "rating": 3.89,
+          "ratingCount": 4980,
+          "url": "https://www.goodreads.com/book/show/45024007",
+          "enAuthor": "Ray Kurzweil"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 1729,
+          "url": "https://www.amazon.com/dp/B08Y6FYJVY"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/23",
+        "title": "有錢人教我的致富心態：學有錢人這樣想錢、生錢、存錢、花錢，他從月光族變身資產3億富翁！",
+        "originalTitle": "お金持ちは合理的",
+        "author": "立川健悟",
+        "description": "他如何從月光族變為億萬富翁？變有錢的第一步：換上有錢人的腦袋和心態，學他們用錢來長知識、養人脈、圓夢想，最重要的是，用錢滾出愈來愈多的錢，現在就調整你的金錢思維和習慣，過上富足的人生。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Spvb2VuFcjqMRpjvHqcq2w",
+        "coverUrl": "https://cdn.kobo.com/book-images/d6e7055d-d774-47cd-846b-7dac7fd44b69/1200/1200/False/Spvb2VuFcjqMRpjvHqcq2w.jpg",
+        "originalPrice": 266,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267492567",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 25,
+          "url": "https://readmoo.com/book/210356434000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 8,
+          "url": "https://www.books.com.tw/products/E050241221"
+        },
+        "goodreads": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/222929856",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/23",
+        "title": "美好而粗暴的世界",
+        "originalTitle": null,
+        "author": "安德烈·普拉东诺夫",
+        "description": "奠定蘇聯文學發展方向的作家小說代表作合集。這五篇小說分別屬於普拉東諾夫的三個藝術階段，題材從科幻到歷史最終回歸現實，展現了作家整個創作生涯的思想變化，關於物質與精神的辯證關係的永恆思考。",
+        "url": "https://www.kobo.com/tw/zh/ebook/d7kSXij2eTWi9oJpLdiDIg",
+        "coverUrl": "https://cdn.kobo.com/book-images/9cb49c93-f025-49c0-9cc0-9b018be1c550/1200/1200/False/d7kSXij2eTWi9oJpLdiDIg.jpg",
+        "originalPrice": 696,
+        "koboRating": 3,
+        "koboRatingCount": 1,
+        "isbn": "7574532788996",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/24",
+        "title": "布登布洛克家族（被譽為德國版《紅樓夢》，諾貝爾獎得主托瑪斯．曼奠定文壇地位之作、最偉大的家族史小說）",
+        "originalTitle": "Buddenbrooks",
+        "author": "托瑪斯‧曼",
+        "description": "出版百年，仍被譽為最偉大的現代小說之一，德國市民階級的精神剖面圖，細膩呈現傳統社會如何在現代化浪潮中逐漸失去立足之地，書中人物雖試圖捍衛倫理，最終卻無力抵擋時代的冷酷與個體意志的崩潰。",
+        "url": "https://www.kobo.com/tw/zh/ebook/MGqfy0GLajqmLtKu9suQew",
+        "coverUrl": "https://cdn.kobo.com/book-images/40cb9bf5-1521-42de-aeb7-8fd65c22222f/1200/1200/False/MGqfy0GLajqmLtKu9suQew.jpg",
+        "originalPrice": 559,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "9786267728000",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210390707000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050266529"
+        },
+        "goodreads": {
+          "rating": 4.21,
+          "ratingCount": 38963,
+          "url": "https://www.goodreads.com/book/show/80890",
+          "enAuthor": "Thomas Mann"
+        },
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 1443,
+          "url": "https://www.amazon.com/dp/B004G60B6W"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/25",
+        "title": "性為什麼存在？：那些性事的奇怪冷知識， 比你想像還要獵奇得多",
+        "originalTitle": null,
+        "author": "瑞秋．費爾特曼（Rachel Feltman）",
+        "description": "這是一部歡快、打破神話的性愛歷史！以科學、生物學和歷史三面向探討「性」，你會發現所有奇怪都是正常的，所有正常都是奇怪的。閱讀這本書能讓你成為聚會中知識淵博的焦點，談論令人嘖嘖稱奇的性話題軼事。",
+        "url": "https://www.kobo.com/tw/zh/ebook/7EXfb2PYTzCYN0jsVBo45Q",
+        "coverUrl": "https://cdn.kobo.com/book-images/7a223d3a-6ad8-4d68-b978-46275f0bd2c7/1200/1200/False/7EXfb2PYTzCYN0jsVBo45Q.jpg",
+        "originalPrice": 315,
+        "koboRating": 3,
+        "koboRatingCount": 2,
+        "isbn": "9786263209381",
+        "readmoo": {
+          "rating": 4.6,
+          "ratingCount": 5,
+          "url": "https://readmoo.com/book/210355679000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050240618"
+        },
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "10/26",
+        "title": "未來預演（二版）：切斷情緒成癮神經鏈結，四週改變慣性腦迴路，換一個新未來",
+        "originalTitle": "Breaking The Habit of Being Yourself:How to Lose Your Mind and Create a New One",
+        "author": "喬‧迪斯本札(Joe Dispenza)",
+        "description": "心靈科學先驅喬・迪斯本札代表作，結合最新腦神經科學和古老靜坐智慧，打開潛意識與意識的大門，勇敢改寫大腦慣性迴路，成為不敢想的自己，只要二十八天，就能讓身體漸漸熟悉新的大腦迴路，養成你的第二天性。",
+        "url": "https://www.kobo.com/tw/zh/ebook/oxCiRRXMsD21u18076oCTg",
+        "coverUrl": "https://cdn.kobo.com/book-images/5a19b99c-1f65-4cf0-8510-bd744bf6f9fd/1200/1200/False/oxCiRRXMsD21u18076oCTg.jpg",
+        "originalPrice": 349,
+        "koboRating": 4.74,
+        "koboRatingCount": 27,
+        "isbn": "9786269742301",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 29,
+          "url": "https://readmoo.com/book/210272804000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.12,
+          "ratingCount": 43863,
+          "url": "https://www.goodreads.com/book/show/222660524",
+          "enAuthor": "Joe Dispenza"
+        },
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 18564,
+          "url": "https://www.amazon.com/dp/B006M7A8JI"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/27",
+        "title": "法國人如何思考？",
+        "originalTitle": "How the French Think",
+        "author": "蘇迪爾‧哈札里辛格 Sudhir Hazareesingh",
+        "description": "笛卡兒的我思故我在掀起璀璨繽紛的法國思想，法國人熱愛思考、熱中討論生命的美好。把法國從世界舞臺拿開，我們就失去解決問題的某種方式，本書將帶你辨識這些法式思維的特點，呈現今日法國文化顯現的樣貌。",
+        "url": "https://www.kobo.com/tw/zh/ebook/E3P2i2mBAzasO1FpFV2_2w",
+        "coverUrl": "https://cdn.kobo.com/book-images/fae633b6-2623-460f-a38a-be85939f8ea4/1200/1200/False/E3P2i2mBAzasO1FpFV2_2w.jpg",
+        "originalPrice": 400,
+        "koboRating": 3.5,
+        "koboRatingCount": 4,
+        "isbn": "3119864771516",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.6,
+          "ratingCount": 335,
+          "url": "https://www.goodreads.com/book/show/24612237",
+          "enAuthor": "Sudhir Hazareesingh"
+        },
+        "amazon": {
+          "rating": 4.1,
+          "ratingCount": 150,
+          "url": "https://www.amazon.com/dp/B010KN2WES"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "10/28",
+        "title": "第三種猩猩：人類的身世與未來〔問世20週年紀念版〕",
+        "originalTitle": "The Third Chimpanzee： The Evolution and Future of the Human Animal",
+        "author": "賈德．戴蒙 Jared Diamond",
+        "description": "人類大歷史三部曲前傳。戴蒙逐一檢視人類進化之過程，論證人類是不折不扣的動物之見解，從而對人類社會之重大議題，閱讀本書除能反思「人類乃萬物之靈」此言之狂妄，更將重新界定文化與道德之定義。",
+        "url": "https://www.kobo.com/tw/zh/ebook/m4e8GUiI7jWx3FE0RsukLw",
+        "coverUrl": "https://cdn.kobo.com/book-images/1ea97d62-455a-4e95-9917-87fcdc672d80/1200/1200/False/m4e8GUiI7jWx3FE0RsukLw.jpg",
+        "originalPrice": 315,
+        "koboRating": 4.5,
+        "koboRatingCount": 4,
+        "isbn": "3039571359366",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/48674462",
+          "enAuthor": "John Mor"
+        },
+        "amazon": {
+          "rating": 3.7,
+          "ratingCount": 6,
+          "url": "https://www.amazon.com/dp/B0GM53YG3V"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 42,
     "books": [
       {
