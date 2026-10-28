@@ -34,30 +34,44 @@ export async function scrapeKoboBookPage(page: Page, url: string) {
   await sleep(1500 + Math.random() * 1000);
 
   return page.evaluate(() => {
-    const title = document.querySelector('.title.product-field')?.textContent?.trim() ?? '';
-    const originalTitle = document.querySelector('.subtitle.product-field')?.textContent?.trim() ?? null;
-    const author = document.querySelector('.contributor-name')?.textContent?.trim() ?? '';
-    const coverUrl = document.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content ?? '';
+    // 2026-10 Kobo 改版（Next.js），改用 data-testid 定位
+    const titleEl = document.querySelector('[data-testid="book-title"]');
+    const title = titleEl?.textContent?.trim() ?? '';
+    const subtitleEl = titleEl?.nextElementSibling;
+    const originalTitle = subtitleEl?.tagName === 'P' ? subtitleEl.textContent?.trim() || null : null;
+    // 作者連結順序可能譯者在前（例：第三種猩猩），封面 alt「作者：X」才是主要作者，優先採用
+    const coverEl = document.querySelector<HTMLImageElement>('[data-testid="cover"]');
+    const altAuthor = coverEl?.getAttribute('alt')?.match(/作者：(.+)$/)?.[1]?.split(/[,、]/)[0]?.trim();
+    const author = altAuthor
+      || document.querySelector('a[data-track-info*="AuthorSearchLink"]')?.textContent?.trim()
+      || '';
 
-    const metaPriceStr = document.querySelector<HTMLMetaElement>('meta[property="og:price"]')?.content ?? '';
-    const currentPrice = metaPriceStr ? Math.round(parseFloat(metaPriceStr)) : 0;
+    // og:image 已移除；封面 src 為 //cdn.kobo.com/book-images/{id}/353/569/90/False/xxx.jpg，換成舊版的 1200 尺寸
+    const coverSrc = coverEl?.getAttribute('src') ?? '';
+    const coverUrl = coverSrc
+      ? (coverSrc.startsWith('//') ? `https:${coverSrc}` : coverSrc).replace(/\/\d+\/\d+\/(\d+\/)?False\//, '/1200/1200/False/')
+      : '';
 
-    const strikethroughText = document.querySelector('span.price.strikethrough')
-      ?.textContent?.replace('NT$', '').replace(/,/g, '').trim();
-    const strikethroughPrice = strikethroughText ? parseInt(strikethroughText, 10) || null : null;
+    // og:price 已移除；購買區塊內所有 NT$ 金額取最大值（特價時含原價），> 99 才算原價
+    const priceTexts = Array.from(
+      document.querySelectorAll('[data-testid="buypad-state-alc"] [data-testid="price"] span')
+    ).map(el => el.textContent ?? '');
+    const prices = priceTexts
+      .map(t => t.match(/NT\$([\d,.]+)/)?.[1])
+      .filter((s): s is string => !!s)
+      .map(s => Math.round(parseFloat(s.replace(/,/g, ''))));
+    const maxPrice = prices.length ? Math.max(...prices) : 0;
+    const originalPrice = maxPrice > 99 ? maxPrice : null;
 
-    const originalPrice = strikethroughPrice ?? (currentPrice > 99 ? currentPrice : null);
+    const ratingLabel = document.querySelector('[data-testid="rating-read-only"]')?.getAttribute('aria-label') ?? '';
+    const ratingMatch = ratingLabel.match(/評分為 ([\d.]+) 星.*有 ([\d,]+) 個評分/);
+    // 新版 aria-label 給完整小數（4.74074…），收斂成舊資料的兩位小數
+    const koboRating = ratingMatch ? Math.round(parseFloat(ratingMatch[1] ?? '0') * 100) / 100 : null;
+    const koboRatingCount = ratingMatch ? parseInt((ratingMatch[2] ?? '0').replace(/,/g, ''), 10) : null;
 
-    const ratingLabel = document.querySelector('ul.stars.read-only')?.getAttribute('aria-label') ?? '';
-    const ratingMatch = ratingLabel.match(/Rated ([\d.]+) out of 5 stars with (\d+)/);
-    const koboRating = ratingMatch ? parseFloat(ratingMatch[1] ?? '0') : null;
-    const koboRatingCount = ratingMatch ? parseInt(ratingMatch[2] ?? '0', 10) : null;
-
-    const metadataBlock = Array.from(
-      document.querySelector('.bookitem-secondary-metadata')?.querySelectorAll('li') ?? []
-    );
-    const isbnBlock = metadataBlock.find(li => li.textContent?.trim().startsWith('書籍ID：'));
-    const isbn = isbnBlock?.querySelector('span')?.textContent.replace(/-/g, '').trim() ?? '-'
+    const isbnBlock = Array.from(document.querySelectorAll('li'))
+      .find(li => li.querySelector('span')?.textContent?.trim() === 'ISBN：');
+    const isbn = isbnBlock?.querySelectorAll('span')[1]?.textContent?.replace(/-/g, '').trim() || '-';
 
     return { title, originalTitle, author, coverUrl, originalPrice, koboRating, koboRatingCount, isbn };
   });
