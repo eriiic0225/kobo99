@@ -17,13 +17,17 @@
         "readmoo": null,
         "books": null,
         "goodreads": null,
-        "amazon": null,
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 1761,
+          "url": "https://www.amazon.com/dp/B004HOEGAA"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "not_found",
           "books": "skipped",
           "goodreads": "not_found",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -156,20 +160,28 @@
         "koboRating": 5,
         "koboRatingCount": 3,
         "isbn": "9789864932078",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 3,
+          "ratingCount": 1,
+          "url": "https://readmoo.com/book/210385761000101"
+        },
         "books": {
           "rating": 4,
           "ratingCount": 2,
           "url": "https://www.books.com.tw/products/E050351048"
         },
         "goodreads": null,
-        "amazon": null,
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 20,
+          "url": "https://www.amazon.com/dp/B0CTTBTFMV"
+        },
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "error",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "not_found",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
