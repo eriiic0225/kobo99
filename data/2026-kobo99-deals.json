@@ -30,13 +30,17 @@
           "url": "https://www.goodreads.com/book/show/62675870",
           "enAuthor": "Kathy M. Hobbs"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.amazon.com/dp/B0HBR58XFS"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -113,7 +117,11 @@
           "ratingCount": 119,
           "url": "https://readmoo.com/book/210436665000101"
         },
-        "books": null,
+        "books": {
+          "rating": 5,
+          "ratingCount": 5,
+          "url": "https://www.books.com.tw/products/E050308636"
+        },
         "goodreads": {
           "rating": 4.25,
           "ratingCount": 4,
@@ -128,7 +136,7 @@
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "error",
+          "books": "ok",
           "goodreads": "ok",
           "amazon": "ok"
         }
@@ -186,7 +194,11 @@
         "koboRating": 4.32,
         "koboRatingCount": 34,
         "isbn": "9789573298229",
-        "readmoo": null,
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 59,
+          "url": "https://readmoo.com/book/210251822000101"
+        },
         "books": {
           "rating": 4.5,
           "ratingCount": 4,
@@ -201,7 +213,7 @@
         "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "error",
+          "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
           "amazon": "skipped"
@@ -224,20 +236,28 @@
           "ratingCount": null,
           "url": "https://readmoo.com/book/210309185000101"
         },
-        "books": null,
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050197993"
+        },
         "goodreads": {
           "rating": 3.59,
           "ratingCount": 54,
           "url": "https://www.goodreads.com/book/show/25814359",
           "enAuthor": "Stephanie Marango MD"
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.3,
+          "ratingCount": 121,
+          "url": "https://www.amazon.com/dp/B010MHAA9G"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
-          "books": "error",
+          "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -252,8 +272,16 @@
         "koboRating": 4.33,
         "koboRatingCount": 3,
         "isbn": "9786267108291",
-        "readmoo": null,
-        "books": null,
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 8,
+          "url": "https://readmoo.com/book/210225956000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050129745"
+        },
         "goodreads": {
           "rating": 5,
           "ratingCount": 1,
@@ -263,8 +291,8 @@
         "amazon": null,
         "scrapeStatus": {
           "kobo": "ok",
-          "readmoo": "error",
-          "books": "error",
+          "readmoo": "ok",
+          "books": "ok",
           "goodreads": "ok",
           "amazon": "skipped"
         }
