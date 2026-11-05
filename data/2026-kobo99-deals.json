@@ -1,5 +1,277 @@
 [
   {
+    "week": 45,
+    "books": [
+      {
+        "date": "11/05",
+        "title": "聰明簡潔的溝通：200字寫重點，26秒贏得注意力",
+        "originalTitle": "Smart Brevity The Power of Saying More with Less",
+        "author": "吉姆．范德海",
+        "description": "在資訊爆炸的時代，每天產生的數十億文字都在讓人浪費時間！數位時代的寫作聖經，推文、郵件、簡報全適用。簡潔帶來自信，冗長讓人恐懼。「聰明簡潔溝通法」教你穿透雜訊，直擊讀者的心，解救讀者脫離文字苦海。",
+        "url": "https://www.kobo.com/tw/zh/ebook/EI-7hWd-0zydZBJnzunKvg",
+        "coverUrl": "https://cdn.kobo.com/book-images/832cbf78-6989-4f89-bf4f-6f266a720f51/1200/1200/False/EI-7hWd-0zydZBJnzunKvg.jpg",
+        "originalPrice": 338,
+        "koboRating": 4.32,
+        "koboRatingCount": 22,
+        "isbn": "9786263552272",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 90,
+          "url": "https://readmoo.com/book/210274387000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 11,
+          "url": "https://www.books.com.tw/products/E050162760"
+        },
+        "goodreads": {
+          "rating": 2.33,
+          "ratingCount": 3,
+          "url": "https://www.goodreads.com/book/show/62675870",
+          "enAuthor": "Kathy M. Hobbs"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "11/06",
+        "title": "誤判：如何在喧鬧世界中篩選正確訊息，校正解讀，做出更明智的決策",
+        "originalTitle": "Tune In: How to Make Smarter Decisions in a Noisy World",
+        "author": "努沃．爾許(Nuala Walsh)",
+        "description": "誤判的決策危機，將是人類的危機。校準接收正確訊息的頻率，有意識地過濾掉周圍雜音，你的決策品質將決定你的收穫與後悔程度。本書以最新且立體的觀點解讀判斷力，排除讓人脫離正軌的雜訊，終結草率判斷。",
+        "url": "https://www.kobo.com/tw/zh/ebook/DozvpmMMkDGAOCtpC762kg",
+        "coverUrl": "https://cdn.kobo.com/book-images/9b547148-2bc1-4bee-9daf-d1d4ddbed555/1200/1200/False/DozvpmMMkDGAOCtpC762kg.jpg",
+        "originalPrice": 616,
+        "koboRating": 1,
+        "koboRatingCount": 1,
+        "isbn": "9786267714058",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 4.32,
+          "ratingCount": 126,
+          "url": "https://www.goodreads.com/book/show/127278715",
+          "enAuthor": "Nuala Walsh"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 62,
+          "url": "https://www.amazon.com/dp/B0C1PCCMXB"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "error",
+          "books": "not_found",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/06",
+        "title": "今天也要好好写手账啊",
+        "originalTitle": null,
+        "author": "不是闷",
+        "description": "手帳即生活，寫下即人生。知名手帳博主不是悶分享7年來積累的手帳秘笈，從手帳新手時的各種嘗試，到漸入佳境後和生活產生的化學反應。一一進行詳細分享，你也可以用這些方法更好地留下生活中所有美好瞬間。",
+        "url": "https://www.kobo.com/tw/zh/ebook/qEpAJYls6Dq-VSnrVg5bcA",
+        "coverUrl": "https://cdn.kobo.com/book-images/4a62f346-fe1b-4f89-ae9e-2f21edd32068/1200/1200/False/qEpAJYls6Dq-VSnrVg5bcA.jpg",
+        "originalPrice": 240,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "7553521738872",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "11/07",
+        "title": "惡魔浮生錄（普立茲小說獎與女性文學獎雙冠鉅著）",
+        "originalTitle": "Demon Copperhead",
+        "author": "芭芭拉．金索沃",
+        "description": "貧窮、失親、毒癮，這位地獄開局的紅髮少年，該如何扭轉人生？本書是21世紀最重要的人道關懷小說，惡魔的故事，寫出了每個社會、每個底層角落都需要的人道關懷。這是一部獻給每個孤苦無依的孩子的一本書。",
+        "url": "https://www.kobo.com/tw/zh/ebook/Ij08Z7cqwjGpxHDWbTFpbw",
+        "coverUrl": "https://cdn.kobo.com/book-images/cc4b6ad4-9dc5-487d-a1e2-5a5d857257dc/1200/1200/False/Ij08Z7cqwjGpxHDWbTFpbw.jpg",
+        "originalPrice": 525,
+        "koboRating": 4.5,
+        "koboRatingCount": 2,
+        "isbn": "9786264440400",
+        "readmoo": {
+          "rating": 4.5,
+          "ratingCount": 119,
+          "url": "https://readmoo.com/book/210436665000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 4.25,
+          "ratingCount": 4,
+          "url": "https://www.goodreads.com/book/show/246757836",
+          "enAuthor": "Barbara Kingsolver"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 159051,
+          "url": "https://www.amazon.com/dp/B09QMHZ53K"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "error",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/08",
+        "title": "實驗吧！我要瘋狂養生：厭世記者親身嘗試101天斷食、瑜伽、冥想，一場變健康的大冒險（Netflix影集《養生狂女子》原型故事）",
+        "originalTitle": "Wellmania: Misadventures in the Search for Wellness",
+        "author": "布里吉德‧迪蘭尼（Brigid Delaney）",
+        "description": "成為養生狂人，就會變健康？揭開養生熱潮背後真相的瘋狂實驗計畫，每一種妙招都不放過，這樣真的有益身心？讓我們反思，進行這些琳琅滿目的養生法，是真的有益身心，還是為了不落人後。",
+        "url": "https://www.kobo.com/tw/zh/ebook/101-netflix",
+        "coverUrl": "https://cdn.kobo.com/book-images/37fcdef6-a5f0-4b85-94e4-9c3d369b9db5/1200/1200/False/101-netflix.jpg",
+        "originalPrice": 315,
+        "koboRating": 4,
+        "koboRatingCount": 3,
+        "isbn": "9786263493360",
+        "readmoo": {
+          "rating": 3.9,
+          "ratingCount": 27,
+          "url": "https://readmoo.com/book/210278764000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050167614"
+        },
+        "goodreads": {
+          "rating": 3.28,
+          "ratingCount": 1377,
+          "url": "https://www.goodreads.com/book/show/34451942",
+          "enAuthor": "Brigid Delaney"
+        },
+        "amazon": {
+          "rating": 3.6,
+          "ratingCount": 40,
+          "url": "https://www.amazon.com/dp/B07959TC4Y"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/09",
+        "title": "勝出99%人的成癮式學習法",
+        "originalTitle": "同步提升邏輯思維、記憶力和專注力，輕鬆成為「會學習的人」",
+        "author": "粂原圭太郎",
+        "description": "日本最強金頭腦密技大公開，讓學習，像沉迷遊戲一樣專注。只要用對方法，讓學習變成一件快樂的事情，就能自然而然地堅持下去，獲得最好的效果。學習高手都在用，從被動學習到主動思考的11個高效學習法。",
+        "url": "https://www.kobo.com/tw/zh/ebook/jcesSP30-jGRoZQpwNJA3A",
+        "coverUrl": "https://cdn.kobo.com/book-images/c9393d77-9aa6-463f-9e5b-7d62cdd36ac4/1200/1200/False/jcesSP30-jGRoZQpwNJA3A.jpg",
+        "originalPrice": 237,
+        "koboRating": 4.32,
+        "koboRatingCount": 34,
+        "isbn": "9789573298229",
+        "readmoo": null,
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 4,
+          "url": "https://www.books.com.tw/products/E050143063"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/137470475",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "error",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "11/10",
+        "title": "健康占星全書：12星座的身心靈功課，校準能量的72個生活練習",
+        "originalTitle": "Your Body and the Stars: The Zodiac As Your Wellness Guide",
+        "author": "史蒂芬妮．莫倫歌",
+        "description": "台灣第一本「醫療占星」入門書，星座版的健康教育課，針對個人星座或老毛病部位，提供身心整合調養建議。不僅可以預防疾病，還可以達到身心平衡，從頭到腳開啟你和宇宙相接的療癒連線。",
+        "url": "https://www.kobo.com/tw/zh/ebook/wxSLXfPwgjuW0emToXuYSg",
+        "coverUrl": "https://cdn.kobo.com/book-images/3d86f28d-bd0b-4cf1-bfe9-eac79ce35570/1200/1200/False/wxSLXfPwgjuW0emToXuYSg.jpg",
+        "originalPrice": 406,
+        "koboRating": 3.5,
+        "koboRatingCount": 3,
+        "isbn": "9786267313749",
+        "readmoo": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://readmoo.com/book/210309185000101"
+        },
+        "books": null,
+        "goodreads": {
+          "rating": 3.59,
+          "ratingCount": 54,
+          "url": "https://www.goodreads.com/book/show/25814359",
+          "enAuthor": "Stephanie Marango MD"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "error",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "11/11",
+        "title": "極簡法國史",
+        "originalTitle": "一冊でわかるフランス史",
+        "author": "福井憲彥",
+        "description": "大革命揭起的三色旗，如何撼動全歐洲的舊秩序？一冊認識法國，追溯浪漫國度的起源。娓娓道來法蘭西共和國的起源與變革，以及這塊土地的宗教、思想與多民族所激盪的火花與文明結晶。",
+        "url": "https://www.kobo.com/tw/zh/ebook/-gKT8GJNkDyL5QE-qH4zew",
+        "coverUrl": "https://cdn.kobo.com/book-images/73b09ceb-3ec6-4220-920b-dc8cce740512/1200/1200/False/-gKT8GJNkDyL5QE-qH4zew.jpg",
+        "originalPrice": 245,
+        "koboRating": 4.33,
+        "koboRatingCount": 3,
+        "isbn": "9786267108291",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.goodreads.com/book/show/103354976",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "error",
+          "books": "error",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 44,
     "books": [
       {
