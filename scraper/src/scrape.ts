@@ -34,6 +34,32 @@ export async function scrapeKoboBookPage(page: Page, url: string) {
   await sleep(1500 + Math.random() * 1000);
 
   return page.evaluate(() => {
+    // 2026-11 Kobo 書頁又回到舊版 DOM（.product-field / og:* meta），兩版會來回切換，偵測不到新版就走舊版選擇器
+    if (!document.querySelector('[data-testid="book-title"]')) {
+      const title = document.querySelector('.title.product-field')?.textContent?.trim() ?? '';
+      const originalTitle = document.querySelector('.subtitle.product-field')?.textContent?.trim() || null;
+      const author = document.querySelector('.contributor-name')?.textContent?.trim() ?? '';
+      const coverUrl = document.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content ?? '';
+
+      const metaPriceStr = document.querySelector<HTMLMetaElement>('meta[property="og:price"]')?.content ?? '';
+      const currentPrice = metaPriceStr ? Math.round(parseFloat(metaPriceStr)) : 0;
+      const strikethroughText = document.querySelector('span.price.strikethrough')
+        ?.textContent?.replace('NT$', '').replace(/,/g, '').trim();
+      const strikethroughPrice = strikethroughText ? parseInt(strikethroughText, 10) || null : null;
+      const originalPrice = strikethroughPrice ?? (currentPrice > 99 ? currentPrice : null);
+
+      const ratingLabel = document.querySelector('ul.stars.read-only')?.getAttribute('aria-label') ?? '';
+      const ratingMatch = ratingLabel.match(/Rated ([\d.]+) out of 5 stars with ([\d,]+)/);
+      const koboRating = ratingMatch ? Math.round(parseFloat(ratingMatch[1] ?? '0') * 100) / 100 : null;
+      const koboRatingCount = ratingMatch ? parseInt((ratingMatch[2] ?? '0').replace(/,/g, ''), 10) : null;
+
+      const isbnBlock = Array.from(document.querySelectorAll('.bookitem-secondary-metadata li'))
+        .find(li => li.textContent?.trim().startsWith('書籍ID：'));
+      const isbn = isbnBlock?.querySelector('span')?.textContent?.replace(/-/g, '').trim() || '-';
+
+      return { title, originalTitle, author, coverUrl, originalPrice, koboRating, koboRatingCount, isbn };
+    }
+
     // 2026-10 Kobo 改版（Next.js），改用 data-testid 定位
     const titleEl = document.querySelector('[data-testid="book-title"]');
     const title = titleEl?.textContent?.trim() ?? '';
