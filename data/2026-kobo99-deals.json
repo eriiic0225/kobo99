@@ -1,5 +1,300 @@
 [
   {
+    "week": 46,
+    "books": [
+      {
+        "date": "11/12",
+        "title": "",
+        "originalTitle": "Reinforcements: How to Get People to Help You",
+        "author": "",
+        "description": "一本讓你言值高、內心也強大的書，該怎樣開口，讓人願意幫你？風靡商業界、政治圈的最高說服法，最新動機科學，教你求助用得好，關係更長久。想要人生愈來愈好，就要有好好拜託的本事，創造多贏的求助技巧。",
+        "url": "https://www.kobo.com/tw/zh/ebook/VE6Q52XO_zO20M4wWG9bmg",
+        "coverUrl": "",
+        "originalPrice": 245,
+        "koboRating": 4.33,
+        "koboRatingCount": 9,
+        "isbn": "-",
+        "readmoo": null,
+        "books": null,
+        "goodreads": {
+          "rating": 3.8,
+          "ratingCount": 298,
+          "url": "https://www.goodreads.com/book/show/39085801",
+          "enAuthor": "Heidi Grant"
+        },
+        "amazon": {
+          "rating": 4.2,
+          "ratingCount": 102,
+          "url": "https://www.amazon.com/dp/B073WHP3JW"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "skipped",
+          "books": "skipped",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/13",
+        "title": "",
+        "originalTitle": "Technically Food: Inside Silicon Valley’s Mission to Change What We Eat",
+        "author": "",
+        "description": "當今科技食物產業發展的第一本全面調查。食物從來不只是食物，更是商業利益與權力角力的產物，唯有透過公開透明的機制與清楚的食品商標，我們才能真正了解自己吃下肚子的東西究竟是什麼。",
+        "url": "https://www.kobo.com/tw/zh/ebook/dx53TdvEAzSR19lKtJ6K9g",
+        "coverUrl": "",
+        "originalPrice": 340,
+        "koboRating": 5,
+        "koboRatingCount": 1,
+        "isbn": "-",
+        "readmoo": {
+          "rating": 4.3,
+          "ratingCount": 17,
+          "url": "https://readmoo.com/book/210213143000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050119520"
+        },
+        "goodreads": {
+          "rating": 3.57,
+          "ratingCount": 311,
+          "url": "https://www.goodreads.com/book/show/51075388",
+          "enAuthor": "Larissa Zimberoff"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 86,
+          "url": "https://www.amazon.com/dp/B084ZLJNK1"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/13",
+        "title": "",
+        "originalTitle": null,
+        "author": "",
+        "description": "首次以文字形式收錄作者所做的題為「國家命運與個人命運」的講話。這篇講話迄今為止在國內外的點擊量超過千萬。當時正值中美貿易爭端不久。三年多來中美關係發展的現實表明，這些判斷基本上是準確的。",
+        "url": "https://www.kobo.com/tw/zh/ebook/r897xgnRnDOhX7PUkUhe5g",
+        "coverUrl": "",
+        "originalPrice": 244,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "-",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "skipped",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "11/14",
+        "title": "",
+        "originalTitle": "Cloud Cuckoo Land",
+        "author": "",
+        "description": "普立茲得獎小說《呼喚奇蹟的光》作者力作。三個時代，五個人物，兩個星球之間，藉由一本書，產生神奇連結。「閱讀」讓世人超越平凡的夢想，一本失傳的神祕希臘古書，串起數百年的希望之光，點亮沒有愛的世界。",
+        "url": "https://www.kobo.com/tw/zh/ebook/8yYOshqREDqbmb9kVTbnfw",
+        "coverUrl": "",
+        "originalPrice": 476,
+        "koboRating": 3.25,
+        "koboRatingCount": 4,
+        "isbn": "-",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 25,
+          "url": "https://readmoo.com/book/210355846000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 4,
+          "url": "https://www.books.com.tw/products/E050239911"
+        },
+        "goodreads": {
+          "rating": 4.24,
+          "ratingCount": 287974,
+          "url": "https://www.goodreads.com/book/show/56783258",
+          "enAuthor": "Anthony Doerr"
+        },
+        "amazon": {
+          "rating": 4.5,
+          "ratingCount": 36241,
+          "url": "https://www.amazon.com/dp/B08TRMSR3Z"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/15",
+        "title": "",
+        "originalTitle": "On the Origin of Species",
+        "author": "",
+        "description": "十九世紀以降最重要的思想鉅著。160年來歷久彌新的經典理論，完整重現演化論精髓，了解達爾文最真實的思想。儘管在過去飽受誤解與批評，達爾文的演化論在現代對古生物學等領域仍然有舉足輕重的影響。",
+        "url": "https://www.kobo.com/tw/zh/ebook/SSS7TdbqQzyzxlBX5_SnBg",
+        "coverUrl": "",
+        "originalPrice": 462,
+        "koboRating": 5,
+        "koboRatingCount": 3,
+        "isbn": "-",
+        "readmoo": {
+          "rating": 4.1,
+          "ratingCount": 9,
+          "url": "https://readmoo.com/book/210175039000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050089374"
+        },
+        "goodreads": {
+          "rating": 4.01,
+          "ratingCount": 125268,
+          "url": "https://www.goodreads.com/book/show/64356261",
+          "enAuthor": "Charles Darwin"
+        },
+        "amazon": {
+          "rating": 4.4,
+          "ratingCount": 33,
+          "url": "https://www.amazon.com/dp/B01N9CP21P"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/16",
+        "title": "",
+        "originalTitle": "The Collected Clinical Works of Alfred Adler Volume 6-Journal Articles:1927-1931: Structure and Unity of Neurosis Reason, Feeling, & Emotion Dream Theory",
+        "author": "",
+        "description": "阿德勒個體心理學跳脫傳統框架，指出人的天賦非天生，潛力亦非固定。天賦、潛力和特殊資質只是構成一個人的元素，而人可以根據想做的事，來決定他要如何利用這些元素。想要成功，就要有勇氣，做自己的勇氣。",
+        "url": "https://www.kobo.com/tw/zh/ebook/9b28lThLmT-YIuj3o26WSw",
+        "coverUrl": "",
+        "originalPrice": 406,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "-",
+        "readmoo": null,
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050147568"
+        },
+        "goodreads": null,
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B005D9RVLE"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "skipped",
+          "books": "ok",
+          "goodreads": "not_found",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/17",
+        "title": "",
+        "originalTitle": "The Hobbit, or There and Back Again",
+        "author": "",
+        "description": "奇幻文學經典，史詩級神話冒險故事，《魔戒》三部曲前傳。食人妖、座狼、半獸人、巨鷹、精靈、惡龍……各種神話角色陸續登場，這是一場善惡之戰，然而這只是中洲世界神鬼人類之戰的序曲。",
+        "url": "https://www.kobo.com/tw/zh/ebook/j-r-r-1",
+        "coverUrl": "",
+        "originalPrice": 364,
+        "koboRating": 5,
+        "koboRatingCount": 2,
+        "isbn": "-",
+        "readmoo": {
+          "rating": 4.8,
+          "ratingCount": 6,
+          "url": "https://readmoo.com/book/210318365000101"
+        },
+        "books": {
+          "rating": 3.5,
+          "ratingCount": 6,
+          "url": "https://www.books.com.tw/products/E050205641"
+        },
+        "goodreads": {
+          "rating": 4.3,
+          "ratingCount": 4670419,
+          "url": "https://www.goodreads.com/book/show/205895917",
+          "enAuthor": "J.R.R. Tolkien"
+        },
+        "amazon": {
+          "rating": 4.9,
+          "ratingCount": 2460,
+          "url": "https://www.amazon.com/dp/B0BYZPXY8L"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/18",
+        "title": "",
+        "originalTitle": "55歳からのハローライフ",
+        "author": "",
+        "description": "送給現在與未來55歲的你。普通的人，年紀大了，也想要有不一樣的後半生，普通的人，也想要追求自己的幸福，讓自己再出發。人生中場，還有希望「不安」轉變為「希望」，村上龍新境界代表作。",
+        "url": "https://www.kobo.com/tw/zh/ebook/55hello-life",
+        "coverUrl": "",
+        "originalPrice": 266,
+        "koboRating": 3.67,
+        "koboRatingCount": 6,
+        "isbn": "-",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 135,
+          "url": "https://readmoo.com/book/210223234000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050129041"
+        },
+        "goodreads": {
+          "rating": 3.91,
+          "ratingCount": 40,
+          "url": "https://www.goodreads.com/book/show/102946596-55-hello-life",
+          "enAuthor": "Ryū Murakami"
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "skipped"
+        }
+      }
+    ]
+  },
+  {
     "week": 45,
     "books": [
       {
