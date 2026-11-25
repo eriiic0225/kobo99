@@ -1,5 +1,317 @@
 [
   {
+    "week": 48,
+    "books": [
+      {
+        "date": "11/26",
+        "title": "正念自律：在讓人分心的時代，專注於長期目標，連結內在力量提升自我實現，活出生命的意義",
+        "originalTitle": "Mindful Self-Discipline: Living with Purpose and Achieving Your Goals in a World of Distractions",
+        "author": "喬瓦尼．迪恩斯特曼",
+        "description": "全球五大最受歡迎部落格主、冥想教練曁演說家，首部結合正念與自律，告訴你如何內化自律，讓自律成為習慣的完全實用指南。為許多曾經嘗試改變卻屢屢失敗的讀者，提供了一條富含同理、覺察與力量的實踐之路。",
+        "url": "https://www.kobo.com/tw/zh/ebook/u6Uqg32iMDmNONPP7hOF1A",
+        "coverUrl": "https://cdn.kobo.com/book-images/3705ead1-a8b3-4c70-99da-9660f99f692f/1200/1200/False/u6Uqg32iMDmNONPP7hOF1A.jpg",
+        "originalPrice": 476,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267520949",
+        "readmoo": {
+          "rating": 4.7,
+          "ratingCount": 6,
+          "url": "https://readmoo.com/book/210400225000101"
+        },
+        "books": {
+          "rating": 5,
+          "ratingCount": 2,
+          "url": "https://www.books.com.tw/products/E050275482"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/58040483",
+          "enAuthor": null
+        },
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "not_found"
+        }
+      },
+      {
+        "date": "11/27",
+        "title": "當上主管，難道只能被討厭？：執行長教練教你兼顧績效與人氣的帶人技術",
+        "originalTitle": "You're the Boss: Become the Manager You Want to Be (and Others Need)",
+        "author": "莎賓娜．納瓦茲",
+        "description": "領導不是一場權力遊戲，而是一種讓他人發光的能力。破除匱乏心態，培養豐盛心態，你不需要永遠比團隊出色，讓部屬因你發光，你因他們而提升。鍛鍊微習慣，修復溝通斷層，將每一次對話變成連結的契機。",
+        "url": "https://www.kobo.com/tw/zh/ebook/aiDOoNIbkzK2fAPC0znyzw",
+        "coverUrl": "https://cdn.kobo.com/book-images/b8d05ee6-6e28-4f42-9ecb-8a0d3c68b91e/1200/1200/False/aiDOoNIbkzK2fAPC0znyzw.jpg",
+        "originalPrice": 336,
+        "koboRating": 4.6,
+        "koboRatingCount": 5,
+        "isbn": "9786264195669",
+        "readmoo": {
+          "rating": 4,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210400949000101"
+        },
+        "books": {
+          "rating": 4,
+          "ratingCount": 3,
+          "url": "https://www.books.com.tw/products/E050276102"
+        },
+        "goodreads": {
+          "rating": 4.3,
+          "ratingCount": 135,
+          "url": "https://www.goodreads.com/book/show/239278534",
+          "enAuthor": "Sabina Nawaz"
+        },
+        "amazon": {
+          "rating": 4.9,
+          "ratingCount": 141,
+          "url": "https://www.amazon.com/dp/B0DBPHCR6L"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/27",
+        "title": "自行车的诞生：从手稿到环球利器",
+        "originalTitle": null,
+        "author": "上海汽车博物馆",
+        "description": "這是人類第一次擁有一種不依靠畜力，以最小的代價即可拓展自由交通半徑的工具。用四百年時間打造出這精美機械，每個時代的設計與工藝大神們都為它的完整奉獻一份力量，直至20世紀初完成了現代化的版本。",
+        "url": "https://www.kobo.com/tw/zh/ebook/zRQhO0_BFjq7O_ReFCVD0g",
+        "coverUrl": "https://cdn.kobo.com/book-images/9297a6cb-eab0-4f33-b223-c30ce8ba624d/1200/1200/False/zRQhO0_BFjq7O_ReFCVD0g.jpg",
+        "originalPrice": 487,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "7546208175051",
+        "readmoo": null,
+        "books": null,
+        "goodreads": null,
+        "amazon": null,
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "not_found",
+          "books": "skipped",
+          "goodreads": "not_found",
+          "amazon": "skipped"
+        }
+      },
+      {
+        "date": "11/28",
+        "title": "霧迷宮（韓國恐怖小說大師最新力作，猶如《魷魚遊戲》的驚悚關卡，燒腦直到最後一刻！）",
+        "originalTitle": "A misty labyrinth",
+        "author": "全建宇",
+        "description": "被迫抓進《魷魚遊戲》般的驚悚關卡，你會是最後的生還者嗎？韓國恐怖小說大師全建宇，以「無意識轉移」這個新奇的題材，將魔幻寫實成分帶入懸疑推理文學中，燒腦、反轉直到最後一刻，結局超乎想像！",
+        "url": "https://www.kobo.com/tw/zh/ebook/vDx2Rhc1Rj61sCOKUpsivw",
+        "coverUrl": "https://cdn.kobo.com/book-images/f5a229ea-e15c-4578-b27f-b283b30091b3/1200/1200/False/vDx2Rhc1Rj61sCOKUpsivw.jpg",
+        "originalPrice": 338,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786267436851",
+        "readmoo": {
+          "rating": 3.5,
+          "ratingCount": 11,
+          "url": "https://readmoo.com/book/210384006000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050266030"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/241166819",
+          "enAuthor": null
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B0GV3J4HQB"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/29",
+        "title": "費瑪最後定理：尋找數學的聖杯",
+        "originalTitle": "Fermat’s Last Theorem",
+        "author": "賽門‧辛（Simon Singh）",
+        "description": "語言文字會消亡，而數學概念卻不會，證明是數學的核心，數學不僅是計算，更是一場場思考與邏輯的遊戲，破解費瑪提出的數學難題，經過三個世紀的挑戰，終於得到證明，數學是一場人類精神與想像力的史詩級探險。",
+        "url": "https://www.kobo.com/tw/zh/ebook/7G15KPiSPDaGX8ZpWy0Kkg",
+        "coverUrl": "https://cdn.kobo.com/book-images/76a68bfc-7bc0-43a6-8cf5-3e9866049377/1200/1200/False/7G15KPiSPDaGX8ZpWy0Kkg.jpg",
+        "originalPrice": 360,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789570536614",
+        "readmoo": {
+          "rating": 5,
+          "ratingCount": 4,
+          "url": "https://readmoo.com/book/210405344000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050287019"
+        },
+        "goodreads": {
+          "rating": 4.49,
+          "ratingCount": 37,
+          "url": "https://www.goodreads.com/book/show/241374508",
+          "enAuthor": "Simon Singh"
+        },
+        "amazon": {
+          "rating": 4.6,
+          "ratingCount": 9,
+          "url": "https://www.amazon.com/dp/B01MUXOIGH"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "11/30",
+        "title": "熵減法則：減去人生雜訊，從無序變有序，成為「最好版本的自己」",
+        "originalTitle": "Law of Entropy Reduction",
+        "author": "何聖君",
+        "description": "找尋人生方向，熵減法則有解，六大熵減法則，脫離困頓生活的有效策略。混亂一旦開始了，就無法回頭，如同你的人生。本書一步一步帶領你重拾自我意識、設定人生目標，逆著衰敗而行，成為最好版本的自己。",
+        "url": "https://www.kobo.com/tw/zh/ebook/FMH1rqOqcjqwJ71fQEtLrA",
+        "coverUrl": "https://cdn.kobo.com/book-images/4cc22679-677b-463f-80e5-5c96ed64b554/1200/1200/False/FMH1rqOqcjqwJ71fQEtLrA.jpg",
+        "originalPrice": 294,
+        "koboRating": 5,
+        "koboRatingCount": 2,
+        "isbn": "9786267240885",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 12,
+          "url": "https://readmoo.com/book/210285561000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 1,
+          "url": "https://www.books.com.tw/products/E050177904"
+        },
+        "goodreads": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.goodreads.com/book/show/227916315",
+          "enAuthor": "NaoyaHonda"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B0DWX4Y6X1"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "12/01",
+        "title": "沉睡的殺手：全球暢銷榜TOP 1《安眠書店》團隊×華納兄弟將改編Netflix影集，轟動超過40國！",
+        "originalTitle": "Anna O",
+        "author": "馬修．布萊克",
+        "description": "一本關於睡眠的心理驚悚傑作，絕對讓你捨不得入眠！一名年輕女子似夢遊時，殺了兩個好友，那一夜，究竟發生了什麼？沒有人真的無辜，連醒著的人也不一定清醒，因為最危險的殺手，從來不是醒著的人。",
+        "url": "https://www.kobo.com/tw/zh/ebook/top-1-netflix-40",
+        "coverUrl": "https://cdn.kobo.com/book-images/28204d31-7ba1-45a3-941d-114412d87414/1200/1200/False/top-1-netflix-40.jpg",
+        "originalPrice": 336,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9786264310505",
+        "readmoo": {
+          "rating": 4.4,
+          "ratingCount": 59,
+          "url": "https://readmoo.com/book/210396014000101"
+        },
+        "books": {
+          "rating": 4.5,
+          "ratingCount": 9,
+          "url": "https://www.books.com.tw/products/E050271686"
+        },
+        "goodreads": {
+          "rating": 3.42,
+          "ratingCount": 32924,
+          "url": "https://www.goodreads.com/book/show/134221476",
+          "enAuthor": "Matthew   Blake"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B0C2Q5H3YK"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      },
+      {
+        "date": "12/02",
+        "title": "壽命天註定？──揭開生命週期、老化與死亡的關鍵機制",
+        "originalTitle": "The long and the short of it: the science of life span and aging",
+        "author": "強納森．席佛頓",
+        "description": "在過去兩百年間，人類壽命似乎不斷延長，如果繼續演化，我們能不能達到長生不老？由演化角度出發，帶您看懂大自然決定生物壽命的四大機制，跟隨席佛頓的步伐進入書中，這些模糊未解的疑問都將獲得解答。",
+        "url": "https://www.kobo.com/tw/zh/ebook/JDf9OSqiUjizsyDFbhqLyQ",
+        "coverUrl": "https://cdn.kobo.com/book-images/9f097f8a-d0b5-4928-b763-3c270c54529e/1200/1200/False/JDf9OSqiUjizsyDFbhqLyQ.jpg",
+        "originalPrice": 273,
+        "koboRating": null,
+        "koboRatingCount": null,
+        "isbn": "9789862625842",
+        "readmoo": {
+          "rating": 4.1,
+          "ratingCount": 7,
+          "url": "https://readmoo.com/book/210253925000101"
+        },
+        "books": {
+          "rating": null,
+          "ratingCount": 0,
+          "url": "https://www.books.com.tw/products/E050146808"
+        },
+        "goodreads": {
+          "rating": 3.36,
+          "ratingCount": 232,
+          "url": "https://www.goodreads.com/book/show/75465337",
+          "enAuthor": "Jonathan Silvertown"
+        },
+        "amazon": {
+          "rating": null,
+          "ratingCount": null,
+          "url": "https://www.amazon.com/dp/B00GE4MJSM"
+        },
+        "scrapeStatus": {
+          "kobo": "ok",
+          "readmoo": "ok",
+          "books": "ok",
+          "goodreads": "ok",
+          "amazon": "ok"
+        }
+      }
+    ]
+  },
+  {
     "week": 46,
     "books": [
       {
