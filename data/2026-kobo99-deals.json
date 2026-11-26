@@ -11,8 +11,8 @@
         "url": "https://www.kobo.com/tw/zh/ebook/u6Uqg32iMDmNONPP7hOF1A",
         "coverUrl": "https://cdn.kobo.com/book-images/3705ead1-a8b3-4c70-99da-9660f99f692f/1200/1200/False/u6Uqg32iMDmNONPP7hOF1A.jpg",
         "originalPrice": 476,
-        "koboRating": null,
-        "koboRatingCount": null,
+        "koboRating": 4,
+        "koboRatingCount": 1,
         "isbn": "9786267520949",
         "readmoo": {
           "rating": 4.7,
@@ -30,13 +30,17 @@
           "url": "https://www.goodreads.com/book/show/58040483",
           "enAuthor": null
         },
-        "amazon": null,
+        "amazon": {
+          "rating": 4.7,
+          "ratingCount": 665,
+          "url": "https://www.amazon.com/dp/B094XBY8HR"
+        },
         "scrapeStatus": {
           "kobo": "ok",
           "readmoo": "ok",
           "books": "ok",
           "goodreads": "ok",
-          "amazon": "not_found"
+          "amazon": "ok"
         }
       },
       {
@@ -236,8 +240,8 @@
         "url": "https://www.kobo.com/tw/zh/ebook/top-1-netflix-40",
         "coverUrl": "https://cdn.kobo.com/book-images/28204d31-7ba1-45a3-941d-114412d87414/1200/1200/False/top-1-netflix-40.jpg",
         "originalPrice": 336,
-        "koboRating": null,
-        "koboRatingCount": null,
+        "koboRating": 3.6,
+        "koboRatingCount": 5,
         "isbn": "9786264310505",
         "readmoo": {
           "rating": 4.4,
